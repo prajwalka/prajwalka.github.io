@@ -6,7 +6,7 @@ title: "Home"
 
 <div class="intro">
   <div class="image-container">
-    <img src="Photos/Profile.jpg" alt="Prajwal Kammardi Arunachala" class="profile-image">
+    <img src="Photos/Profile.png" alt="Prajwal Kammardi Arunachala" class="profile-image">
   </div>
   <div class="text-container">
     <p>
