@@ -5,7 +5,8 @@ header {
   align-items: center;
   margin-bottom: 30px;
   padding: 20px 40px;
-  background-color: #f4f9fd; 
+  background: linear-gradient(to right, #002D72, #68ACE5); /* Heritage Blue to Spirit Blue */
+  color: white; 
   border-bottom: 2px solid #002D72;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
   transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
@@ -20,15 +21,15 @@ header .site-title {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.4em;
   font-weight: bold;
-  color: #002D72;
+  color: white; /* #002D72; */
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 }
 
 /* Navigation Links Styling */
 nav a {
   font-family: 'Computer Modern Sans', sans-serif;
-  color: #002D72;
+  color: white; /* #002D72; */
   text-decoration: none;
   margin-left: 25px;
   font-weight: bold;
