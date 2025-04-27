@@ -3,29 +3,34 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #ffffff; /* White background for header */
   padding: 20px 40px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Light shadow below */
-  margin-bottom: 20px;  /* Added bottom margin for separation from content */
-  border-bottom: 3px solid #002D72;  /* Subtle border for clean separation */
+  margin-bottom: 30px;  /* More space between header and content */
+  border-radius: 15px;  /* Rounded corners for softness */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
 }
 
-/* Title Styling */
+header:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
+}
+
+/* Site Title */
 header .site-title {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.4em;  /* Adjusted size */
+  font-size: 1.4em;
   font-weight: bold;
   color: #002D72;
   text-decoration: none;
-  letter-spacing: 1px;  /* Slight letter spacing for elegance */
+  letter-spacing: 1px;
 }
 
-/* Navigation links styling */
+/* Navigation Links Styling */
 nav a {
   font-family: 'Computer Modern Sans', sans-serif;
   color: #002D72;
   text-decoration: none;
-  margin-left: 25px;  /* Increased spacing between links */
+  margin-left: 25px;
   font-weight: bold;
   transition: color 0.3s ease, transform 0.2s ease;
 }
@@ -35,11 +40,22 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-/* Add padding to the main content */
+/* Main Content Area */
 main {
-  background: white;
+  background: linear-gradient(to right, #ffffff, #f4f9fd);  /* Soft gradient for the main content */
   padding: 40px;
-  margin: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 0 20px;  /* Margin around content */
+  border-radius: 15px;  /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
+}
+
+main:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #002D72;
+  text-align: center;
 }
