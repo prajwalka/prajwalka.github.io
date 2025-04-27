@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Computer Modern Sans', sans-serif;
   margin: 0;
   padding: 0;
   background: #ffffff;
@@ -10,27 +10,31 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff; /* White background */
+  background-color: #ffffff;
   padding: 20px 40px;
-  border-bottom: 2px solid #002D72; /* Thin heritage blue underline */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header .site-title {
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.8em;
   font-weight: bold;
-  color: #002D72; /* Heritage Blue */
+  color: #002D72;
   text-decoration: none;
 }
 
 nav a {
-  color: #002D72; /* Heritage Blue */
+  font-family: 'Computer Modern Sans', sans-serif;
+  color: #002D72;
   text-decoration: none;
   margin-left: 20px;
   font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 nav a:hover {
-  color: #68ACE5; /* Spirit Blue */
+  color: #68ACE5;
+  transform: scale(1.1);
 }
 
 main {
@@ -39,4 +43,10 @@ main {
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #002D72;
+  text-align: center;
 }
