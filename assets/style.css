@@ -5,9 +5,16 @@ header {
   align-items: center;
   margin-bottom: 0;
   padding: 20px 40px;
-  background-color: white
+  background-color: white; /* Default background color */
+  color: #002D72; /* Heritage Blue for the text */
+  position: fixed; /* Fixes the header at the top of the page */
+  top: 0;
+  width: 100%; /* Makes the header span the entire width */
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for color changes */
+  z-index: 1000; /* Ensure the header stays on top */
 }
-
 
 /* Site Title */
 header .site-title {
@@ -32,6 +39,11 @@ nav a:hover {
   color: #68ACE5;
   font-weight: bold;
   transform: scale(1.1);
+}
+
+/* Adjust the body content to avoid being hidden under the fixed header */
+body {
+  padding-top: 100px; /* Adjust based on your header height */
 }
 
 /* Main Content Area */
