@@ -7,6 +7,13 @@ header {
   padding: 20px 40px;
   background-color: linear-gradient(to right, #ffffff, #f4f9fd); 
   border-bottom: 2px solid #002D72;
+  border-radius: 15px;  /* Rounded corners for softness */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
+}
+
+header:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
 }
 
 /* Site Title */
@@ -39,6 +46,13 @@ main {
   background: linear-gradient(to right, #ffffff, #f4f9fd);  /* Soft gradient for the main content */
   padding: 40px;
   margin: 0 20px; 
+  border-radius: 15px;  /* Rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
+}
+
+main:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
 }
 
 h1, h2, h3 {
