@@ -1,33 +1,31 @@
-body {
-  font-family: 'Computer Modern Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #ffffff;
-  color: #111111;
-}
-
+/* Header Styling */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
   padding: 20px 40px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Light shadow below */
+  margin-bottom: 20px;  /* Added bottom margin for separation from content */
+  border-bottom: 3px solid #002D72;  /* Subtle border for clean separation */
 }
 
+/* Title Styling */
 header .site-title {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.8em;
+  font-size: 1.4em;  /* Adjusted size */
   font-weight: bold;
   color: #002D72;
   text-decoration: none;
+  letter-spacing: 1px;  /* Slight letter spacing for elegance */
 }
 
+/* Navigation links styling */
 nav a {
   font-family: 'Computer Modern Sans', sans-serif;
   color: #002D72;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 25px;  /* Increased spacing between links */
   font-weight: bold;
   transition: color 0.3s ease, transform 0.2s ease;
 }
@@ -37,16 +35,11 @@ nav a:hover {
   transform: scale(1.1);
 }
 
+/* Add padding to the main content */
 main {
   background: white;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-h1, h2, h3 {
-  font-family: 'Libre Baskerville', serif;
-  color: #002D72;
-  text-align: center;
 }
