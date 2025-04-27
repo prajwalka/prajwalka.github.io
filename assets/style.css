@@ -3,16 +3,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff; /* White background for header */
-  padding: 20px 40px;
-  margin-bottom: 30px;  /* More space between header and content */
-  border-radius: 15px;  /* Rounded corners for softness */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
-}
-
-header:hover {
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
+  margin: 0;
+  padding: 0;
+  background-color: linear-gradient(to right, #ffffff, #f4f9fd); /* White background for header */
+  border-bottom: 2px solid #002D72;
 }
 
 /* Site Title */
@@ -43,15 +37,8 @@ nav a:hover {
 /* Main Content Area */
 main {
   background: linear-gradient(to right, #ffffff, #f4f9fd);  /* Soft gradient for the main content */
-  padding: 40px;
-  margin: 0 20px;  /* Margin around content */
-  border-radius: 15px;  /* Rounded corners */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
-  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
-}
-
-main:hover {
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
+  padding: 0;
+  margin: 0; 
 }
 
 h1, h2, h3 {
@@ -70,7 +57,7 @@ h1, h2, h3 {
 
 /* Styling for the profile image */
 .profile-image {
-  width: 200px; /* Set width of the image */
+  max-width: 200px; /* Set width of the image */
   height: auto;
   border-radius: 50%; /* Optional: to make the image round */
   margin-right: 20px;  /* Space between image and text */
