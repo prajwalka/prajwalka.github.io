@@ -3,13 +3,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
   background-color: white; /* Default background color */
   color: #002D72; /* Heritage Blue for the text */
   position: fixed; /* Fixes the header at the top of the page */
   top: 0;
   width: 100%; /* Makes the header span the entire width */
   padding: 20px;
+  padding-right: 20px;
   text-align: center;
   transition: background-color 0.3s, color 0.3s; /* Smooth transition for color changes */
   z-index: 1000; /* Ensure the header stays on top */
