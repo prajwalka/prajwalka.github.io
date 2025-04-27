@@ -7,7 +7,6 @@ header {
   padding: 20px 40px;
   background-color: linear-gradient(to right, #ffffff, #f4f9fd); 
   border-bottom: 2px solid #002D72;
-  border-radius: 15px;  /* Rounded corners for softness */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
   transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
 }
@@ -74,7 +73,7 @@ h1, h2, h3 {
   max-width: 400px; /* Set width of the image */
   height: auto;
   border-radius: 50%; /* Optional: to make the image round */
-  margin-right: 20px;  /* Space between image and text */
+  margin-right: 50px;  /* Space between image and text */
 }
 
 /* Styling for the text container */
