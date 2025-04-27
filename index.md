@@ -4,6 +4,13 @@ title: "Home"
 ---
 <h1>Home</h1>
 
+<section class="video-section">
+  <video width="100%" height="400" controls>
+    <source src="videos/simVideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
 <div class="intro">
   <div class="image-container">
     <img src="Photos/Profile.png" alt="Prajwal Kammardi Arunachala" class="profile-image">

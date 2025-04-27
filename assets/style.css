@@ -28,10 +28,10 @@ header {
 /* Site Title */
 header .site-title {
   font-family: 'Computer Modern Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   text-decoration: none;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
 }
 
 /* Default navigation link style */
@@ -53,6 +53,7 @@ nav a:hover {
 /* When header is scrolled */
 header.scrolled {
   background-color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow added here */
 }
 
 header.scrolled .site-title {
@@ -126,4 +127,14 @@ p {
 /* Optional: Add padding around the intro section */
 .intro {
   padding: 20px;
+}
+
+.video-section {
+  margin: 20px 0; /* Space around the video */
+  text-align: center; /* Center the video */
+}
+
+.video-section iframe,
+.video-section video {
+  max-width: 100%; /* Make sure it scales well on smaller screens */
 }
