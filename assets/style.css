@@ -3,9 +3,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  background-color: linear-gradient(to right, #ffffff, #f4f9fd); /* White background for header */
+  margin-bottom: 30px;
+  padding: 20px 40px;
+  background-color: linear-gradient(to right, #ffffff, #f4f9fd); 
   border-bottom: 2px solid #002D72;
 }
 
@@ -37,8 +37,8 @@ nav a:hover {
 /* Main Content Area */
 main {
   background: linear-gradient(to right, #ffffff, #f4f9fd);  /* Soft gradient for the main content */
-  padding: 0;
-  margin: 0; 
+  padding: 40px;
+  margin: 0 20px; 
 }
 
 h1, h2, h3 {
