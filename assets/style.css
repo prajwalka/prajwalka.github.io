@@ -34,17 +34,39 @@ header .site-title {
   letter-spacing: 0px;
 }
 
-/* Navigation Links Styling */
+/* Default navigation link style */
 nav a {
   font-family: 'Computer Modern Sans', sans-serif;
   text-decoration: none;
   margin-left: 25px;
-  transition: color 0.3s ease, transform 0.2s ease;
+  color: black; /* Default color */
+  transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
 }
 
+/* Default hover when not scrolled */
 nav a:hover {
   font-weight: bold;
+  color: black; /* Stay black on hover */
   transform: scale(1.1);
+}
+
+/* When header is scrolled */
+header.scrolled {
+  background-color: black;
+}
+
+header.scrolled .site-title {
+  color: white;
+}
+
+header.scrolled nav a {
+  color: silver; /* Navigation link color when scrolled */
+}
+
+/* Hover when scrolled */
+header.scrolled nav a:hover {
+  font-weight: bold;
+  color: white; /* White when hovered after scrolling */
 }
 
 /* Adjust the body content to avoid being hidden under the fixed header */

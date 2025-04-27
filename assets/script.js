@@ -1,13 +1,15 @@
 // Get the header element
 const header = document.getElementById('header');
+// Get all navigation links
+const navLinks = document.querySelectorAll('nav a');
+// Get site title
+const siteTitle = document.querySelector('.site-title');
 
-// Listen for the scroll event
+// Listen for scroll event
 window.onscroll = function() {
-  if (window.scrollY > 2) { // Change this value as per your preference
-    header.style.backgroundColor = "black"; // Heritage Blue
-    header.style.color = "white";
-  } else {
-    header.style.backgroundColor = "white"; // Default background
-    header.style.color = "black"; 
+  if (window.scrollY > 2) { // When scrolling down
+    header.classList.add('scrolled');
+  } else { // When at the top
+    header.classList.remove('scrolled');
   }
 };
