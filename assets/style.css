@@ -3,56 +3,42 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   padding: 20px 40px;
-  background: linear-gradient(to right, #002D72, #68ACE5); /* Heritage Blue to Spirit Blue */
-  color: white; 
-  border-bottom: 2px solid #002D72;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
+  background-color: white
 }
 
-header:hover {
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
-}
 
 /* Site Title */
 header .site-title {
   font-family: 'Libre Baskerville', serif;
   font-size: 1.4em;
   font-weight: bold;
-  color: white; /* #002D72; */
+  color: #002D72;
   text-decoration: none;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
 }
 
 /* Navigation Links Styling */
 nav a {
   font-family: 'Computer Modern Sans', sans-serif;
-  color: white; /* #002D72; */
+  color: #002D72;
   text-decoration: none;
   margin-left: 25px;
-  font-weight: bold;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
 nav a:hover {
   color: #68ACE5;
+  font-weight: bold;
   transform: scale(1.1);
 }
 
 /* Main Content Area */
 main {
-  background: linear-gradient(to right, #ffffff, #f4f9fd);  /* Soft gradient for the main content */
+  background: white;
   padding: 40px;
-  margin: 0 20px; 
-  border-radius: 15px;  /* Rounded corners */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
-  transition: box-shadow 0.3s ease;  /* Smooth transition for shadow */
-}
-
-main:hover {
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);  /* Shadow increase on hover */
+  margin: 0
 }
 
 h1, h2, h3 {
