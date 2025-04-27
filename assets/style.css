@@ -1,18 +1,24 @@
 /* Header Styling */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white; /* Default background color */
-  color: #002D72; /* Heritage Blue for the text */
-  position: fixed; /* Fixes the header at the top of the page */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: white;
+  position: fixed;
   top: 0;
-  width: 90%; /* Makes the header span the entire width */
-  padding: 20px;
-  padding-right: 40px;
-  text-align: center;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for color changes */
-  z-index: 1000; /* Ensure the header stays on top */
+  left: 0;
+  right: 0;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1000; /* stays on top */
+}
+
+/* Header content */
+.header-content {
+  margin: 0 auto;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Site Title */
