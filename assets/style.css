@@ -9,7 +9,7 @@ header {
   top: 0;
   width: 100%; /* Makes the header span the entire width */
   padding: 20px;
-  padding-right: 20px;
+  padding-right: 40px;
   text-align: center;
   transition: background-color 0.3s, color 0.3s; /* Smooth transition for color changes */
   z-index: 1000; /* Ensure the header stays on top */
@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #68ACE5;
+  color: #002D72;
   font-weight: bold;
   transform: scale(1.1);
 }
