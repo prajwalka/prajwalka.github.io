@@ -59,3 +59,44 @@ h1, h2, h3 {
   color: #002D72;
   text-align: center;
 }
+
+/* Container for image and text */
+.intro {
+  display: flex;
+  align-items: center;  /* Vertically align the items */
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+/* Styling for the profile image */
+.profile-image {
+  width: 200px; /* Set width of the image */
+  height: auto;
+  border-radius: 50%; /* Optional: to make the image round */
+  margin-right: 20px;  /* Space between image and text */
+}
+
+/* Styling for the text container */
+.text-container {
+  flex: 1; /* Allow text container to take the remaining space */
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5em; /* Increase heading font size */
+  color: #002D72;
+  margin-bottom: 10px;
+}
+
+/* Main text (p) */
+p {
+  font-size: 1.2em; /* Increased font size for better readability */
+  line-height: 1.6; /* Increased line height for better text spacing */
+  color: #111111;
+  max-width: 800px; /* Limit width for better text readability */
+}
+
+/* Optional: Add padding around the intro section */
+.intro {
+  padding: 20px;
+}
