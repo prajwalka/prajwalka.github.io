@@ -2,8 +2,6 @@
 layout: default
 title: "Home"
 ---
-<h1>Home</h1>
-
 <section class="video-section">
   <video width="100%" height="400" autoplay loop>
     <source src="Photos/simVideo.mp4" type="video/mp4">
