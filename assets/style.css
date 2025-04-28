@@ -17,7 +17,7 @@ header {
 .header-content {
   width: 100%;
   max-width: 1200px; /* Optional: Limit content width inside header */
-  margin: 0 auto;
+  margin: 0;
   padding: 20px 40px;
   color: black;
   display: flex;
@@ -79,7 +79,7 @@ body {
 /* Main Content Area */
 main {
   background: white;
-  padding: 30px;
+  padding: 0;
   margin: 0;
 }
 
