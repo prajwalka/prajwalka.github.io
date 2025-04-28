@@ -3,7 +3,7 @@ header {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(45deg, #C0C0C0, #FFFFFF); /* Gradient from light silver to white */
+  background: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,6 +11,7 @@ header {
   transition: background-color 0.3s, color 0.3s;
   z-index: 1000; /* stays on top */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* soft shadow */
+  border-bottom: 2px solid #002D72; /* Adjust color and thickness as desired */
 }
 
 /* Header content */
@@ -78,7 +79,9 @@ body {
 
 /* Main Content Area */
 main {
-  background: linear-gradient(45deg, #C0C0C0, #FFFFFF); /* Gradient from light silver to white */
+  background: #f4f4f4;
+  background-image: url('/Photos/large-leather.png'); /* Paper texture */
+  background-repeat: repeat;
   /* padding: 0; */
   margin: 0;
 }
