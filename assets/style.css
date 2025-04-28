@@ -73,13 +73,13 @@ header.scrolled nav a:hover {
 
 /* Adjust the body content to avoid being hidden under the fixed header */
 body {
-  padding-top: 0px; /* Adjust based on your header height */
+  padding-top: 100px; /* Adjust based on your header height */
 }
 
 /* Main Content Area */
 main {
   background: linear-gradient(45deg, #C0C0C0, #FFFFFF); /* Gradient from light silver to white */
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 
@@ -132,6 +132,7 @@ p {
 
 .video-section {
   margin: 0; /* Space around the video */
+  padding = 0;
   text-align: center; /* Center the video */
 }
 
