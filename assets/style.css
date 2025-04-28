@@ -3,7 +3,7 @@ header {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: white;
+  background: linear-gradient(45deg, #C0C0C0, #A9A9A9); /* Gradient from light silver to dark silver */
   position: fixed;
   top: 0;
   left: 0;
@@ -78,7 +78,7 @@ body {
 
 /* Main Content Area */
 main {
-  background: white;
+  background: linear-gradient(45deg, #C0C0C0, #A9A9A9); /* Gradient from light silver to dark silver */
   padding: 0;
   margin: 0;
 }
