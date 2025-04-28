@@ -10,7 +10,7 @@ header {
   right: 0;
   transition: background-color 0.3s, color 0.3s;
   z-index: 1000; /* stays on top */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* soft shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* soft shadow */
   border-bottom: 2px solid #002D72; /* Adjust color and thickness as desired */
 }
 
@@ -19,7 +19,7 @@ header {
   width: 100%;
   max-width: 1200px; /* Optional: Limit content width inside header */
   margin: 0;
-  padding: 20px 40px;
+  padding: 30px 60px;
   color: black;
   display: flex;
   align-items: center;
@@ -79,10 +79,10 @@ body {
 
 /* Main Content Area */
 main {
-  background: #f4f4f4;
-  background-image: url('/Photos/large-leather.png'); /* Paper texture */
+  background: #ffffff;
+  background-image: url('/Photos/concrete-wall.png'); /* Paper texture */
   background-repeat: repeat;
-  /* padding: 0; */
+  padding: 0;
   margin: 0;
 }
 
