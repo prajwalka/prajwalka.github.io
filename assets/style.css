@@ -157,14 +157,14 @@ p {
 }
 
 /* Link Styling */
-a {
+main a {
   color: #222; /* Slightly lighter than pure black */
   text-decoration: none; /* Remove underline initially */
   font-weight: 500; /* Slightly bolder than body text */
   transition: all 0.3s ease;
 }
 
-a:hover {
+main a:hover {
   text-decoration: underline; /* Underline appears on hover */
   text-underline-offset: 4px; /* Push the underline slightly away from text */
   text-decoration-thickness: 1.5px; /* Thicker underline */
