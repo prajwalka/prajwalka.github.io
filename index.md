@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 <section class="video-section">
-  <video width="100%" height="400" autoplay loop muted>
+  <video width="80%" autoplay loop muted>
     <source src="Photos/simVideo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
