@@ -118,10 +118,15 @@ h1, h2, h3 {
   flex: 1; /* Allow text container to take the remaining space */
 }
 
+/* Styling for the publications */
+.publications {
+  padding: 20px;
+}
+
 /* Heading */
 h1 {
   font-size: 2.5em; /* Increase heading font size */
-  color: #002D72;
+  color: block;
   margin-bottom: 10px;
 }
 
@@ -149,4 +154,19 @@ p {
 .video-section iframe,
 .video-section video {
   max-width: 100%; /* Make sure it scales well on smaller screens */
+}
+
+/* Link Styling */
+a {
+  color: #222; /* Slightly lighter than pure black */
+  text-decoration: none; /* Remove underline initially */
+  font-weight: 500; /* Slightly bolder than body text */
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline appears on hover */
+  text-underline-offset: 4px; /* Push the underline slightly away from text */
+  text-decoration-thickness: 1.5px; /* Thicker underline */
+  text-shadow: 0px 0px 2px rgba(0,0,0,0.2); /* Soft shadow glow */
 }
