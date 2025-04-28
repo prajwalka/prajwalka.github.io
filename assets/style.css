@@ -80,7 +80,7 @@ header.scrolled nav a:hover {
 
 /* Adjust the body content to avoid being hidden under the fixed header */
 body {
-  padding-top: 80px; /* Adjust based on your header height */
+  padding-top: 60px; /* Adjust based on your header height */
 }
 
 /* Main Content Area */
