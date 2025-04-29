@@ -7,10 +7,13 @@ title: "Home"
   <div class="swiper-wrapper">
 
     <div class="swiper-slide">
-        <video width="100%" autoplay loop muted>
-          <source src="Photos/rfriVideo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <div class="video-wrapper">
+            <video width="100%" autoplay loop muted>
+                <source src="Photos/rfriVideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="caption-overlay">TangoBlackPlus Elastomer with VeroWhite Inclusions</div>
+        </div>
     </div>
 
     <div class="swiper-slide">
