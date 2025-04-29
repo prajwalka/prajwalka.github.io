@@ -14,7 +14,7 @@ header {
   transition: background-color 0.3s, color 0.3s;
   z-index: 1000; /* stays on top */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* soft shadow */
-  border-bottom: 2px solid #002D72; /* Adjust color and thickness as desired */
+  border-bottom: 2px solid #000000; /* Adjust color and thickness as desired */
 }
 
 /* Header content */
@@ -93,7 +93,7 @@ main {
 }
 
 h1, h2, h3 {
-  font-family: 'Computer Modern Sans', sans-serif;
+  font-family: 'Merriweather', serif;
   text-align: center;
 }
 
@@ -121,8 +121,14 @@ h1, h2, h3 {
 /* Heading */
 h1 {
   font-size: 2.5em; /* Increase heading font size */
-  color: block;
+  color: black;
   margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2.0em; /* Increase heading font size */
+  color: black;
+  margin-bottom: 5px;
 }
 
 /* Main text (p) */
