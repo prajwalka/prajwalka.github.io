@@ -162,14 +162,14 @@ p {
 
 /* Optional: Add padding around the intro section */
 .intro {
-  padding: 20px;
+  padding: 0;
 }
 
 /* Video formatting */
 .videoSwiper {
   width: 100%;
   height: 50vh;
-  margin: 60px auto;
+  margin: 0 auto;
   padding: 0;
   background: black;
   display: flex;
