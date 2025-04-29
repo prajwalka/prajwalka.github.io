@@ -120,7 +120,7 @@ h1, h2, h3 {
   display: flex;
   align-items: center;  /* Vertically align the items */
   justify-content: space-between;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 /* Styling for the profile image */
@@ -128,7 +128,7 @@ h1, h2, h3 {
   max-width: 400px; /* Set width of the image */
   height: auto;
   border-radius: 50%; /* Optional: to make the image round */
-  margin-right: 50px;  /* Space between image and text */
+  margin-right: 80px;  /* Space between image and text */
 }
 
 /* Styling for the text container */
