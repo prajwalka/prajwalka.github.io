@@ -29,12 +29,43 @@ title: "Home"
     <div class="swiper-slide">
        <div class="video-wrapper">
             <video width="100%" autoplay loop muted>
-                <source src="Photos/rfriVideo.mp4" type="video/mp4">
+                <source src="Photos/rfwnVideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="caption-overlay">EPDM Rubber</div>
         </div>
     </div>
+
+    <div class="swiper-slide">
+        <div class="dual-video-container">
+            <div class="video-wrapper2">
+                <video autoplay loop muted playsinline>
+                    <source src="Photos/TiFractureVideo.mp4" type="video/mp4" />
+                </video>
+            </div>
+        <div class="video-wrapper2">
+                <video autoplay loop muted playsinline>
+                    <source src="Photos/TiFractureLoadDisp.mp4" type="video/mp4" />
+                </video>
+        </div>
+    </div>
+    <div class="slide-caption">Ti6242 Alloy</div>
+
+    <div class="swiper-slide">
+        <div class="dual-video-container">
+            <div class="video-wrapper2">
+                <video autoplay loop muted playsinline>
+                    <source src="Photos/FatigueVideo.mp4" type="video/mp4" />
+                </video>
+            </div>
+        <div class="video-wrapper2">
+                <video autoplay loop muted playsinline>
+                    <source src="Photos/FatigueLoadDisp.mp4" type="video/mp4" />
+                </video>
+        </div>
+    </div>
+    <div class="slide-caption">AA7050 Alloy</div>
+</div>
 
   </div>
 

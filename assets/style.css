@@ -239,6 +239,48 @@ p {
   text-align: center;
 }
 
+/* Dual video formatting */
+.dual-video-container {
+  display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically if needed */
+  height: 100%;              /* Inherit full height of slide */
+  gap: 20px;                 /* Optional: space between videos */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.video-wrapper2 {
+  height: 100%;              /* Match the full slider height (50vh) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-wrapper2 video {
+  height: 100%;              /* Stretch vertically */
+  width: auto;               /* Width adjusts automatically */
+  object-fit: contain;       /* Contain entire video without cropping */
+}
+
+.swiper-slide {
+  position: relative; /* Needed so caption can be positioned relative to slide */
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  font-family: 'Computer Modern Sans', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Optional: subtle black background behind text */
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
 /* Optional: Add padding around the intro section */
 .publications {
   font-family: 'Computer Modern Sans', sans-serif;
