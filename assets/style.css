@@ -23,7 +23,8 @@ header {
   max-width: 1200px; /* Optional: Limit content width inside header */
   margin: 0;
   padding: 30px 60px;
-  color: black;
+  color: #002D72;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,8 +34,8 @@ header {
 header .site-title {
   font-family: 'Merriweather', serif;
   font-size: 1.4em;
-  font-weight: bold;
-  color: black;
+  font-weight: 600;
+  color: #002D72;
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -61,14 +62,15 @@ nav a {
   font-family: 'Computer Modern Sans', sans-serif;
   text-decoration: none;
   margin-left: 25px;
-  color: black;
+  color: #002D72;
+  font-weight: 600;
   transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
 }
 
 /* Default hover when not scrolled */
 nav a:hover {
-  font-weight: bold;
-  color: black; /* Stay black on hover */
+  font-weight: 800;
+  color: #002D72; /* Stay black on hover */
   transform: scale(1.1);
 }
 
@@ -91,7 +93,7 @@ header.scrolled nav a {
 
 /* Hover when scrolled */
 header.scrolled nav a:hover {
-  font-weight: bold;
+  font-weight: 800;
   color: white; /* White when hovered after scrolling */
 }
 
@@ -138,13 +140,13 @@ h1, h2, h3 {
 /* Heading */
 h1 {
   font-size: 2.5em; /* Increase heading font size */
-  color: black;
+  color: #002D72;
   margin-bottom: 10px;
 }
 
 h2 {
   font-size: 2.0em; /* Increase heading font size */
-  color: black;
+  color: #002D72;
   margin-bottom: 5px;
   padding: 40px;
 }
@@ -182,11 +184,11 @@ p {
   text-align: justify;
   line-height: 1.6; /* Adjust line height for better readability */
   color: #000000;
-  max-width: 1200px; /* Limit width for better text readability */
+  max-width: 1400px; /* Limit width for better text readability */
 }
 
 .publication-list {
-  padding-left: 50px;
+  padding-left: 100px;
   counter-reset: pub;
 }
 
