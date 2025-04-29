@@ -2,11 +2,39 @@
 layout: default
 title: "Home"
 ---
-<section class="video-section">
-  <video width="100%" autoplay loop muted>
-    <source src="Photos/simVideo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<!-- Video Slider Section -->
+<section class="swiper videoSwiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+        <video width="100%" autoplay loop muted>
+          <source src="Photos/rfriVideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="swiper-slide">
+       <video width="100%" autoplay loop muted>
+          <source src="Photos/sfwhVideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+       </video>
+    </div>
+
+    <div class="swiper-slide">
+       <video width="100%" autoplay loop muted>
+          <source src="Photos/rfwhVideo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
+  <!-- Pagination Dots -->
+  <div class="swiper-pagination"></div>
 </section>
 
 <div class="intro">

@@ -165,15 +165,45 @@ p {
   padding: 20px;
 }
 
-.video-section {
-  margin: 0; /* Space around the video */
-  padding = 0;
-  text-align: center; /* Center the video */
+/* Video formatting */
+.videoSwiper {
+  width: 90%;
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #ffffff;
+  background-image: url('/Photos/rocky-wall.png');
+  background-repeat: repeat;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.video-section iframe,
-.video-section video {
-  max-width: 60%; /* Make sure it scales well on smaller screens */
+.swiper-slide {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.swiper-slide iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 12px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #002D72;
+}
+
+.swiper-pagination-bullet {
+  background: #002D72;
+  opacity: 0.7;
+}
+.swiper-pagination-bullet-active {
+  background: black;
 }
 
 /* Optional: Add padding around the intro section */
