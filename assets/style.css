@@ -33,7 +33,7 @@ header {
 header .site-title {
   font-family: 'Merriweather', serif;
   font-size: 1.4em;
-  font-weight: 400;
+  font-weight: 800;
   color: #002D72;
   text-decoration: none;
   letter-spacing: 1px;
@@ -62,7 +62,7 @@ nav a {
   text-decoration: none;
   margin-left: 25px;
   color: #002D72;
-  font-weight: 400;
+  font-weight: 500;
   transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
 }
 
