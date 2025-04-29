@@ -173,7 +173,7 @@ p {
 
 .video-section iframe,
 .video-section video {
-  max-width: 100%; /* Make sure it scales well on smaller screens */
+  max-width: 60%; /* Make sure it scales well on smaller screens */
 }
 
 /* Optional: Add padding around the intro section */

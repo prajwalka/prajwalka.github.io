@@ -39,6 +39,9 @@ permalink: /publications/
 
       <li><strong>P.K.Arunachala</strong>, C.Linder. A multiscale phase field formulation for capturing the fracture behavior of rubber-like materials. <em>Engineering Mechanics Institute (EMI) Conference</em>, Chicago, May 2024.</li>
 
-     <li><strong>P.K.Arunachala</strong>, W.Xue, M.Neuner, C.Linder, Multiscale phase field mixed formulation for predicting fracture behavior in incompressible rubber-like materials. <em>U.S. National Congress on Computational Mechanics (USNCCM)</em>, Albuquerque, July 2023.</li>
+     <li><strong>P.K.Arunachala</strong>, W.Xue, M.Neuner, C.Linder. Multiscale phase field mixed formulation for predicting fracture behavior in incompressible rubber-like materials. <em>U.S. National Congress on Computational Mechanics (USNCCM)</em>, Albuquerque, July 2023.</li>
+
+     <li><strong>P.K.Arunachala</strong>, M.Neuner, C.Linder. Capturing anisotropy in network response in rubber-like materials using a multiscale phase field formulation. <em>Engineering Mechanics Institute (EMI) Conference</em>, Georgia Institute of Technology, Atlanta, June 2023.</li>
+
     </ol>
 </div>
