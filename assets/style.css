@@ -41,14 +41,14 @@ header .site-title {
 
 
 /* Link Styling */
-a:link, a:visited {
+main a:link, main a:visited {
   color: #003366; /* Dark blue (professional and subtle) */
   text-decoration: none;
   font-weight: 700;
   transition: all 0.3s ease;
 }
 
-a:hover, a:active {
+main a:hover, main a:active {
   color: #001f4d; /* Even deeper blue when hovered */
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -181,12 +181,12 @@ p {
   font-size: 1.2em; /* Increased font size for better readability */
   text-align: justify;
   line-height: 1.6; /* Adjust line height for better readability */
-  color: #111111;
-  max-width: 800px; /* Limit width for better text readability */
+  color: #000000;
+  max-width: 1200px; /* Limit width for better text readability */
 }
 
 .publication-list {
-  padding-left: 20px;
+  padding-left: 50px;
   counter-reset: pub;
 }
 
