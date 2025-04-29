@@ -23,7 +23,7 @@
   var swiper = new Swiper(".videoSwiper", {
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 8000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -39,14 +39,13 @@
 
 <script>
   window.addEventListener("load", () => {
-    const videos = document.querySelectorAll(".scale-to-5s");
+    const videos = document.querySelectorAll(".scale-video");
 
     videos.forEach(video => {
-      video.pause(); // pause immediately
       video.onloadedmetadata = () => {
         const duration = video.duration;
         if (duration > 0) {
-          const rate = duration / 5;
+          const rate = duration / 8;
           video.playbackRate = rate;
           console.log(`Set playback rate for ${video.src} to ${rate}`);
         }
