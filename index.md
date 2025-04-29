@@ -17,17 +17,23 @@ title: "Home"
     </div>
 
     <div class="swiper-slide">
-       <video width="100%" autoplay loop muted>
-          <source src="Photos/sfwhVideo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-       </video>
+       <div class="video-wrapper">
+            <video width="100%" autoplay loop muted>
+                <source src="Photos/sfwhVideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="caption-overlay">PDMS Rubber</div>
+        </div>
     </div>
 
     <div class="swiper-slide">
-       <video width="100%" autoplay loop muted>
-          <source src="Photos/rfwnVideo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+       <div class="video-wrapper">
+            <video width="100%" autoplay loop muted>
+                <source src="Photos/rfriVideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="caption-overlay">EPDM Rubber</div>
+        </div>
     </div>
 
   </div>
