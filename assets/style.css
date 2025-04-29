@@ -39,6 +39,23 @@ header .site-title {
   letter-spacing: 1px;
 }
 
+
+/* Link Styling */
+a:link, a:visited {
+  color: #003366; /* Dark blue (professional and subtle) */
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+a:hover, a:active {
+  color: #001f4d; /* Even deeper blue when hovered */
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
 /* Default navigation link style */
 nav a {
   font-family: 'Computer Modern Sans', sans-serif;
@@ -155,22 +172,6 @@ p {
 .video-section iframe,
 .video-section video {
   max-width: 100%; /* Make sure it scales well on smaller screens */
-}
-
-/* Link Styling */
-a:link, a:visited {
-  color: #003366; /* Dark blue (professional and subtle) */
-  text-decoration: none;
-  font-weight: 700;
-  transition: all 0.3s ease;
-}
-
-a:hover, a:active {
-  color: #001f4d; /* Even deeper blue when hovered */
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1.5px;
-  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Optional: Add padding around the intro section */
