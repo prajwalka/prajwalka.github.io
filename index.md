@@ -8,7 +8,7 @@ title: "Home"
 
     <div class="swiper-slide">
         <div class="video-wrapper">
-            <video class="scale-to-5s" autoplay loop muted playsinline>
+            <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                 <source src="Photos/rfriVideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -18,7 +18,7 @@ title: "Home"
 
     <div class="swiper-slide">
        <div class="video-wrapper">
-            <<video class="scale-to-5s" autoplay loop muted playsinline>
+            <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                 <source src="Photos/sfwhVideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -28,7 +28,7 @@ title: "Home"
 
     <div class="swiper-slide">
        <div class="video-wrapper">
-            <video class="scale-to-5s" autoplay loop muted playsinline>
+            <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                 <source src="Photos/rfwnVideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -39,12 +39,12 @@ title: "Home"
     <div class="swiper-slide">
         <div class="dual-video-container">
             <div class="video-wrapper2">
-                <video class="scale-to-5s" autoplay loop muted playsinline>
+                <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                     <source src="Photos/TiFractureVideo.mp4" type="video/mp4" />
                 </video>
             </div>
             <div class="video-wrapper2">
-                <video class="scale-to-5s" autoplay loop muted playsinline>
+                <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                     <source src="Photos/TiFractureLoadDisp.mp4" type="video/mp4" />
                 </video>
             </div>
@@ -55,12 +55,12 @@ title: "Home"
     <div class="swiper-slide">
         <div class="dual-video-container">
             <div class="video-wrapper2">
-                <video class="scale-to-5s" autoplay loop muted playsinline>
+                <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                     <source src="Photos/FatigueCrack.mp4" type="video/mp4" />
                 </video>
             </div>
             <div class="video-wrapper2">
-                <video class="scale-to-5s" autoplay loop muted playsinline>
+                <video class="scale-to-5s" autoplay loop muted playsinline preload="metadata">
                     <source src="Photos/FatigueLoadDisp.mp4" type="video/mp4" />
                 </video>
             </div>

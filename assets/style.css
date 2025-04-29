@@ -243,10 +243,10 @@ p {
 .dual-video-container {
   display: flex;
   justify-content: center;   /* Center horizontally */
-  align-items: center;       /* Center vertically if needed */
+  align-items: stretch;      
   height: 100%;              /* Inherit full height of slide */
   gap: 20px;                 /* Optional: space between videos */
-  padding: 20px;
+  padding: 0;
   box-sizing: border-box;
 }
 
