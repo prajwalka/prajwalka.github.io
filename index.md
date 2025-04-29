@@ -22,7 +22,7 @@ title: "Home"
 
     <div class="swiper-slide">
        <video width="100%" autoplay loop muted>
-          <source src="Photos/rfwhVideo.mp4" type="video/mp4">
+          <source src="Photos/rfwnVideo.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
     </div>
