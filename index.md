@@ -43,13 +43,14 @@ title: "Home"
                     <source src="Photos/TiFractureVideo.mp4" type="video/mp4" />
                 </video>
             </div>
-        <div class="video-wrapper2">
+            <div class="video-wrapper2">
                 <video autoplay loop muted playsinline>
                     <source src="Photos/TiFractureLoadDisp.mp4" type="video/mp4" />
                 </video>
+            </div>
         </div>
+        <div class="slide-caption">Ti6242 Alloy</div>
     </div>
-    <div class="slide-caption">Ti6242 Alloy</div>
 
     <div class="swiper-slide">
         <div class="dual-video-container">
@@ -58,14 +59,14 @@ title: "Home"
                     <source src="Photos/FatigueVideo.mp4" type="video/mp4" />
                 </video>
             </div>
-        <div class="video-wrapper2">
+            <div class="video-wrapper2">
                 <video autoplay loop muted playsinline>
                     <source src="Photos/FatigueLoadDisp.mp4" type="video/mp4" />
                 </video>
+            </div>
         </div>
+        <div class="slide-caption">AA7050 Alloy</div>
     </div>
-    <div class="slide-caption">AA7050 Alloy</div>
-</div>
 
   </div>
 
