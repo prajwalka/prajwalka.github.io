@@ -36,5 +36,22 @@
     },
   });
 </script>
+
+<script>
+  window.addEventListener("load", () => {
+    const videos = document.querySelectorAll(".scale-to-5s");
+
+    videos.forEach(video => {
+      video.onloadedmetadata = () => {
+        const duration = video.duration;
+        if (duration > 0) {
+          const rate = duration / 5;
+          video.playbackRate = rate;
+        }
+      };
+    });
+  });
+</script>
+
 </body>
 </html>
