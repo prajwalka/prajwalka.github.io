@@ -94,9 +94,16 @@ As the first step in this process, I am focusing on modeling the short crack pro
 </section>
 
 <section class="research-section">
-  <h2>Collaboration Projects</h2>
+  <h2>Key Collaboration Projects</h2>
+
+  <figure class="figure-block">
+      <img src="/Photos/CollabProjects.png" alt="Key Collaboration Projects" class="research-image">
+      <figcaption class="figure-caption">Figure references: Wang et al. (2021), Qiu et al. (2023), Zhou et al. (2021)</figcaption>
+  </figure>
+
   <div class="research-subsection">
-    <h3>Bioinspired Shape Memory Polymers</h3>
-    <p>Joint work on SMPs, additive manufacturing, etc...</p>
+    <h3>Experiments to study elastomer fracture</h3>
+
+    <p> A</p>
   </div>
 </section>
