@@ -59,7 +59,9 @@ As the first step in this process, I am focusing on modeling the short crack pro
 
     <p><strong>Paper Reference: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0022509621002593" target="_blank"> Arunachala, Rastak & Linder, J. Mech. Phys. Solids (2021) </a></p>
 
-    As the first step, I proposed the <strong>first multiscale model</strong> in literature capable of capturing the effects of strain-induced crystallization on the fracture initiation of rubber-like materials. The multiscale formulation captures major properties like chain entropic behavior, stretching of the microscale monomer bonds, crystallinity evolution in the chains, anisotropic polymer network behavior, and incompressibility of rubbers. The fracture initiation criterion is based on the microscale internal energy and accounts for the rupture of molecular bonds and distortion of crystallites. The model also captured the frustration in crystallinity due to biaxial loading, and is the <strong>first multiscale model</strong> in literature to capture this effect.
+    <p> 
+      As the first step, I proposed the <strong>first multiscale model</strong> in literature capable of capturing the effects of strain-induced crystallization on the fracture initiation of rubber-like materials. The multiscale formulation captures major properties like chain entropic behavior, stretching of the microscale monomer bonds, crystallinity evolution in the chains, anisotropic polymer network behavior, and incompressibility of rubbers. The fracture initiation criterion is based on the microscale internal energy and accounts for the rupture of molecular bonds and distortion of crystallites. The model also captured the frustration in crystallinity due to biaxial loading, and is the <strong>first multiscale model</strong> in literature to capture this effect.
+    </p>
     </div>
 
     <div class="research-subsection">
@@ -72,7 +74,9 @@ As the first step in this process, I am focusing on modeling the short crack pro
 
     <p><strong>Paper References: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782523001056" target="_blank">Arunachala et al., Comput. Methods Appl. Mech. Eng. (2023)</a>; <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></p>
 
-    As the next step, I proposed novel multiscale models to capture fracture propagation in non-crystallizing rubbers. This formulation utilizes the phase field approach to model the crack propagation, while also capturing major properties like chain entropic behavior, stretching of the microscale monomer bonds, anisotropic polymer network behavior, and incompressibility of rubbers. It is assumed that the rupturing of the microscale molecular bonds mainly drives damage. The models have been validated using various experimental results in order to demonstrate their predictive capability, accuracy, and numerical robustness.
+    <p>
+      As the next step, I proposed novel multiscale models to capture fracture propagation in non-crystallizing rubbers. This formulation utilizes the phase field approach to model the crack propagation, while also capturing major properties like chain entropic behavior, stretching of the microscale monomer bonds, anisotropic polymer network behavior, and incompressibility of rubbers. It is assumed that the rupturing of the microscale molecular bonds mainly drives damage. The models have been validated using various experimental results in order to demonstrate their predictive capability, accuracy, and numerical robustness.
+    </p>
     </div>
 
     <div class="research-subsection">
@@ -83,7 +87,9 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <figcaption class="figure-caption">Figure references: Gherib et al. (2010)</figcaption>
   </figure>
 
-    Finally, I combined the previous two studies to propose the <strong>first multiscale model</strong> in literature to capture the effects of strain-induced crystallization on fracture propagation in rubbers. This formulation also utilizes the phase field approach to model the crack propagation, and damage is assumed to be driven by the molecular bond rupture and distortion of crystallites. 
+    <p>
+      Finally, I combined the previous two studies to propose the <strong>first multiscale model</strong> in literature to capture the effects of strain-induced crystallization on fracture propagation in rubbers. This formulation also utilizes the phase field approach to model the crack propagation, and damage is assumed to be driven by the molecular bond rupture and distortion of crystallites.
+    </p> 
     </div>
 </section>
 
