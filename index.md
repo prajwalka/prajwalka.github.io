@@ -89,7 +89,10 @@ title: "Home"
 
     <p>
 	I am currently a postdoctoral researcher at Johns Hopkins University working with Dr. Somnath Ghosh in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a>, working on modeling the fatigue behavior of polycrystalline materials like titanium and aluminum alloys. During my PhD, I worked under Dr. Christian Linder at Stanford University in the <a href="https://cm2.stanford.edu/" target="_blank">Computational Mechanics of Materials (CM2) Laboratory</a>, working on modeling the fracture behavior of rubber-like polymers. Prior to this, I worked on higher-order mechanical formulations for plates on elastic foundations for my undergraduate thesis under the guidance of Dr. Amit Das and Dr. Mandar Inamdar at the Indian Institute of Technology Bombay, India.
- 	
+    </p>
+
+    <p>
+	For more information or discussion, please feel free to contact me at <a href="mailto:pkamar1@jh.edu">pkammar1@jh.edu</a>
     </p>
 
     
