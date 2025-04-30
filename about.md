@@ -11,3 +11,9 @@ permalink: /about/
   <img src="/Photos/MyPhoto3.png" alt="Photo 3">
   <img src="/Photos/MyPhoto4.png" alt="Photo 4">
 </div>
+
+<div class="about-me">
+  <p>
+    I am from Bengaluru, India
+  </p>
+</div>
