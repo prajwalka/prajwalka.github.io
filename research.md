@@ -9,6 +9,10 @@ permalink: /research/
 
 <section class="research-section">
   <h2>Postdoctoral Research</h2>
+
+  <img src="Photos/PostdocOverview.png" alt="Overview of postdoctoral research" class="research-image">
+  <p class="figure-caption"><em>Figure courtesy: CMRL Lab, 2025</em></p>
+
   <div class="research-subsection">
     <h3>Multiscale Modeling of Titanium Alloys</h3>
     <p>Description of the work, methods, and outcomes...</p>
