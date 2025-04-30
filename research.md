@@ -12,7 +12,7 @@ permalink: /research/
 
   <figure class="figure-block">
       <img src="/Photos/PostdocOverview.png" alt="Overview of postdoctoral research" class="research-image">
-      <figcaption class="figure-caption">Figure courtesy: Nikitin et al. (2023), Wang et al. (2021), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com</figcaption>
+      <figcaption class="figure-caption">Figure references: Nikitin et al. (2023), Wang et al. (2021), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com</figcaption>
   </figure>
 
   <p>
@@ -34,6 +34,16 @@ To address this challenge, I am developing novel microstructure-informed short c
 
 <section class="research-section">
   <h2>Doctoral Thesis</h2>
+
+  <figure class="figure-block">
+      <img src="/Photos/PhDOverview.png" alt="Overview of my phd research" class="research-image">
+      <figcaption class="figure-caption">Figure references: Russ et al. (2020), Mang et al. (2021), asme.org, sciencetime.com, qsdirectory.com, Qi et al. (2022)</figcaption>
+  </figure>
+
+  <p>
+    This research was conducted in the <a href="https://cm2.stanford.edu/" target="_blank">Computational Mechanics of Materials (CM2) Laboratory</a> headed by Dr. Christian Linder at Stanford University and was funded by the National Science Foundation, Department of Energy’s National Nuclear Security Administration, and Stanford's Leavell, Blume and School of Engineering Graduate Fellowships.
+  </p>
+
   <div class="research-subsection">
     <h3>Computational Fracture Mechanics</h3>
     <p>Summary of thesis focus and contributions...</p>
