@@ -289,7 +289,7 @@ p {
   text-align: justify;
   line-height: 1.6; /* Adjust line height for better readability */
   color: #000000;
-  max-width: 1200px; /* Limit width for better text readability */
+  max-width: 1400px; /* Limit width for better text readability */
 }
 
 .publication-list {
