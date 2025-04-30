@@ -311,20 +311,23 @@ p {
   color: black;
 }
 
+.figure-block {
+  max-width: 800px;
+  margin: 20px auto 30px auto;
+}
+
 .research-image {
   width: 100%;
-  max-width: 800px;
   display: block;
-  margin: 20px auto 10px auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .figure-caption {
-  text-align: center;
+  text-align: left;
   font-size: 0.6em;
   color: #666;
-  margin-bottom: 30px;
+  margin-top: 5px;
 }
 
 /* Publications section formatting */
