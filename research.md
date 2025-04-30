@@ -12,7 +12,7 @@ permalink: /research/
 
   <div class="figure-block">
       <img src="/Photos/PostdocOverview.png" alt="Overview of postdoctoral research" class="research-image">
-      <p class="figure-caption"><em>Figure courtesy: Nikitin et al. (2023), Wang et al. (2021), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com</em></p>
+      <p class="figure-caption">Figure courtesy: Nikitin et al. (2023), Wang et al. (2021), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com</p>
   </div>
 
   <p>
@@ -24,6 +24,7 @@ permalink: /research/
     
     <p> 
       Polycrystalline materials such as titanium and aluminum alloys are of high commercial importance due to their use in critical components across the automotive, aerospace, marine, and biomedical industries. This is attributed to their exceptional properties, including high specific strength, fatigue resistance, and corrosion resistance at service temperatures. The mechanical behavior of these materials strongly depends on their underlying crystal microstructure. Since fatigue life is a key parameter for industrial applications, my current research focuses on developing multiscale models that can accurately predict fatigue behavior while remaining computationally efficient for large-scale simulations.
+<br>
 
 To address this challenge, I am developing novel microstructure-informed short crack propagation models that ensure numerical stability and robustness. My approach utilizes the phase field method coupled with a crystal plasticity framework to simulate microstructure-dependent short crack growth under both monotonic and cyclic loading. The model captures the complex coupling between elasticity, plasticity, and damage. It also incorporates key physical phenomena such as tension-compression asymmetry in damage evolution during cyclic loading, dislocation motion and resistance due to entanglements, grain size effects, the Bauschinger effect, and material degradation due to multiple loading cycles. We are currently validating the model using experimental data from rolled AA7050 alloys, provided by our collaborators. In the next phase, the model will be coupled with multi-time scaling methods to simulate fatigue behavior over thousands of loading cycles.  </p>
   </div>

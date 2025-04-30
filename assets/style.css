@@ -336,9 +336,13 @@ p {
 
 .figure-caption {
   text-align: left;
-  font-size: 0.6em;
+  font-size: 0.75em;
+  font-style: italic;
   color: #666;
   margin-top: 5px;
+  line-height: 1.0;
+  padding-left: 0;
+  max-width: 800px;
 }
 
 /* Publications section formatting */
