@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 <div class="publications-wrapper">
 
-<h2> Journal Publications </h2> 
+<h1> Journal Publications </h1> 
 
 <div class="publications">
 
@@ -33,7 +33,7 @@ permalink: /publications/
     </ol>
 </div>
 
-<h2> Conference Presentations </h2> 
+<h1> Conference Presentations </h1> 
 
 <div class="publications">
 
@@ -53,7 +53,7 @@ permalink: /publications/
     </ol>
 </div>
 
-<h2> Invited Talks, Seminars, and Review Meetings </h2> 
+<h1> Invited Talks, Seminars, and Review Meetings </h1> 
 
 <div class="publications">
 

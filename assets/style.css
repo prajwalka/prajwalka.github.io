@@ -139,12 +139,6 @@ h1, h2, h3 {
 
 /* Heading */
 h1 {
-  font-size: 2.5em; /* Increase heading font size */
-  color: #002D72;
-  margin-bottom: 10px;
-}
-
-h2 {
   font-size: 2.0em; /* Increase heading font size */
   color: #002D72;
   margin-bottom: 5px;
@@ -161,7 +155,7 @@ p {
   max-width: 800px; /* Limit width for better text readability */
 }
 
-/* Optional: Add padding around the intro section */
+/* Home page formatting */
 .intro {
   padding: 20px;
 }
@@ -280,6 +274,41 @@ p {
   background: rgba(0, 0, 0, 0.5); /* Optional: subtle black background behind text */
   padding: 6px 12px;
   border-radius: 6px;
+}
+
+/* Research section formatting */
+.research-section {
+  background: #f8f9fa; /* light background for contrast */
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  max-width: 1000px;
+}
+
+.research-section h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  color: #002D72;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.research-subsection {
+  margin-bottom: 30px;
+}
+
+.research-subsection h3 {
+  font-size: 1.4em;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.research-subsection p {
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 1.6;
+  color: #333;
 }
 
 /* Publications section formatting */
