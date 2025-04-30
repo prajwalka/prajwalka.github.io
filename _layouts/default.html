@@ -42,14 +42,21 @@
     const videos = document.querySelectorAll(".scale-video");
 
     videos.forEach(video => {
-      video.onloadedmetadata = () => {
-        const duration = video.duration;
-        if (duration > 0) {
-          const rate = duration / 8;
+      const setPlaybackRate = () => {
+        if (video.duration && video.duration > 0) {
+          const rate = video.duration / 8; // 8 seconds per video
           video.playbackRate = rate;
           console.log(`Set playback rate for ${video.src} to ${rate}`);
+        } else {
+          console.warn(`Duration not available yet for ${video.src}`);
         }
       };
+
+      // Try once immediately
+      setPlaybackRate();
+
+      // Try again on loadeddata (if metadata wasn't ready yet)
+      video.addEventListener("loadeddata", setPlaybackRate);
     });
   });
 </script>

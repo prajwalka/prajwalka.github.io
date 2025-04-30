@@ -128,7 +128,8 @@ h1, h2, h3 {
   max-width: 400px; /* Set width of the image */
   height: auto;
   border-radius: 50%; /* Optional: to make the image round */
-  margin-right: 80px;  /* Space between image and text */
+  margin-right: 60px;  /* Space between image and text */
+  padding-left: 30px;
 }
 
 /* Styling for the text container */
