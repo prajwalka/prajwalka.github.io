@@ -46,7 +46,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
   </p>
 
   <p> 
-      Rubber-like materials have numerous applications like stretchable electronics, self-actuators, implantable sensors, and many engineering fields. This is mainly attributed to their desirable attributes such as high stretchability, high toughness, low modulus, and low cost. Consequently, accurately modeling their fracture behavior becomes crucial for comprehending and designing them resiliently against failures. However, the challenges posed by their multiscalenature and incompressible behavior make precise modeling a formidable task. Additionally, certain materials like natural rubber stand out for their superior qualities compared to theircounterparts. Numerous efforts have been made to elucidate the underlying mechanisms behind its exceptional properties, with strain-induced crystallization (SIC) emerging as a key phenomenonbelieved to enhance fracture resistance. Moreover, SIC is also observed in polymer melts duringindustrial processing, where it can be harnessed to tailor the properties of finished products. Fascinated by this, my research focused on developing multiscale models to predict the fracture behavior of these materials.
+      Rubber-like materials find widespread applications in areas like stretchable electronics, self-actuators, implantable sensors, and many engineering fields. This is primarily due to their desirable attributes such as high stretchability, high toughness, low modulus, and low cost. Consequently, accurately modeling their fracture behavior becomes crucial for comprehending and designing them resiliently against failures. However, the challenges posed by their multiscalenature and incompressible behavior make precise modeling a formidable task. Notably, certain materials like natural rubber stand out for their superior qualities compared to theircounterparts. Numerous efforts have been made to elucidate the underlying mechanisms behind its exceptional properties, with strain-induced crystallization (SIC) emerging as a key phenomenonbelieved to enhance fracture resistance. Moreover, SIC is also observed in polymer melts duringindustrial processing, where it can be harnessed to tailor the properties of finished products. Motivated by these insights, my research focused on developing multiscale models to predict the fracture behavior of these materials.
   </p>
 
   <div class="research-subsection">
@@ -57,9 +57,33 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <figcaption class="figure-caption">Figure references: Chen et al. (2019), Gherib et al. (2010)</figcaption>
   </figure>
 
-    <p><strong>Paper Reference: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0022509621002593" target="_blank"> Arunachala, Rastak & Linder, J. Mech. Phys. Solids, 2021 </a></p>
+    <p><strong>Paper Reference: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0022509621002593" target="_blank"> Arunachala, Rastak & Linder, J. Mech. Phys. Solids (2021) </a></p>
 
-    
+    As the first step, I proposed the <strong>first multiscale model</strong> in literature capable of capturing the effects of strain-induced crystallization on the fracture initiation of rubber-like materials. The multiscale formulation captures major properties like chain entropic behavior, stretching of the microscale monomer bonds, crystallinity evolution in the chains, anisotropic polymer network behavior, and incompressibility of rubbers. The fracture initiation criterion is based on the microscale internal energy and accounts for the rupture of molecular bonds and distortion of crystallites. The model also captured the frustration in crystallinity due to biaxial loading, and is the <strong>first multiscale model</strong> in literature to capture this effect.
+    </div>
+
+    <div class="research-subsection">
+    <h3>Fracture propagation in non-crystallizing rubbers</h3>
+
+    <figure class="figure-block">
+      <img src="/Photos/PhDFracProp.png" alt="Fracture propagation in non-crystallizing rubbers" class="research-image">
+      <figcaption class="figure-caption">Figure references: Russ et al. (2020), Mang et al. (2021)</figcaption>
+  </figure>
+
+    <p><strong>Paper References: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782523001056" target="_blank">Arunachala et al., Comput. Methods Appl. Mech. Eng. (2023)</a>; <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></p>
+
+    As the next step, I proposed novel multiscale models to capture fracture propagation in non-crystallizing rubbers. This formulation utilizes the phase field approach to model the crack propagation, while also capturing major properties like chain entropic behavior, stretching of the microscale monomer bonds, anisotropic polymer network behavior, and incompressibility of rubbers. It is assumed that the rupturing of the microscale molecular bonds mainly drives damage. The models have been validated using various experimental results in order to demonstrate their predictive capability, accuracy, and numerical robustness.
+    </div>
+
+    <div class="research-subsection">
+    <h3>Fracture propagation in strain-crystallizing rubbers</h3>
+
+    <figure class="figure-block">
+      <img src="/Photos/PhDFracPropSic.png" alt="Fracture propagation in strain-crystallizing rubbers" class="research-image">
+      <figcaption class="figure-caption">Figure references: Gherib et al. (2010)</figcaption>
+  </figure>
+
+    Finally, I combined the previous two studies to propose the <strong>first multiscale model</strong> in literature to capture the effects of strain-induced crystallization on fracture propagation in rubbers. This formulation also utilizes the phase field approach to model the crack propagation, and damage is assumed to be driven by the molecular bond rupture and distortion of crystallites. 
     </div>
 </section>
 
