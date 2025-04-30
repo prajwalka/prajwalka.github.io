@@ -3,7 +3,11 @@ layout: default
 title: "About Me"
 permalink: /about/
 ---
+<h1> About Me </h1>
 
-## About Me
-
-I am Prajwal Kammardi Arunachala, a researcher passionate about bridging microstructural features with macroscale behavior through computational mechanics.
+<div class="image-row">
+  <img src="/Photos/photo1.jpg" alt="Photo 1">
+  <img src="/Photos/photo2.jpg" alt="Photo 2">
+  <img src="/Photos/photo3.jpg" alt="Photo 3">
+  <img src="/Photos/photo4.jpg" alt="Photo 4">
+</div>

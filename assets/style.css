@@ -373,3 +373,20 @@ p {
   color: #002D72;
   font-weight: bold;
 }
+
+/* About Me formatting */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px; /* spacing between images */
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.image-row img {
+  width: 23%; /* Adjust this if you want wider/narrower images */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
