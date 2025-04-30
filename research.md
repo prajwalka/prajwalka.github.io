@@ -16,7 +16,7 @@ permalink: /research/
   </div>
 
   <div class="research-subsection">
-    <h3>Multiscale Modeling of Titanium Alloys</h3>
+    <h3>Short crack propagation in polycrystalline materials</h3>
     <p>Description of the work, methods, and outcomes...</p>
   </div>
   <div class="research-subsection">
