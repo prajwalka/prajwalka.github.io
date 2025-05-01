@@ -426,11 +426,16 @@ p {
   padding: 20px 40px;
   margin-top: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /* Centering the footer text */
   align-items: center;
+  position: relative; /* Required for positioning icons */
+  min-height: 100px; /* To ensure space for footer */
 }
 
 .footer-icons {
+  position: absolute;
+  bottom: 20px; 
+  right: 40px;  
   display: flex;
   gap: 20px;
 }
