@@ -436,15 +436,15 @@ p {
 
 .footer-icons {
   position: absolute;
-  bottom: 30px; 
+  bottom: 20px; 
   right: 40px;  
   display: flex;
   gap: 30px;
 }
 
 .footer-icons img {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
   transition: transform 0.2s;
 }
 
