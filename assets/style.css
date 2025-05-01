@@ -489,6 +489,7 @@ p {
   font-size: 1.1em;
   color: #000000;             /* same as your subsection headers */
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .reference-list ul {

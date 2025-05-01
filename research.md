@@ -118,7 +118,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
     <div class="reference-list">
       <h4>References</h4>
       <ul>
-      <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a>
+      <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></li>
       </ul>
     </div>
 
@@ -134,7 +134,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <h4>References</h4>
       <ul>
       <li><a href="https://www.nature.com/articles/s41928-020-00525-1" target="_blank">Wang,..., Arunachala et al., Nat. Electron. (2021)</a></li>
-      <li><a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Wu,..., Arunachala et al., Nat. Commun. (2023)</a>
+      <li><a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Wu,..., Arunachala et al., Nat. Commun. (2023)</a></li>
       </ul>
     </div>
 
