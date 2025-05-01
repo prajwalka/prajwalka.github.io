@@ -436,7 +436,7 @@ p {
 
 .footer-icons {
   position: absolute;
-  bottom: 10px; 
+  bottom: 30px; 
   right: 40px;  
   display: flex;
   gap: 30px;
