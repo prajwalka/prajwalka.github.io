@@ -504,3 +504,9 @@ p {
 .reference-list li {
   margin-bottom: 2px;
 }
+
+.reference-inline {
+  margin-top: 0.5em;
+  font-size: 1.0em;
+  color: black;
+}
