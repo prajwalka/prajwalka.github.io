@@ -403,7 +403,7 @@ p {
   }
 }
 
-.about-me p {
+.about-me {
   font-family: 'Computer Modern Sans', sans-serif;
   font-size: 1.2em;
   text-align: justify;
