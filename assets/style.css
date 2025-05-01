@@ -462,3 +462,16 @@ p {
   font-size: 1em;
   color: silver;
 }
+
+/* CV formatting */
+.cv-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.cv-embed {
+  width: 80%;
+  height: 800px;
+  border: none;
+}
