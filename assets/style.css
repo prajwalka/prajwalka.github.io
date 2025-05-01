@@ -407,7 +407,7 @@ p {
 
 .about-me {
   padding-left: 100px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .about-me p {
@@ -416,7 +416,7 @@ p {
   text-align: justify;
   line-height: 1.6;
   color: #000000;
-  max-width: 1100px;
+  max-width: 1300px;
 }
 
 /* Footer formatting */
