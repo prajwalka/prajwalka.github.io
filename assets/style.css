@@ -413,3 +413,43 @@ p {
   margin-bottom: 60px;
   max-width: 1300px; /* Limit width for better text readability */
 }
+
+/* Footer formatting */
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  font-size: 0.85em;
+  color: #666;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.05);
+  z-index: 100;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+
+.footer-icons img:hover {
+  filter: none;
+}
+
+.footer-text {
+  font-size: 0.8em;
+  color: #555;
+}
