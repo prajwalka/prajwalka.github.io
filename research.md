@@ -121,4 +121,34 @@ As the first step in this process, I am focusing on modeling the short crack pro
     </p>
   </div>
 
+  <div class="research-subsection">
+    <h3>Physics-informed neural networks for shape sensing applications</h3>
+
+    <p><strong>Paper References:</strong> <a href="https://ascelibrary.org/doi/abs/10.1061/JENMDT.EMENG-6901" target="_blank">Qiu, Arunachala & Linder, J. Elast. (2023)</a></p>
+
+    <p>
+      We utilized physics-informed neural networks (PINNs) to solve inverse problems, where deformations are reconstructed from strain sensor readings. In this approach, the underlying physics, represented by governing equations and boundary conditions, is incorporated into the neural network framework, while also minimizing discrepancies with the sensor data. This study holds significant promise for shape-sensing applications such as structural health monitoring and shape reconstruction in medical and fashion industries.
+    </p>
+  </div>
+
+  <div class="research-subsection">
+    <h3>Fracture behavior of mock high explosive materials (PSAAP III)</h3>
+
+    <p><strong>References:</strong> <a href="https://micromorph.gitlab.io/overview/" target="_blank">Predictive Science Academic Alliance Program (PSAAP) III, CU Boulder</a></p>
+
+    <p>
+      As part of this multi-university collaborative project, I investigated the application of strong discontinuity theories, such as the Embedded Finite Element Method (EFEM), to capture the macroscale fracture behavior of mock high explosive materials. Additionally, I explored the integration of contact formulations and spatially varying material parameters with gradient-enhanced damage models to replicate experimentally observed behaviors. This study is highly relevant for understanding the fracture response of complex inhomogeneous materials. 
+    </p>
+  </div>
+
+  <div class="research-subsection">
+    <h3>Ductile fracture modeling of steel and cohesive frictional materials</h3>
+
+    <p><strong>References:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari, Neuner, Arunachala et al., Comput. Methods Appl. Mech. Eng. (2022)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner, Abrari Vajari, Arunachala & Linder, Comput. Geotech. (2023)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari, Neuner, Arunachala & Linder, Comput. Methods Appl. Mech. Eng. (2023)</a></p>
+
+    <p>
+      In these projects, micromechanics-driven ductile fracture formulations are developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry.
+    </p>
+  </div>
+
 </section>
