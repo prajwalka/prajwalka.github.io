@@ -506,8 +506,9 @@ p {
 }
 
 .reference-inline {
-  margin-top: 0.5em;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 .reference-inline p {
