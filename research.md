@@ -81,7 +81,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <h4>References</h4>
       <ul>
       <li><a href="https://www.sciencedirect.com/science/article/pii/S0045782523001056" target="_blank">Arunachala et al., Comput. Methods Appl. Mech. Eng. (2023)</a></li>
-      <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a>
+      <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></li>
       </ul>
     </div>
 
