@@ -104,7 +104,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Experiments to study elastomer fracture</h3>
 
-    <p><strong>Paper Reference: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></p>
+    <p><strong>Paper Reference:</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></p>
 
     <p>
       To gain practical insight into fracture behavior in elastomers, we designed and conducted a set of experiments under the guidance of Dr. Renee Zhao at Stanford University. To study the behavior of PDMS rubber, we first fabricated dogbone specimens to obtain the uniaxial tensile response in order to calibrate material parameters. Subsequently, we fabricated square films with a central hole and asymmetric notches, and utilized the observed crack propagation paths and load-displacement behavior to validate our model.
@@ -114,7 +114,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Strain analysis of stretchable transistors</h3>
 
-    <p><strong>Paper References: <a href="https://www.nature.com/articles/s41928-020-00525-1" target="_blank">Wang,..., Arunachala et al., Nat. Electron. (2021)</a>; <a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Wu,..., Arunachala et al., Nat. Commun. (2023)</a></p>
+    <p><strong>Paper References:</strong> <a href="https://www.nature.com/articles/s41928-020-00525-1" target="_blank">Wang,..., Arunachala et al., Nat. Electron. (2021)</a>; <a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Wu,..., Arunachala et al., Nat. Commun. (2023)</a></p>
 
     <p>
       For strain analysis of a stretchable transistor array comprising substrate and encapsulant layers, we developed a framework to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.
