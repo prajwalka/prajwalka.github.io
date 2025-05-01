@@ -475,3 +475,29 @@ p {
   height: 800px;
   border: none;
 }
+
+/* Reference list in research page formatting */
+.reference-list {
+  padding-left: 50px;         /* same as .research-subsection p */
+  max-width: 900px;           /* match paragraph width */
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.reference-list h4 {
+  font-size: 1.2em;
+  color: #003366;             /* same as your subsection headers */
+  margin-bottom: 10px;
+}
+
+.reference-list ol {
+  padding-left: 20px;         /* indent list a bit more */
+  line-height: 1.6;
+  font-size: 1em;
+  color: black;
+  list-style-position: inside;
+}
+
+.reference-list li {
+  margin-bottom: 8px;
+}

@@ -57,7 +57,12 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <figcaption class="figure-caption">Figure references: Chen et al. (2019), Gherib et al. (2010)</figcaption>
   </figure>
 
-    <p><strong>Paper Reference: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0022509621002593" target="_blank"> Arunachala, Rastak & Linder, J. Mech. Phys. Solids (2021) </a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ol>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0022509621002593" target="_blank"> Arunachala, Rastak & Linder, J. Mech. Phys. Solids (2021) </a></li>
+      </ol>
+    </div>
 
     <p> 
       As the first step, I proposed the <strong>first multiscale model</strong> in literature capable of capturing the effects of strain-induced crystallization on the fracture initiation of rubber-like materials. The multiscale formulation captures major properties like chain entropic behavior, stretching of the microscale monomer bonds, crystallinity evolution in the chains, anisotropic polymer network behavior, and incompressibility of rubbers. The fracture initiation criterion is based on the microscale internal energy and accounts for the rupture of molecular bonds and distortion of crystallites. The model also captured the frustration in crystallinity due to biaxial loading, and is the <strong>first multiscale model</strong> in literature to capture this effect.
@@ -134,7 +139,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Fracture behavior of mock high explosive materials (PSAAP III)</h3>
 
-    <p><strong>References:</strong> <a href="https://micromorph.gitlab.io/overview/" target="_blank">Predictive Science Academic Alliance Program (PSAAP) III, CU Boulder</a></p>
+    <p><strong>Reference:</strong> <a href="https://micromorph.gitlab.io/overview/" target="_blank">Predictive Science Academic Alliance Program (PSAAP) III, CU Boulder</a></p>
 
     <p>
       As part of this multi-university collaborative project, I investigated the application of strong discontinuity theories, such as the Embedded Finite Element Method (EFEM), to capture the macroscale fracture behavior of mock high explosive materials. Additionally, I explored the integration of contact formulations and spatially varying material parameters with gradient-enhanced damage models to replicate experimentally observed behaviors. This study is highly relevant for understanding the fracture response of complex inhomogeneous materials. 
@@ -144,7 +149,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Ductile fracture modeling of steel and cohesive frictional materials</h3>
 
-    <p><strong>References:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari, Neuner, Arunachala et al., Comput. Methods Appl. Mech. Eng. (2022)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner, Abrari Vajari, Arunachala & Linder, Comput. Geotech. (2023)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari, Neuner, Arunachala & Linder, Comput. Methods Appl. Mech. Eng. (2023)</a></p>
+    <p><strong>Paper References:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari, Neuner, Arunachala et al., Comput. Methods Appl. Mech. Eng. (2022)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner, Abrari Vajari, Arunachala & Linder, Comput. Geotech. (2023)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari, Neuner, Arunachala & Linder, Comput. Methods Appl. Mech. Eng. (2023)</a></p>
 
     <p>
       In these projects, micromechanics-driven ductile fracture formulations are developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry.
