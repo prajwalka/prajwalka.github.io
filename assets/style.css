@@ -122,7 +122,8 @@ h1, h2, h3 {
   display: flex;
   align-items: center;  /* Vertically align the items */
   justify-content: space-between;
-  margin: 20px 0;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 /* Styling for the profile image */
@@ -408,6 +409,7 @@ p {
 .about-me {
   padding-left: 100px;
   padding-bottom: 60px;
+  padding-top: 20px;
 }
 
 .about-me p {
