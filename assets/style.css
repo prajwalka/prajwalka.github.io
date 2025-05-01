@@ -404,14 +404,17 @@ p {
 }
 
 .about-me {
+  padding-left: 100px;
+  margin-bottom: 60px;
+}
+
+.about-me p {
   font-family: 'Computer Modern Sans', sans-serif;
   font-size: 1.2em;
   text-align: justify;
   line-height: 1.6;
   color: #000000;
-  padding-left: 100px;
-  margin-bottom: 60px;
-  max-width: 1300px; /* Limit width for better text readability */
+  max-width: 1100px;
 }
 
 /* Footer formatting */
