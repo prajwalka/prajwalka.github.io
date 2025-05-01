@@ -391,7 +391,19 @@ p {
   object-fit: cover;
 }
 
-.bout-me p {
+@media (max-width: 768px) {
+  .image-row img {
+    width: 48%; /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-row img {
+    width: 100%; /* 1 per row on phones */
+  }
+}
+
+.about-me p {
   font-family: 'Computer Modern Sans', sans-serif;
   font-size: 1.2em;
   text-align: justify;
