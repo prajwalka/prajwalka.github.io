@@ -18,6 +18,6 @@ permalink: /about/
   </p>
 
   <p>
-    Beyond academics, I have a deep passion for travel and have been fortunate to explore 17 countries across four continents. Some of my most memorable experiences include visiting California’s national parks and hiking through their stunning landscapes during my graduate studies. I also have a strong connection to music, having trained in Indian classical violin since childhood—a pursuit that continues to be a source of joy and grounding. In addition, I enjoy playing a variety of racquet sports and board games, and I closely follow cricket. I find that music and spirituality have played a pivotal role in cultivating a sense of calm and a positive outlook, both in my research and in life more broadly. 
+    Beyond academics, I have a deep passion for travel and have been fortunate to explore 17 countries across four continents. Some of my most memorable experiences include visiting California’s national parks and hiking through their stunning landscapes during my graduate studies. I also have a strong connection to music, having trained in Indian classical violin since childhood—a pursuit that continues to be a source of joy and grounding. In addition, I enjoy playing a variety of racquet sports and board games, and am an avid cricket follower. I find that music and spirituality have played a pivotal role in cultivating a sense of calm and a positive outlook, both in my research and in life more broadly. 
   </p>
 </div>

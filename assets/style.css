@@ -418,7 +418,7 @@ p {
   text-align: justify;
   line-height: 1.6;
   color: #000000;
-  max-width: 1250px;
+  max-width: 1200px;
 }
 
 /* Footer formatting */
@@ -445,8 +445,8 @@ p {
 }
 
 .footer-icons img {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   transition: transform 0.2s;
 }
 
