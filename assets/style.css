@@ -507,6 +507,9 @@ p {
 
 .reference-inline {
   margin-top: 0.5em;
-  font-size: 1.0em;
   color: black;
+}
+
+.reference-inline p {
+  font-size: 1.0em;
 }

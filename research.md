@@ -177,9 +177,9 @@ As the first step in this process, I am focusing on modeling the short crack pro
     <h3>Ductile fracture modeling of steel and cohesive frictional materials</h3>
     
     <p class="reference-inline"><strong>Reference:</strong>
-      <a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari et al., Comput. Methods Appl. Mech. Eng. (2022)</a>
-      <a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner et al., Comput. Geotech. (2023)</a>
-      <a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari et al., Comput. Methods Appl. Mech. Eng. (2023)</a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari et al., CMAME (2022)</a>;
+      <a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner et al., Comput. Geotech. (2023)</a>;
+      <a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari et al., CMAME (2023)</a>
     </p>
 
     <p>
