@@ -416,40 +416,35 @@ p {
 
 /* Footer formatting */
 .site-footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  background-color: #f8f8f8;
-  padding: 10px 20px;
-  font-size: 0.85em;
-  color: #666;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  box-shadow: 0 -1px 5px rgba(0,0,0,0.05);
-  z-index: 100;
+  background-color: #000000;
+  background-image: url('/Photos/rice-paper.png'); /* Paper texture */
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 60px;
 }
 
-.footer-content {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+.footer-icons {
+  margin-bottom: 15px;
+}
+
+.footer-icons a {
+  margin: 0 15px;
+  display: inline-block;
 }
 
 .footer-icons img {
-  width: 20px;
-  height: 20px;
-  margin-left: 12px;
-  filter: grayscale(100%);
-  transition: filter 0.2s ease;
+  height: 36px;
+  width: 36px;
+  transition: transform 0.2s;
 }
 
 .footer-icons img:hover {
-  filter: none;
+  transform: scale(1.15);
 }
 
 .footer-text {
-  font-size: 0.8em;
-  color: #555;
+  font-size: 1em;
+  color: silver;
 }
