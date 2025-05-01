@@ -176,6 +176,10 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Ductile fracture modeling of steel and cohesive frictional materials</h3>
 
+    <p>
+      In these projects, micromechanics-driven ductile fracture formulations are developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry.
+    </p>
+
     <div class="reference-list">
       <h4>References</h4>
       <ul>
@@ -184,10 +188,6 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <li><a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari, Neuner, Arunachala & Linder, Comput. Methods Appl. Mech. Eng. (2023)</a></li>
       </ul>
     </div>
-
-    <p>
-      In these projects, micromechanics-driven ductile fracture formulations are developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry.
-    </p>
   </div>
 
 </section>
