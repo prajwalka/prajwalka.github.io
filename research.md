@@ -59,9 +59,9 @@ As the first step in this process, I am focusing on modeling the short crack pro
 
     <div class="reference-list">
       <h4>References</h4>
-      <ol>
+      <ul>
       <li><a href="https://www.sciencedirect.com/science/article/pii/S0022509621002593" target="_blank"> Arunachala, Rastak & Linder, J. Mech. Phys. Solids (2021) </a></li>
-      </ol>
+      </ul>
     </div>
 
     <p> 
