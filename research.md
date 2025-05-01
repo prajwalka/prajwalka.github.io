@@ -77,7 +77,13 @@ As the first step in this process, I am focusing on modeling the short crack pro
       <figcaption class="figure-caption">Figure references: Russ et al. (2020), Mang et al. (2021)</figcaption>
   </figure>
 
-    <p><strong>Paper References: </strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782523001056" target="_blank">Arunachala et al., Comput. Methods Appl. Mech. Eng. (2023)</a>; <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ul>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0045782523001056" target="_blank">Arunachala et al., Comput. Methods Appl. Mech. Eng. (2023)</a></li>
+      <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a>
+      </ul>
+    </div>
 
     <p>
       As the next step, I proposed novel multiscale models to capture fracture propagation in non-crystallizing rubbers. This formulation utilizes the phase field approach to model the crack propagation, while also capturing major properties like chain entropic behavior, stretching of the microscale monomer bonds, anisotropic polymer network behavior, and incompressibility of rubbers. It is assumed that the rupturing of the microscale molecular bonds mainly drives damage. The models have been validated using various experimental results in order to demonstrate their predictive capability, accuracy, and numerical robustness.
@@ -109,7 +115,12 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Experiments to study elastomer fracture</h3>
 
-    <p><strong>Paper Reference:</strong> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ul>
+      <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">Arunachala et al., Int. J. Numer. Methods Eng. (2024)</a>
+      </ul>
+    </div>
 
     <p>
       To gain practical insight into fracture behavior in elastomers, we designed and conducted a set of experiments under the guidance of Dr. Renee Zhao at Stanford University. To study the behavior of PDMS rubber, we first fabricated dogbone specimens to obtain the uniaxial tensile response in order to calibrate material parameters. Subsequently, we fabricated square films with a central hole and asymmetric notches, and utilized the observed crack propagation paths and load-displacement behavior to validate our model.
@@ -119,7 +130,13 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Strain analysis of stretchable transistors</h3>
 
-    <p><strong>Paper References:</strong> <a href="https://www.nature.com/articles/s41928-020-00525-1" target="_blank">Wang,..., Arunachala et al., Nat. Electron. (2021)</a>; <a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Wu,..., Arunachala et al., Nat. Commun. (2023)</a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ul>
+      <li><a href="https://www.nature.com/articles/s41928-020-00525-1" target="_blank">Wang,..., Arunachala et al., Nat. Electron. (2021)</a></li>
+      <li><a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Wu,..., Arunachala et al., Nat. Commun. (2023)</a>
+      </ul>
+    </div>
 
     <p>
       For strain analysis of a stretchable transistor array comprising substrate and encapsulant layers, we developed a framework to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.
@@ -129,7 +146,12 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Physics-informed neural networks for shape sensing applications</h3>
 
-    <p><strong>Paper References:</strong> <a href="https://ascelibrary.org/doi/abs/10.1061/JENMDT.EMENG-6901" target="_blank">Qiu, Arunachala & Linder, J. Elast. (2023)</a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ul>
+      <li><a href="https://ascelibrary.org/doi/abs/10.1061/JENMDT.EMENG-6901" target="_blank">Qiu, Arunachala & Linder, J. Elast. (2023)</a></li>
+      </ul>
+    </div>
 
     <p>
       We utilized physics-informed neural networks (PINNs) to solve inverse problems, where deformations are reconstructed from strain sensor readings. In this approach, the underlying physics, represented by governing equations and boundary conditions, is incorporated into the neural network framework, while also minimizing discrepancies with the sensor data. This study holds significant promise for shape-sensing applications such as structural health monitoring and shape reconstruction in medical and fashion industries.
@@ -139,7 +161,12 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Fracture behavior of mock high explosive materials (PSAAP III)</h3>
 
-    <p><strong>Reference:</strong> <a href="https://micromorph.gitlab.io/overview/" target="_blank">Predictive Science Academic Alliance Program (PSAAP) III, CU Boulder</a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ul>
+      <li><a href="https://micromorph.gitlab.io/overview/" target="_blank">Predictive Science Academic Alliance Program (PSAAP) III, CU Boulder</a></li>
+      </ul>
+    </div>
 
     <p>
       As part of this multi-university collaborative project, I investigated the application of strong discontinuity theories, such as the Embedded Finite Element Method (EFEM), to capture the macroscale fracture behavior of mock high explosive materials. Additionally, I explored the integration of contact formulations and spatially varying material parameters with gradient-enhanced damage models to replicate experimentally observed behaviors. This study is highly relevant for understanding the fracture response of complex inhomogeneous materials. 
@@ -149,7 +176,14 @@ As the first step in this process, I am focusing on modeling the short crack pro
   <div class="research-subsection">
     <h3>Ductile fracture modeling of steel and cohesive frictional materials</h3>
 
-    <p><strong>Paper References:</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari, Neuner, Arunachala et al., Comput. Methods Appl. Mech. Eng. (2022)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner, Abrari Vajari, Arunachala & Linder, Comput. Geotech. (2023)</a>; <a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari, Neuner, Arunachala & Linder, Comput. Methods Appl. Mech. Eng. (2023)</a></p>
+    <div class="reference-list">
+      <h4>References</h4>
+      <ul>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0045782522004972" target="_blank">Abrari Vajari, Neuner, Arunachala et al., Comput. Methods Appl. Mech. Eng. (2022)</a></li>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0266352X22004013" target="_blank">Neuner, Abrari Vajari, Arunachala & Linder, Comput. Geotech. (2023)</a></li>
+      <li><a href="https://www.sciencedirect.com/science/article/pii/S0045782523005285" target="_blank">Abrari Vajari, Neuner, Arunachala & Linder, Comput. Methods Appl. Mech. Eng. (2023)</a></li>
+      </ul>
+    </div>
 
     <p>
       In these projects, micromechanics-driven ductile fracture formulations are developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry.
