@@ -98,6 +98,8 @@ header.scrolled nav a:hover {
 
 /* Adjust the body content to avoid being hidden under the fixed header */
 body {
+  margin: 0;
+  padding: 0;
   padding-top: 60px; /* Adjust based on your header height */
 }
 
