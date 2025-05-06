@@ -119,7 +119,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
     </div>
 
     <p>
-      To gain practical insight into fracture behavior in elastomers, we designed and conducted a set of experiments under the guidance of Dr. Renee Zhao at Stanford University. To study the behavior of PDMS rubber, we first fabricated dogbone specimens to obtain the uniaxial tensile response in order to calibrate material parameters. Subsequently, we fabricated square films with a central hole and asymmetric notches, and utilized the observed crack propagation paths and load-displacement behavior to validate our model.
+      In collaboration with <strong>Dr. Renee Zhao</strong> at Stanford University, we designed and conducted a set of experiments to gain practical insight into fracture behavior in elastomers. To study the behavior of PDMS rubber, we first fabricated dogbone specimens to obtain the uniaxial tensile response in order to calibrate material parameters. Subsequently, we fabricated square films with a central hole and asymmetric notches, and utilized the observed crack propagation paths and load-displacement behavior to validate our model.
     </p>
 
   </div>
@@ -134,7 +134,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
     </div>
 
     <p>
-      For strain analysis of a stretchable transistor array comprising substrate and encapsulant layers, we developed a framework to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.
+      In collaboration with <strong>Dr. Zhenan Bao</strong> at Stanford University, we developed a framework for strain analysis of a stretchable transistor array comprising substrate and encapsulant layers to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.
     </p>
 
   </div>
@@ -162,7 +162,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
     </div>
 
     <p>
-      As part of this multi-university collaborative project, I investigated the application of strong discontinuity theories, such as the Embedded Finite Element Method (EFEM), to capture the macroscale fracture behavior of mock high explosive materials. Additionally, I explored the integration of contact formulations and spatially varying material parameters with gradient-enhanced damage models to replicate experimentally observed behaviors. This study is highly relevant for understanding the fracture response of complex inhomogeneous materials. 
+      As part of this multi-university collaborative project headed by <strong>Dr. Richard Regueiro</strong>, I investigated the application of strong discontinuity theories, such as the Embedded Finite Element Method (EFEM), to capture the macroscale fracture behavior of mock high explosive materials. Additionally, I explored the integration of contact formulations and spatially varying material parameters with gradient-enhanced damage models to replicate experimentally observed behaviors. This study is highly relevant for understanding the fracture response of complex inhomogeneous materials. 
     </p>
 
   </div>
