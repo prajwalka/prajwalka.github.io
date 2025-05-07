@@ -134,7 +134,7 @@ As the first step in this process, I am focusing on modeling the short crack pro
     </div>
 
     <p>
-      In collaboration with <strong>Dr. Zhenan Bao</strong> at Stanford University, we developed a framework for strain analysis of a stretchable transistor array comprising substrate and encapsulant layers to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.
+      In a collaboration project with <strong>Dr. Zhenan Bao</strong> at Stanford University, we developed a framework for strain analysis of a stretchable transistor array comprising substrate and encapsulant layers to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.
     </p>
 
   </div>
