@@ -4,11 +4,13 @@ title: "CV"
 permalink: /cv/
 ---
 
-<h1> Curriculum Vitae</h1>
+<h1>Curriculum Vitae</h1> 
 
-<div class="cv-container">
-  <iframe src="/files/PrajwalKA_CV.pdf" class="cv-embed">
-    This browser does not support PDFs. Please download the PDF to view it: 
-    <a href="/files/PrajwalKA_CV.pdf">Download PDF</a>
-  </iframe>
+<div class="cv-container"> 
+  <object data="/files/PrajwalKA_CV.pdf" type="application/pdf" class="cv-embed" aria-label="CV PDF"> 
+
+  <p>Your browser can’t display PDFs inline.</p> 
+  <a class="cv-download" href="/files/PrajwalKA_CV.pdf" target="_blank" rel="noopener">Open the CV (PDF)
+  </a> 
+  </object> 
 </div>

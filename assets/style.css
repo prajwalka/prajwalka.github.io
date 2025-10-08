@@ -527,6 +527,15 @@ main a:active {
   border: none;
 }
 
+/* Fallback link styling (shown when PDF can't be embedded) */
+.cv-download {
+  display: inline-block;
+  margin-top: 12px;
+  color: #002D72;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 /* Reference list in research page formatting */
 .reference-list {
   padding-left: 50px;
@@ -654,7 +663,7 @@ main a:active {
 
   .cv-embed {
     width: 100%;
-    height: min(85dvh, 800px);
+    height: 80vh; //fallback for browsers without svh/dvh
   }
 
   /* Show dropdown, hide link row when JS created it */
@@ -703,5 +712,21 @@ main a:active {
   .footer-icons img {
     height: clamp(28px, 7vw, 40px);
     width: clamp(28px, 7vw, 40px);
+  }
+}
+
+/* CV embedding on mobiles */
+@supports (height: 1svh) {
+  @media (max-width: 640px) {
+    .cv-embed {
+      height: min(85svh, 800px);
+    }
+  }
+}
+@supports (height: 1dvh) {
+  @media (max-width: 640px) {
+    .cv-embed {
+      height: min(85dvh, 800px);
+    }
   }
 }
