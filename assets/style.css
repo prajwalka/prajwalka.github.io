@@ -1,3 +1,5 @@
+html { -webkit-text-size-adjust: 100%; }
+
 /* Header Styling */
 header {
   width: 100%;
@@ -520,3 +522,42 @@ p {
     padding: 16px 20px;
   }
 }
+
+/* Override many above options for scalability */
+/* Responsive typography overrides */
+body {
+line-height: 1.6;
+}
+
+/* Header title: use whichever selector you have for the site title */
+header h1,
+.site-title {
+font-size: clamp(24px, 2.8vw, 40px);
+line-height: 1.2;
+}
+
+/* Navigation links */
+nav a {
+font-size: clamp(14px, 1.6vw, 18px);
+line-height: 1.2;
+}
+
+/* Header padding scales with viewport so header can grow/shrink with text */
+.header-content {
+padding: clamp(12px, 2vw, 24px) clamp(16px, 3vw, 32px);
+}
+
+/* Paragraphs and list items across pages */
+p,
+.about-me p,
+.publications li,
+.reference-list li {
+font-size: clamp(16px, 1.2vw, 20px);
+}
+
+/* Slide and caption text */
+.caption-overlay,
+.slide-caption {
+font-size: clamp(12px, 1vw, 16px);
+}
+
