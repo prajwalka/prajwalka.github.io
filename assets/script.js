@@ -24,65 +24,71 @@ window.addEventListener('load', adjustBodyPadding);
 window.addEventListener('resize', adjustBodyPadding);
 
 /* Mobile drop-down menu */
-document.addEventListener('DOMContentLoaded', () => { document.documentElement.classList.add('js'); // flag that JS is available
-const nav = document.querySelector('#header .header-content nav');
-if (!nav) return;
+document.addEventListener('DOMContentLoaded', () => {
+// Flag that JS is available (used for fallback CSS)
+document.documentElement.classList.add('js');
 
-const links = Array.from(nav.querySelectorAll('a'));
-if (!links.length) return;
+  const headerEl = document.getElementById('header');
+  const nav = headerEl?.querySelector('.header-content nav');
+  if (!nav) return;
 
-const label = document.createElement('label');
-label.className = 'mobile-nav';
-label.setAttribute('aria-label', 'Site navigation');
+  // Prevent duplicate insertion if this runs twice
+  if (headerEl.querySelector('.mobile-nav-select')) return;
 
-const select = document.createElement('select');
-select.className = 'mobile-nav-select';
+  const links = Array.from(nav.querySelectorAll('a'));
+  if (!links.length) return;
 
-// Helper to normalize paths (remove trailing slash except root)
-const norm = p => {
-  if (!p) return '/';
-  p = p.replace(//+$/, '');
-  return p === '' ? '/' : p;
-};
+  const label = document.createElement('label');
+  label.className = 'mobile-nav';
+  label.setAttribute('aria-label', 'Site navigation');
 
-const currentPath = norm(location.pathname);
-let matchedCurrent = false;
+  const select = document.createElement('select');
+  select.className = 'mobile-nav-select';
 
-// Build options from existing links and preselect the current page
-links.forEach(link => {
-  const opt = document.createElement('option');
-  opt.value = link.href;
-  opt.textContent = link.textContent.trim();
+  const norm = p => {
+    if (!p) return '/';
+    p = p.replace(/\/+$/, '');
+    return p === '' ? '/' : p;
+  };
 
-  const linkPath = norm(new URL(link.getAttribute('href'), location.origin).pathname);
-  if (linkPath === currentPath) {
-    opt.selected = true;        // show current page name in the closed dropdown
-    matchedCurrent = true;
+  const currentPath = norm(location.pathname);
+  let matchedCurrent = false;
+
+  links.forEach(link => {
+    const opt = document.createElement('option');
+    opt.value = link.href;
+    opt.textContent = link.textContent.trim();
+    const linkPath = norm(new URL(link.getAttribute('href'), location.origin).pathname);
+    if (linkPath === currentPath) {
+      opt.selected = true;
+      matchedCurrent = true;
+    }
+    select.appendChild(opt);
+  });
+
+  if (!matchedCurrent) {
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = 'Menu';
+    placeholder.disabled = true;
+    placeholder.selected = true;
+    select.insertBefore(placeholder, select.firstChild);
   }
 
-  select.appendChild(opt);
-});
+  label.appendChild(select);
+  nav.parentNode.insertBefore(label, nav.nextSibling);
 
-// If no link matches the current page, insert a disabled "Menu" placeholder at top
-if (!matchedCurrent) {
-  const placeholder = document.createElement('option');
-  placeholder.value = '';
-  placeholder.textContent = 'Menu';
-  placeholder.disabled = true;
-  placeholder.selected = true;
-  select.insertBefore(placeholder, select.firstChild);
-}
+  // Only now mark the header ready so CSS hides the original nav
+  headerEl.classList.add('mobile-nav-ready');
 
-label.appendChild(select);
-nav.parentNode.insertBefore(label, nav.nextSibling);
+  // Recalculate body padding because header height changed
+  adjustBodyPadding();
 
-// Navigate on selection
-select.addEventListener('change', e => {
-  const url = e.target.value;
-  if (!url) return;
-  // Avoid reload if selecting current page
-  const toPath = norm(new URL(url, location.origin).pathname);
-  if (toPath === currentPath) return;
-  window.location.href = url;
-});
+  select.addEventListener('change', e => {
+    const url = e.target.value;
+    if (!url) return;
+    const toPath = norm(new URL(url, location.origin).pathname);
+    if (toPath === currentPath) return;
+    window.location.href = url;
+  });
 });
