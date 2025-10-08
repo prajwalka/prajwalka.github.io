@@ -134,7 +134,7 @@ p {
   text-align: justify;
   color: #000000;
   line-height: 1.6;
-  max-width: 800px;
+  max-width: 1600px;
   /* Responsive paragraph sizing and spacing */
   font-size: clamp(16px, 1.2vw, 20px);
   margin: 0 0 clamp(14px, 2vw, 22px);
@@ -461,8 +461,8 @@ main a:active {
 
 .footer-icons {
   position: absolute;
-  bottom: 20px;
-  right: 40px;
+  bottom: 10px;
+  right: 30px;
   display: flex;
   gap: 20px;
 }
