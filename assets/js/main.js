@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function () { new Swiper('.videoSwiper', { loop: true, slidesPerView: 1, spaceBetween: 16, pagination: { el: '.swiper-pagination', clickable: true }, navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }, keyboard: { enabled: true }, breakpoints: { 768: { spaceBetween: 20 }, 1024: { spaceBetween: 24 } } }); });
