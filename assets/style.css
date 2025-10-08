@@ -640,7 +640,8 @@ main a:active {
   /* Make long text/links wrap instead of forcing overflow */
   .header-content h1,
   .header-content h2,
-  .header-content p {
+  .header-content p,
+  .header-content a {
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
