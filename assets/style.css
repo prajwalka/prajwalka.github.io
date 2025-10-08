@@ -583,6 +583,7 @@ main a:active {
 @media (max-width: 480px) {
   .image-row img {
     width: 90%; /* 1 per row on phones */
+    justify-content: center;
   }
 }
 
@@ -610,10 +611,13 @@ main a:active {
     max-width: 100%;
   }
   .header-content nav a {
-    white-space: nowrap;
-    overflow-wrap: normal;
+    display: inline-block;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
     word-break: normal;
-    hyphens: none;
+    hyphens: auto;
+    padding: 0.35em 0.7em;
   }
   .header-content nav ul {
     display: flex;
