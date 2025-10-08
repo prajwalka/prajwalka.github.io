@@ -379,33 +379,40 @@ main a:active {
 
 /* Publications section formatting */
 .publications-wrapper {
-  padding-bottom: 60px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: min(100%, 1600px);
+  padding-top: clamp(12px, 3vw, 20px);
+  padding-right: clamp(16px, 4vw, 32px);
+  padding-bottom: clamp(24px, 5vw, 60px);
+  padding-left: clamp(16px, 6vw, 100px);
 }
 
 .publications {
   font-family: 'CMU Sans Serif', sans-serif;
-  font-size: 1.2em; 
+  font-size: clamp(16px, 1.2vw, 20px);
   text-align: justify;
   line-height: 1.6;
   color: #000000;
   box-sizing: border-box;
   width: 100%;
-  max-width: min(100%,2000px);
 }
 
 .publication-list {
-  padding-left: 100px;
   counter-reset: pub;
+  margin: 0;
+  padding-left: clamp(16px, 6vw, 100px);
 }
 
 .publication-list li {
   counter-increment: pub;
-  margin-bottom: 15px;
+  position: relative;
   text-align: justify;
   line-height: 1.6;
-  position: relative;
   font-size: clamp(16px, 1.2vw, 20px);
   margin-bottom: clamp(14px, 2vw, 22px);
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .publication-list li::marker {
