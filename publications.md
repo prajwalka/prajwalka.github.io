@@ -9,7 +9,9 @@ permalink: /publications/
 
     <ol class="publication-list">
 
-      <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, J.S.Sim, R.Zhao, C.Linder. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">A multiscale anisotropic polymer network model coupled with phase field fracture</a>. <em>International Journal for Numerical Methods in Engineering</em>, 2024, e7488.</li>
+      <li>S.Abrari Vajari, M.Neuner, <strong>P.K.Arunachala</strong>, C.Linder. <a href="https://onlinelibrary.wiley.com/doi/10.1002/nme.70140" target="_blank">A micropolar phase field fracture model for elastoplastic solids applied to concrete failure</a>. <em>International Journal for Numerical Methods in Engineering</em>, 2025:126(19), e70140.</li>
+
+      <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, J.S.Sim, R.Zhao, C.Linder. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">A multiscale anisotropic polymer network model coupled with phase field fracture</a>. <em>International Journal for Numerical Methods in Engineering</em>, 2024:125(13), e7488.</li>
 
       <li>H-C.Wu, S.Nikzad, C.Zhu, H.Yan, Y.Li, W.Niu, J.R.Matthews, J.Xu, N.Matsuhisa, <strong>P.K.Arunachala</strong>, R.Rastak, C.Linder, Y-Q.Zheng, M.F.Toney, M.He, Z.Bao. <a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">Highly stretchable polymer semiconductor thin films with multi-modal energy dissipation and high relative stretchability</a>. <em>Nature Communications</em>, 2023:14(1), 8382.</li>
 
@@ -37,6 +39,8 @@ permalink: /publications/
 
     <ol class="publication-list">
 
+      <li><strong>P.K.Arunachala</strong>, J.Stickel, S.Ghosh. Fatigue short crack propagation in polycrystalline microstructures using a coupled crystal plasticity-phase field model. <em>U.S. National Congress on Computational Mechanics (USNCCM)</em>, Chicago, July 2025.</li>
+
       <li><strong>P.K.Arunachala</strong>, C.Linder. A multiscale phase field formulation for capturing the fracture behavior of rubber-like materials. <em>Engineering Mechanics Institute (EMI) Conference</em>, Chicago, May 2024.</li>
 
      <li><strong>P.K.Arunachala</strong>, W.Xue, M.Neuner, C.Linder. Multiscale phase field mixed formulation for predicting fracture behavior in incompressible rubber-like materials. <em>U.S. National Congress on Computational Mechanics (USNCCM)</em>, Albuquerque, July 2023.</li>
@@ -57,6 +61,10 @@ permalink: /publications/
 
     <ol class="publication-list">
       
+        <li>S.Ghosh, <strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>. Coupled phase field-crystal plasticity FEM framework for fatigue crack propagation in polycrystalline materials. <em>RExtraordinary Materials for Extreme Conditions (ONR) Annual Review</em>, Duke University, Durham, August 2025.</li>
+
+        <li><strong>P.K.Arunachala</strong>, S.Ghosh. Fatigue crack growth with CPFEM and phase field modeling  in additively manufactured Ti-6Al-4V and 718 alloys. <em>Institute for Model-Based Qualification \& Certification of Additive Manufacturing (NASA STRI) Annual Review</em>, Johns Hopkins University, Baltimore, August 2025.</li>
+
         <li><strong>P.K.Arunachala</strong>, C.Linder. A multiscale phase field formulation for capturing fracture behavior of rubber-like materials. <em>Robert J. Melosh Medal Competition</em>, Duke University, Durham, October 2024.</li>
 
         <li><strong>P.K.Arunachala</strong>, C.Linder. <em>Poster</em> Computational modeling of fracture behavior of polymers. <em>Stanford-IIT Bombay Workshop on Sustainability</em>, Stanford University, Stanford, July 2024.</li>
@@ -77,4 +85,6 @@ permalink: /publications/
 
         <li><strong>P.K.Arunachala</strong>, R.Rastak, C.Linder. Energy criterion for fracture initiation in strain-crystallizing rubbers. <em>Berkeley/Stanford Computational Mechanics Festival (CompFest)</em>, Virtual, August 2020.</li>
     </ol>
+
+  <p class="pub-footnote" id="joint-note"><sup>†</sup> Presenter</p>
 </div>

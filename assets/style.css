@@ -423,6 +423,20 @@ main a:active {
   font-weight: bold;
 }
 
+.joint-marker { color: #002D72; }
+
+.pub-footnote {
+  font-family: 'CMU Sans Serif', sans-serif;
+  font-size: clamp(14px, 1vw, 16px);
+  color: #555;
+  margin-top: clamp(12px, 2vw, 20px);
+}
+
+.pub-footnote sup {
+  color: #002D72;
+  font-weight: bold;
+}
+
 /* About Me formatting */
 .image-row {
   display: flex;
