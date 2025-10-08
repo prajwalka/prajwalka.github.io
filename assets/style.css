@@ -505,14 +505,19 @@ main a:active {
 
 /* CV formatting */
 .cv-container {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: clamp(16px, 5vw, 40px);
+  padding-inline: clamp(12px, 5vw, 24px);
+  width: 100%;
 }
 
 .cv-embed {
-  width: 80%;
-  height: 800px;
+  display: block;
+  box-sizing: border-box;
+  width: min(100%, 900px);
+  height: clamp(480px, 75vh, 800px);
   border: none;
 }
 
@@ -620,6 +625,11 @@ main a:active {
     overflow-wrap: anywhere;
     word-break: break-word;
     hyphens: auto;
+  }
+
+  .cv-embed {
+    width: 100%;
+    height: min(85dvh, 800px);
   }
 }
 
