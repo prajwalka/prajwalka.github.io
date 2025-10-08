@@ -85,7 +85,7 @@ title: "Home"
   <div class="text-container">
     <h2> Bio </h2>
     <p>
-      Hello! I am a researcher in computational mechanics, interested in revolutionizing the microstructure-informed modeling of advanced materials, especially their failure behavior. My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning.
+      Hello! I am a researcher in computational mechanics with a vision of revolutionizing manufacturing and applications of advanced materials through microstructure-informed, high-fidelity, and high-performance models. My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning.
     </p>
 
     <p>
