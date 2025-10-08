@@ -64,7 +64,7 @@ nav a {
   color: #002D72;
   font-weight: 500;
   transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
-  font-size: clamp(10px, 1.2vw, 14px);
+  font-size: clamp(12px, 1.4vw, 18px);
   line-height: 1.2;
 }
 
