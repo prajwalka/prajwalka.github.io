@@ -34,15 +34,19 @@ header {
   border-bottom: 2px solid #000000;
 }
 
-/* Header content */
 .header-content {
-  width: 100%;
-  max-width: 1600px; /* Limit content width inside header */
+  box-sizing: border-box;
+  width: min(100%, 1600px);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: clamp(14px, 2vw, 28px) clamp(20px, 3vw, 36px);
+  padding: clamp(10px, 4vw, 20px) clamp(12px, 5vw, 24px);
+  gap: clamp(8px, 2vw, 24px);
+}
+
+.header-content > * {
+  min-width: 0;           /* lets flex items shrink/wrap their content */
 }
 
 /* Site Title */
@@ -584,6 +588,12 @@ main a:active {
 @media (max-width: 640px) {
   .profile-image {
     width: clamp(96px, 30vw, 160px);
+  }
+  .header-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(8px, 3vw, 16px);
+    padding: clamp(10px, 4vw, 16px);
   }
 }
 
