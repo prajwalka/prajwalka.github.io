@@ -388,7 +388,9 @@ main a:active {
   text-align: justify;
   line-height: 1.6;
   color: #000000;
-  max-width: clamp(560px, 100vw, 1600px);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: min(100%,2000px);
 }
 
 .publication-list {
@@ -432,6 +434,7 @@ main a:active {
   padding-left: 100px;
   padding-bottom: 60px;
   padding-top: 20px;
+  max-width: clamp(560px, 100vw, 1600px);
 }
 
 .about-me p {
