@@ -37,7 +37,7 @@ header {
 /* Header content */
 .header-content {
   width: 100%;
-  max-width: 1200px; /* Limit content width inside header */
+  max-width: 1600px; /* Limit content width inside header */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -54,8 +54,7 @@ header .site-title {
   text-decoration: none;
   letter-spacing: 1px;
   line-height: 1.2;
-  /* Responsive title size */
-  font-size: clamp(24px, 2.8vw, 40px);
+  font-size: clamp(20px, 2.2vw, 34px);
 }
 
 /* Default navigation link style */
@@ -456,7 +455,7 @@ main a:active {
   justify-content: center;
   align-items: flex-end;
   position: relative;
-  min-height: 80px;
+  min-height: 140px;
 }
 
 .footer-icons {
@@ -551,6 +550,9 @@ main a:active {
   }
   .image-row img {
     width: 48%; /* 2 per row on tablets */
+  }
+  nav {
+    white-space: nowrap;
   }
 }
 
