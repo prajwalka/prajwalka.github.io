@@ -385,8 +385,8 @@ main a:active {
   box-sizing: border-box;
   margin: 0 auto;
   width: min(100%, 1600px);
-  padding-block: clamp(24px, 3vw, 48px);
-  padding-inline: clamp(30px, 5vw, 60px);
+  padding-block: clamp(30px, 3vw, 48px);
+  padding-inline: clamp(40px, 5vw, 60px);
 }
 
 .publications {
@@ -442,8 +442,8 @@ main a:active {
   box-sizing: border-box;
   margin: 0 auto;
   width: min(100%, 1600px);
-  padding-block: clamp(24px, 3vw, 48px);
-  padding-inline: clamp(30px, 5vw, 60px);
+  padding-block: clamp(30px, 3vw, 48px);
+  padding-inline: clamp(40px, 5vw, 60px);
 }
 
 .about-me p {
