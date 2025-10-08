@@ -12,15 +12,13 @@
   </script>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="/assets/style.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link href="https://fonts.googleapis.com/css2family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/computer-modern" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@10/swiper-bundle.min.css"> <script defer src="https://unpkg.com/swiper@10/swiper-bundle.min.js"></script>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
   {% include header.html %}
@@ -30,10 +28,6 @@
   {% include footer.html %}
 <script src="/assets/script.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
 <script>
   var swiper = new Swiper(".videoSwiper", {
@@ -72,7 +66,7 @@
       setPlaybackRate();
 
       // Try again on loadeddata (if metadata wasn't ready yet)
-      video.addEventListener("loadeddata", setPlaybackRate);
+      video.addEventListener("loadedmetadata", setPlaybackRate);
     });
   });
 </script>

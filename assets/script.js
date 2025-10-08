@@ -6,10 +6,19 @@ const navLinks = document.querySelectorAll('nav a');
 const siteTitle = document.querySelector('.site-title');
 
 // Listen for scroll event
-window.onscroll = function() {
-  if (window.scrollY > 2) { // When scrolling down
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 2) {
     header.classList.add('scrolled');
-  } else { // When at the top
+  } else {
     header.classList.remove('scrolled');
   }
-};
+});
+
+function adjustBodyPadding() {
+  const header = document.querySelector('header');
+  if (header) {
+    document.body.style.paddingTop = header.offsetHeight + 'px';
+  }
+}
+window.addEventListener('load', adjustBodyPadding);
+window.addEventListener('resize', adjustBodyPadding);
