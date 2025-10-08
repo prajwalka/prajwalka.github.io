@@ -41,7 +41,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: clamp(10px, 4vw, 20px) clamp(12px, 5vw, 24px);
+  padding: clamp(14px, 4vw, 30px) clamp(16px, 5vw, 36px);
   gap: clamp(8px, 2vw, 24px);
 }
 
@@ -170,8 +170,8 @@ main a:active {
   margin-left: auto;
   margin-right: auto;
   margin-inline: auto;
-  padding-block: clamp(16px, 5vw, 30px);
-  padding-inline: clamp(24px, 5vw, 48px);
+  padding-block: clamp(30px, 3vw, 48px);
+  padding-inline: clamp(40px, 5vw, 60px);
 }
 
 .image-container {
@@ -577,7 +577,7 @@ main a:active {
 /* Phones */
 @media (max-width: 480px) {
   .image-row img {
-    width: 100%; /* 1 per row on phones */
+    width: 90%; /* 1 per row on phones */
   }
 }
 
@@ -590,8 +590,8 @@ main a:active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: clamp(8px, 3vw, 16px);
-    padding: clamp(10px, 4vw, 16px);
+    gap: clamp(6px, 3vw, 10px);
+    padding: clamp(6px, 4vw, 12px);
   }
   .header-content > * {
     min-width: 0;
