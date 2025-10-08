@@ -618,15 +618,6 @@ main a:active {
     min-width: 0;
     max-width: 100%;
   }
-  .header-content nav a {
-    display: inline-block;
-    max-width: 100%;
-    white-space: normal;
-    overflow-wrap: break-word;
-    word-break: normal;
-    hyphens: auto;
-    padding: 0.35em 0.7em;
-  }
   .header-content nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -635,13 +626,29 @@ main a:active {
     padding: 0;
     column-gap: clamp(4px, 2vw, 10px);
     row-gap: clamp(6px, 3vw, 12px);
+    min-width: 0;
   }
+  .header-content nav li {
+    flex: 0 1 auto; 
+    min-width: 0;
+    max-width: 100%;
+  }
+  .header-content nav a {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+    padding: 0.35em 0.6em;
+  }
+  
 
   /* Make long text/links wrap instead of forcing overflow */
   .header-content h1,
   .header-content h2,
-  .header-content p,
-  .header-content a {
+  .header-content p {
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
