@@ -1,4 +1,5 @@
 html { -webkit-text-size-adjust: 100%; }
+*, *::before, *::after { box-sizing: border-box; }
 
 /* Header Styling */
 header {
@@ -517,12 +518,6 @@ p {
   font-size: 0.9em;
 }
 
-@media (max-width: 768px) {
-  .header-content {
-    padding: 16px 20px;
-  }
-}
-
 /* Override many above options for scalability */
 /* Responsive typography overrides */
 body {
@@ -553,6 +548,8 @@ p,
 .publications li,
 .reference-list li {
 font-size: clamp(16px, 1.2vw, 20px);
+line-height: 1.6;
+margin: 0 0 clamp(14px, 2vw, 22px);
 }
 
 /* Slide and caption text */
@@ -561,3 +558,40 @@ font-size: clamp(16px, 1.2vw, 20px);
 font-size: clamp(12px, 1vw, 16px);
 }
 
+/* Intro section responsive layout /
+.intro {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+gap: clamp(16px, 3vw, 32px);
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px clamp(16px, 4vw, 40px);
+}
+.image-container {
+flex: 0 0 auto;
+}
+.profile-image {
+width: clamp(140px, 20vw, 240px);
+height: auto;
+display: block;
+border-radius: 8px;
+}
+.text-container {
+flex: 1 1 480px;
+min-width: 260px;
+}
+.text-container p {
+font-size: clamp(16px, 1.2vw, 20px);
+line-height: 1.6;
+margin: 0 0 clamp(14px, 2vw, 22px);
+}
+@media (max-width: 768px) {
+.intro {
+flex-direction: column;
+align-items: center; / center the image; text remains left within its container */
+}
+.text-container {
+width: 100%;
+}
+}
