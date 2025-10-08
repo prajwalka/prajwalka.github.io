@@ -98,6 +98,9 @@ header.scrolled nav a:hover {
   color: white; /* White when hovered after scrolling */
 }
 
+/* Menu for mobile phones */
+#header .mobile-nav { display: none; }
+
 /* Adjust the body content to avoid being hidden under the fixed header */
 body {
   margin: 0;
