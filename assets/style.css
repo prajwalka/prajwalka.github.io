@@ -472,7 +472,7 @@ main a:active {
   min-height: 80px;
   width: 100%;
   padding-top: clamp(12px, 3vw, 20px);
-  padding-bottom: clamp(4px, 1.2vw, 8px);
+  padding-bottom: clamp(3px, 1.2vw, 5px);
   padding-left: clamp(16px, 5vw, 30px);
   padding-right: clamp(16px, 5vw, 30px);
 }
