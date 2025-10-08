@@ -388,14 +388,6 @@ main a:active {
 }
 
 /* Publications section formatting */
-.publications-wrapper {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: min(100%, 1600px);
-  padding-block: clamp(30px, 3vw, 48px);
-  padding-inline: clamp(40px, 5vw, 60px);
-}
-
 .publications {
   font-family: 'CMU Sans Serif', sans-serif;
   font-size: clamp(16px, 1.2vw, 20px);
@@ -403,7 +395,10 @@ main a:active {
   line-height: 1.6;
   color: #000000;
   box-sizing: border-box;
-  width: 100%;
+  margin: 0 auto;
+  width: min(100%, 1600px);
+  padding-block: clamp(30px, 3vw, 48px);
+  padding-inline: clamp(40px, 5vw, 60px);
 }
 
 .publication-list {

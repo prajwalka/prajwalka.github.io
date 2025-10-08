@@ -3,8 +3,6 @@ layout: default
 title: "Publications & Talks"
 permalink: /publications/
 ---
-<div class="publications-wrapper">
-
 <h1> Journal Publications </h1> 
 
 <div class="publications">
@@ -79,6 +77,4 @@ permalink: /publications/
 
         <li><strong>P.K.Arunachala</strong>, R.Rastak, C.Linder. Energy criterion for fracture initiation in strain-crystallizing rubbers. <em>Berkeley/Stanford Computational Mechanics Festival (CompFest)</em>, Virtual, August 2020.</li>
     </ol>
-</div>
-
 </div>
