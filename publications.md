@@ -61,29 +61,29 @@ permalink: /publications/
 
     <ol class="publication-list">
       
-        <li>S.Ghosh, <strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>. Coupled phase field-crystal plasticity FEM framework for fatigue crack propagation in polycrystalline materials. <em>RExtraordinary Materials for Extreme Conditions (ONR) Annual Review</em>, Duke University, Durham, August 2025.</li>
+        <li>S.Ghosh<sup class="joint-marker" aria-describedby="joint-note">†</sup>, <strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>. Coupled phase field-crystal plasticity FEM framework for fatigue crack propagation in polycrystalline materials. <em>RExtraordinary Materials for Extreme Conditions (ONR) Annual Review</em>, Duke University, Durham, August 2025.</li>
 
-        <li><strong>P.K.Arunachala</strong>, S.Ghosh. Fatigue crack growth with CPFEM and phase field modeling  in additively manufactured Ti-6Al-4V and 718 alloys. <em>Institute for Model-Based Qualification \& Certification of Additive Manufacturing (NASA STRI) Annual Review</em>, Johns Hopkins University, Baltimore, August 2025.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, S.Ghosh. Fatigue crack growth with CPFEM and phase field modeling  in additively manufactured Ti-6Al-4V and 718 alloys. <em>Institute for Model-Based Qualification & Certification of Additive Manufacturing (NASA STRI) Annual Review</em>, Johns Hopkins University, Baltimore, August 2025.</li>
 
-        <li><strong>P.K.Arunachala</strong>, C.Linder. A multiscale phase field formulation for capturing fracture behavior of rubber-like materials. <em>Robert J. Melosh Medal Competition</em>, Duke University, Durham, October 2024.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, C.Linder. A multiscale phase field formulation for capturing fracture behavior of rubber-like materials. <em>Robert J. Melosh Medal Competition</em>, Duke University, Durham, October 2024.</li>
 
-        <li><strong>P.K.Arunachala</strong>, C.Linder. <em>Poster</em> Computational modeling of fracture behavior of polymers. <em>Stanford-IIT Bombay Workshop on Sustainability</em>, Stanford University, Stanford, July 2024.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, C.Linder. <em>Poster</em> Computational modeling of fracture behavior of polymers. <em>Stanford-IIT Bombay Workshop on Sustainability</em>, Stanford University, Stanford, July 2024.</li>
 
-        <li><strong>P.K.Arunachala</strong>, C.Linder. Multiscale framework for fracture modeling in rubber-like materials. <em>Rising Stars in Computational & Data Sciences</em>, Oden Institute, Austin, May 2024.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, C.Linder. Multiscale framework for fracture modeling in rubber-like materials. <em>Rising Stars in Computational & Data Sciences</em>, Oden Institute, Austin, May 2024.</li>
 
-        <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, C.Linder. A multiscale fracture model for rubber-like materials. <em>School of Sustainability Research Review</em>, Stanford University, Stanford, May 2023.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, S.Abrari Vajari, M.Neuner, C.Linder. A multiscale fracture model for rubber-like materials. <em>School of Sustainability Research Review</em>, Stanford University, Stanford, May 2023.</li>
 
-        <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, C.Linder. Non-affine multiscale fracture model for rubber-like materials. <em>Berkeley/Stanford Computational Mechanics Festival (CompFest)</em>, Stanford University, Stanford, December 2022.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, S.Abrari Vajari, M.Neuner, C.Linder. Non-affine multiscale fracture model for rubber-like materials. <em>Berkeley/Stanford Computational Mechanics Festival (CompFest)</em>, Stanford University, Stanford, December 2022.</li>
 
-        <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, C.Linder. <em>Poster</em> A multiscale fracture model using phase field approach. <em>Blume/SURI Affiliate and Alumni Meeting</em>, Stanford University, Stanford, October 2022.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, S.Abrari Vajari, M.Neuner, C.Linder. <em>Poster</em> A multiscale fracture model using phase field approach. <em>Blume/SURI Affiliate and Alumni Meeting</em>, Stanford University, Stanford, October 2022.</li>
 
-        <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, C.Linder. <em>Poster</em> A multiscale fracture model using phase field approach. <em>PSAAP III Annual Review</em>, University of Colorado, Boulder, September 2022.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, S.Abrari Vajari, M.Neuner, C.Linder. <em>Poster</em> A multiscale fracture model using phase field approach. <em>PSAAP III Annual Review</em>, University of Colorado, Boulder, September 2022.</li>
 
-        <li><strong>P.K.Arunachala</strong>, M.Neuner, S.Abrari Vajari, C.Linder. Multiscale fracture model for rubber-like polymers. <em>CEE Summer Student Speaker Series</em>, Stanford University, Stanford, July 2022.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, M.Neuner, S.Abrari Vajari, C.Linder. Multiscale fracture model for rubber-like polymers. <em>CEE Summer Student Speaker Series</em>, Stanford University, Stanford, July 2022.</li>
 
-        <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, C.Linder. Embedded Finite Element Method in MOOSE for modeling crack propagation. <em>PSAAP III Annual Review</em>, Virtual, September 2021.</li>
+        <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, C.Linder. Embedded Finite Element Method in MOOSE for modeling crack propagati<sup class="joint-marker" aria-describedby="joint-note">†</sup>on. <em>PSAAP III Annual Review</em>, Virtual, September 2021.</li>
 
-        <li><strong>P.K.Arunachala</strong>, R.Rastak, C.Linder. Energy criterion for fracture initiation in strain-crystallizing rubbers. <em>Berkeley/Stanford Computational Mechanics Festival (CompFest)</em>, Virtual, August 2020.</li>
+        <li><strong>P.K.Arunachala</strong><sup class="joint-marker" aria-describedby="joint-note">†</sup>, R.Rastak, C.Linder. Energy criterion for fracture initiation in strain-crystallizing rubbers. <em>Berkeley/Stanford Computational Mechanics Festival (CompFest)</em>, Virtual, August 2020.</li>
     </ol>
 
   <p class="pub-footnote" id="joint-note"><sup>†</sup> Presenter</p>
