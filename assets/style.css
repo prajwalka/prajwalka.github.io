@@ -565,12 +565,11 @@ flex-wrap: wrap;
 align-items: flex-start;
 gap: clamp(16px, 3vw, 32px);
 max-width: 1200px;
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
 padding: 20px clamp(16px, 4vw, 40px);
 }
-.image-container {
-flex: 0 0 auto;
-}
+.image-container { flex: 0 0 auto; }
 .profile-image {
 width: clamp(140px, 20vw, 240px);
 height: auto;
@@ -581,17 +580,8 @@ border-radius: 8px;
 flex: 1 1 480px;
 min-width: 260px;
 }
-.text-container p {
-font-size: clamp(16px, 1.2vw, 20px);
-line-height: 1.6;
-margin: 0 0 clamp(14px, 2vw, 22px);
-}
+
 @media (max-width: 768px) {
-.intro {
-flex-direction: column;
-align-items: center; / center the image; text remains left within its container */
-}
-.text-container {
-width: 100%;
-}
+.intro { flex-direction: column; align-items: center; }
+.text-container { width: 100%; }
 }
