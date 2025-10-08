@@ -83,6 +83,7 @@ title: "Home"
     <img src="Photos/Profile.png" alt="Prajwal Kammardi Arunachala" class="profile-image">
   </div>
   <div class="text-container">
+    <h2> Bio </h2>
     <p>
       Hello! I am a researcher in computational mechanics, interested in revolutionizing the microstructure-informed modeling of advanced materials, especially their failure behavior. My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning.
     </p>
