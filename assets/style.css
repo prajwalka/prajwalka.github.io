@@ -459,6 +459,7 @@ main a:active {
   hyphens: auto;
 }
 
+/* Footer formatting */
 .site-footer {
   box-sizing: border-box;
   background-color: #000000;
@@ -469,6 +470,8 @@ main a:active {
   margin-top: 0;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
+  place-items: end center;
+  align-content: end; 
   align-items: end;
   min-height: 80px;
   width: 100%;
@@ -490,6 +493,7 @@ main a:active {
 }
 
 .footer-icons img {
+  display: block;
   height: 40px;
   width: 40px;
   transition: transform 0.2s;
