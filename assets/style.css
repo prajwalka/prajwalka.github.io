@@ -42,7 +42,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* Responsive padding scales with viewport */
   padding: clamp(12px, 2vw, 24px) clamp(16px, 3vw, 32px);
 }
 
@@ -54,7 +53,7 @@ header .site-title {
   text-decoration: none;
   letter-spacing: 1px;
   line-height: 1.2;
-  font-size: clamp(20px, 2.2vw, 34px);
+  font-size: clamp(16px, 1.8vw, 28px);
 }
 
 /* Default navigation link style */
@@ -65,8 +64,7 @@ nav a {
   color: #002D72;
   font-weight: 500;
   transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
-  /* Responsive nav text */
-  font-size: clamp(14px, 1.6vw, 18px);
+  font-size: clamp(10px, 1.2vw, 14px);
   line-height: 1.2;
 }
 
@@ -167,12 +165,14 @@ main a:active {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: clamp(16px, 3vw, 32px);
-  max-width: 1200px;
+  max-width: clamp(560px, 100vw, 1600px);
   margin-left: auto;
   margin-right: auto;
+  margin-inline: auto;
   padding: 20px clamp(16px, 4vw, 40px);
   padding-bottom: 30px;
   padding-top: 20px;
+  padding-inline: clamp(16px, 3vw, 32px);
 }
 
 .image-container {
@@ -181,8 +181,9 @@ main a:active {
 
 /* Styling for the profile image */
 .profile-image {
-  width: clamp(140px, 20vw, 240px);
+  width: clamp(120px, 20vw, 300px);
   height: auto;
+  max-width: 100%;
   border-radius: 50%; /* keep round image */
   display: block;
 }
@@ -455,7 +456,7 @@ main a:active {
   justify-content: center;
   align-items: flex-end;
   position: relative;
-  min-height: 140px;
+  min-height: 80px;
 }
 
 .footer-icons {
@@ -463,12 +464,12 @@ main a:active {
   bottom: 20px;
   right: 40px;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .footer-icons img {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   transition: transform 0.2s;
 }
 
@@ -560,6 +561,13 @@ main a:active {
 @media (max-width: 480px) {
   .image-row img {
     width: 100%; /* 1 per row on phones */
+  }
+}
+
+/* Slight adjustment on very small screens */
+@media (max-width: 640px) {
+  .profile-image {
+    width: clamp(96px, 30vw, 160px);
   }
 }
 
