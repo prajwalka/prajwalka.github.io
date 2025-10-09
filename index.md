@@ -159,9 +159,9 @@ title: "Home"
 
        <li> <strong>S.C.Mehrotra Prize, Institute Academic Prize</strong> — IITB [2014-16] </li>
 
-       <li> <strong>National Talent Search (NTS) Scholarship</strong> — National Council of Education Research and Training, Government of India [2009-16] </li>
+       <li> <strong>National Talent Search (NTS) Scholarship</strong> — National Council of Education Research and Training, Govt. of India [2009-16] </li>
 
-       <li> <strong>Kishore Vaigyanik Protsahan Yojana (KVPY) Scholarship</strong> — Department of Science and Technology, Government of India [2013] </li>
+       <li> <strong>Kishore Vaigyanik Protsahan Yojana (KVPY) Scholarship</strong> — Department of Science and Technology, Govt. of India [2013] </li>
       </ul> 
     </section>
 
