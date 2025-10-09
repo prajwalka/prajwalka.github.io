@@ -9,6 +9,8 @@ permalink: /publications/
 
     <ol class="publication-list">
 
+      <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, C.Linder. A multiscale mixed three-field finite element formulation coupled with phase field fracture for incompressible rubber-like materials. <em>International Journal for Numerical Methods in Engineering [Submitted]</em>.</li>
+
       <li>S.Abrari Vajari, M.Neuner, <strong>P.K.Arunachala</strong>, C.Linder. <a href="https://onlinelibrary.wiley.com/doi/10.1002/nme.70140" target="_blank">A micropolar phase field fracture model for elastoplastic solids applied to concrete failure</a>. <em>International Journal for Numerical Methods in Engineering</em>, 2025:126(19), e70140.</li>
 
       <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, M.Neuner, J.S.Sim, R.Zhao, C.Linder. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">A multiscale anisotropic polymer network model coupled with phase field fracture</a>. <em>International Journal for Numerical Methods in Engineering</em>, 2024:125(13), e7488.</li>
