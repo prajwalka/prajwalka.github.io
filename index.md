@@ -144,10 +144,24 @@ title: "Home"
     
 
     <section id="awards" aria-labelledby="awards-title"> 
-    <h2 id="awards-title"> Honors & Awards </h2> 
+    <h2 id="awards-title"> Major Honors & Awards </h2> 
 
       <ul class="awards-list"> 
-        <li> <strong>Juan C. Simo Best Thesis Award</strong> — Mechanics & Computation Division, Department of Mechanical Engineering, Stanford University [2024] </li>
+        <li> <strong>Juan C. Simo Best Thesis Award</strong> — Mechanics & Computation Division,  Stanford University [2024] </li>
+
+        <li> Finalist, <strong>Robert J. Melosh Medal Competition</strong> — Duke University [2024] </li>
+
+        <li> <strong>Leavell Fellowship</strong> — Stanford University [2020-22] </li>
+
+       <li> <strong>School of Engineering Graduate Fellowship</strong> — Stanford University [2017-18] </li>
+
+       <li> <strong>Institute Silver Medal, Vidyasagar Nehra and Prof. Madhav Kulkarni Gold Medals</strong> — IITB [2017] </li>
+
+       <li> <strong>S.C.Mehrotra Prize, Institute Academic Prize</strong> — IITB [2014-16] </li>
+
+       <li> <strong>National Talent Search (NTS) Scholarship</strong> — National Council of Education Research and Training, Government of India [2009-16] </li>
+
+       <li> <strong>Kishore Vaigyanik Protsahan Yojana (KVPY) Scholarship</strong> — Department of Science and Technology, Government of India [2013] </li>
       </ul> 
     </section>
 
