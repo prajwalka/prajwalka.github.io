@@ -97,14 +97,14 @@ title: "Home"
     <h2 id="education-heading"> Education & Training </h2> 
 
       <ul class="education-list"> 
-        <li> <strong>Johns Hopkins University</strong> — Postdoctoral Fellow, [Sep'24-Current]
+        <li> <strong>Johns Hopkins University</strong> — Postdoctoral Fellow [Sep'24-Current]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Somnath Ghosh </li> 
           <li> <em>Project Title</em>: Micromechanical fatigue modeling for polycrystalline metallic alloys </li>
         </ul> 
         </li> 
 
-        <li> <strong>Stanford University</strong> — Ph.D. in Civil and Environmental Engineering, [Apr'19-Sep'24]
+        <li> <strong>Stanford University</strong> — Ph.D. in Civil and Environmental Engineering [Apr'19-Sep'24]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Christian Linder </li>
           <li> <em>Thesis</em>: Computational modeling of fracture behavior of rubber-like materials </li>
@@ -112,29 +112,30 @@ title: "Home"
         </ul> 
         </li> 
 
-        <li> <strong>Stanford University</strong> — M.S. in Civil and Environmental Engineering, [Sep'17-Apr'19]
+        <li> <strong>Stanford University</strong> — M.S. in Civil and Environmental Engineering [Sep'17-Apr'19]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Christian Linder </li>
           <li> <em>GPA</em>: 4.07/4 </li>
         </ul> 
         </li> 
 
-        <li> <strong>Indian Institute of Technology Bombay</strong> — B.Tech. (with Honors) in Civil Engineering, Minor in Computer Science Engineering [Jul'13-May'17]
+        <li> <strong>Indian Institute of Technology Bombay</strong> — B.Tech. in Civil Engineering [Jul'13-May'17]
         <ul class="education-highlights"> 
+          <li> <em>Honors</em>: Civil Engineering, <em>Minor</em>: Computer Science Engineering </li>
           <li> <em>Advisors</em>: Dr. Amit Das & Dr. Mandar Inamdar </li>
           <li> <em>Thesis</em>: Mechanical formulations of plates on elastic foundations </li>
           <li> <em>GPA</em>: 9.65/10 </li>
         </ul> 
         </li> 
 
-        <li> <strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong> — Summer Research Intern, [May'16-Jul'16]
+        <li> <strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong> — Summer Research Intern [May'16-Jul'16]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Ian Smith </li>
           <li> <em>Project Title</em>: Structural analysis and control of a tensegrity structure </li>
         </ul> 
         </li> 
 
-        <li> <strong>University of New South Wales</strong> — Summer Research Intern, [May'15-Jul'15]
+        <li> <strong>University of New South Wales</strong> — Summer Research Intern [May'15-Jul'15]
         <ul class="education-highlights"> 
           <li> <em>Advisors</em>: Dr. Bryan Uy & Dr. Vipul Patel </li>
           <li> <em>Project Title</em>: Finite element modeling of concrete-filled steel tubular columns </li>
