@@ -108,23 +108,20 @@ title: "Home"
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Christian Linder </li>
           <li> <em>Thesis</em>: Computational modeling of fracture behavior of rubber-like materials </li>
-          <li> <em>GPA</em>: 4.08/4 </li>
         </ul> 
         </li> 
 
         <li> <strong>Stanford University</strong> — M.S. in Civil and Environmental Engineering [Sep'17-Apr'19]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Christian Linder </li>
-          <li> <em>GPA</em>: 4.07/4 </li>
         </ul> 
         </li> 
 
-        <li> <strong>Indian Institute of Technology Bombay</strong> — B.Tech. in Civil Engineering [Jul'13-May'17]
+        <li> <strong>Indian Institute of Technology Bombay (IITB)</strong> — B.Tech. in Civil Engineering [Jul'13-May'17]
         <ul class="education-highlights"> 
           <li> <em>Honors</em>: Civil Engineering, <em>Minor</em>: Computer Science Engineering </li>
           <li> <em>Advisors</em>: Dr. Amit Das & Dr. Mandar Inamdar </li>
           <li> <em>Thesis</em>: Mechanical formulations of plates on elastic foundations </li>
-          <li> <em>GPA</em>: 9.65/10 </li>
         </ul> 
         </li> 
 
@@ -135,7 +132,7 @@ title: "Home"
         </ul> 
         </li> 
 
-        <li> <strong>University of New South Wales</strong> — Summer Research Intern [May'15-Jul'15]
+        <li> <strong>University of New South Wales (UNSW)</strong> — Summer Research Intern [May'15-Jul'15]
         <ul class="education-highlights"> 
           <li> <em>Advisors</em>: Dr. Bryan Uy & Dr. Vipul Patel </li>
           <li> <em>Project Title</em>: Finite element modeling of concrete-filled steel tubular columns </li>
@@ -145,5 +142,14 @@ title: "Home"
       </ul> 
     </section>
     
+
+    <section id="awards" aria-labelledby="awards-title"> 
+    <h2 id="awards-title"> Honors & Awards </h2> 
+
+      <ul class="awards-list"> 
+        <li> <strong>Juan C. Simo Best Thesis Award</strong> — Mechanics & Computation Division, Department of Mechanical Engineering, Stanford University [2024] </li>
+      </ul> 
+    </section>
+
   </div>
 </div>

@@ -341,6 +341,17 @@ main a:active {
   margin: 0.25rem 0;
 }
 
+/* Awards List */
+.awards-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0;
+}
+.awards-list > li {
+  margin-bottom: 0.5rem;
+}
+
+
 /* Research section formatting */
 .research-section {
   background: #f8f9fa; /* light background for contrast */
