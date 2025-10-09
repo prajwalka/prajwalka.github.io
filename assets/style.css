@@ -328,12 +328,14 @@ main a:active {
   margin: 0;
 }
 .education-list > li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .education-highlights {
   list-style: circle;
   padding-left: 1.25rem;
-  margin-top: 0.5rem;
+  margin-top: 0;
+  font-size: clamp(12px, 1.2vw, 16px);
+  line-height: 1.2;
 }
 .education-highlights > li {
   margin: 0.25rem 0;
