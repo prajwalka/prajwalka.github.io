@@ -326,6 +326,7 @@ main a:active {
   list-style: disc;
   padding-left: 1.25rem;
   margin: 0;
+  margin-bottom: clamp(24px, 5vw, 80px);
 }
 .education-list > li {
   margin-bottom: 0.5rem;

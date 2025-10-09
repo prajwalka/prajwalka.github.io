@@ -155,9 +155,9 @@ title: "Home"
 
        <li> <strong>School of Engineering Graduate Fellowship</strong> — Stanford University [2017-18] </li>
 
-       <li> <strong>Institute Silver Medal, Vidyasagar Nehra and Prof. Madhav Kulkarni Gold Medals</strong> — IITB [2017] </li>
+       <li> <strong>Institute Silver Medal, Vidyasagar Nehra, Prof. Madhav Kulkarni Gold Medals</strong> — IIT Bombay [2017] </li>
 
-       <li> <strong>S.C.Mehrotra Prize, Institute Academic Prize</strong> — IITB [2014-16] </li>
+       <li> <strong>S.C.Mehrotra Prize, Institute Academic Prize</strong> — IIT Bombay [2014-16] </li>
 
        <li> <strong>National Talent Search (NTS) Scholarship</strong> — National Council of Education Research and Training, Govt. of India [2009-16] </li>
 
