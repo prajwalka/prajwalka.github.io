@@ -89,7 +89,7 @@ title: "Home"
     </p>
 
     <p>
-       My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning.
+       My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning. For more information or discussion, please feel free to contact me at <a href="mailto:pkamar1@jh.edu">pkammar1@jh.edu</a>
     </p>
 
 
@@ -100,6 +100,7 @@ title: "Home"
         <li> <strong>Johns Hopkins University</strong> — Postdoctoral Fellow, [Sep'24-Current]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Somnath Ghosh </li> 
+          <li> <em>Project Title</em>: Micromechanical fatigue modeling for polycrystalline metallic alloys </li>
         </ul> 
         </li> 
 
@@ -111,17 +112,37 @@ title: "Home"
         </ul> 
         </li> 
 
+        <li> <strong>Stanford University</strong> — M.S. in Civil and Environmental Engineering, [Sep'17-Apr'19]
+        <ul class="education-highlights"> 
+          <li> <em>Advisor</em>: Dr. Christian Linder </li>
+          <li> <em>GPA</em>: 4.07/4 </li>
+        </ul> 
+        </li> 
+
+        <li> <strong>Indian Institute of Technology Bombay</strong> — B.Tech. (with Honors) in Civil Engineering, Minor in Computer Science Engineering [Jul'13-May'17]
+        <ul class="education-highlights"> 
+          <li> <em>Advisors</em>: Dr. Amit Das & Dr. Mandar Inamdar </li>
+          <li> <em>Thesis</em>: Mechanical formulations of plates on elastic foundations </li>
+          <li> <em>GPA</em>: 9.65/10 </li>
+        </ul> 
+        </li> 
+
+        <li> <strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong> — Summer Research Intern, [May'16-Jul'16]
+        <ul class="education-highlights"> 
+          <li> <em>Advisor</em>: Dr. Ian Smith </li>
+          <li> <em>Project Title</em>: Structural analysis and control of a tensegrity structure </li>
+        </ul> 
+        </li> 
+
+        <li> <strong>University of New South Wales</strong> — Summer Research Intern, [May'15-Jul'15]
+        <ul class="education-highlights"> 
+          <li> <em>Advisors</em>: Dr. Bryan Uy & Dr. Vipul Patel </li>
+          <li> <em>Project Title</em>: Finite element modeling of concrete-filled steel tubular columns </li>
+        </ul> 
+        </li> 
+
       </ul> 
     </section>
-
-    <p>
-	I am currently a postdoctoral researcher at <em>Johns Hopkins University</em> working with <em>Dr. Somnath Ghosh</em> in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a>, working on modeling the fatigue behavior of polycrystalline materials like titanium and aluminum alloys. During my PhD, I worked under <em>Dr. Christian Linder</em> at <em>Stanford University</em> in the <a href="https://cm2.stanford.edu/" target="_blank">Computational Mechanics of Materials (CM2) Laboratory</a>, working on modeling the fracture behavior of rubber-like polymers. Prior to this, I worked on higher-order mechanical formulations for plates on elastic foundations for my undergraduate thesis under the guidance of <em>Dr. Amit Das</em> and <em>Dr. Mandar Inamdar</em> at the <em>Indian Institute of Technology Bombay</em>, India.
-    </p>
-
-    <p>
-	For more information or discussion, please feel free to contact me at <a href="mailto:pkamar1@jh.edu">pkammar1@jh.edu</a>
-    </p>
-
     
   </div>
 </div>
