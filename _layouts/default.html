@@ -29,22 +29,67 @@
 <script src="/assets/script.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script>
-  var swiper = new Swiper(".videoSwiper", {
-    loop: true,
-    autoplay: {
-      delay: 8000,
-      disableOnInteraction: false,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+<script> 
+  function resetAllVideos(swiper) { 
+    swiper.el.querySelectorAll('video').forEach(v => { 
+      v.pause(); 
+      try { v.currentTime = 0; } 
+      catch (_) {} 
+    }); 
+  } 
+
+  function startActiveSlideVideos(swiper) { 
+    const activeSlide = swiper.slides[swiper.activeIndex]; 
+    if (!activeSlide) return; 
+    activeSlide.querySelectorAll('video').forEach(v => { 
+      const p = v.play(); 
+      if (p && typeof p.then === 'function') { 
+        p.catch(() => { 
+          /* autoplay may be blocked if not muted */ 
+        }); 
+      } 
+    }); 
+  } 
+
+  function setupVisibilityObserver(swiper) { 
+    const io = new IntersectionObserver((entries) => { 
+      entries.forEach((entry) => { 
+        if (entry.target !== swiper.el) return; 
+        if (entry.isIntersecting) { 
+          resetAllVideos(swiper); 
+          startActiveSlideVideos(swiper); 
+        } 
+        else { 
+          swiper.el.querySelectorAll('video').forEach(v => v.pause()); 
+        } 
+      }); 
+    }, 
+    { threshold: 0.2 }); 
+    io.observe(swiper.el); 
+  } 
+
+  var swiper = new Swiper(".videoSwiper", { 
+    loop: true, autoplay: { 
+      delay: 8000, disableOnInteraction: false, 
+    }, 
+    navigation: { 
+      nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev", 
+    }, 
+    pagination: { 
+      el: ".swiper-pagination", clickable: true, 
+    }, 
+    on: { 
+      init: function () { 
+        resetAllVideos(this); 
+        startActiveSlideVideos(this); 
+        setupVisibilityObserver(this); 
+      }, 
+      slideChangeTransitionStart: function () { r
+        esetAllVideos(this); 
+        startActiveSlideVideos(this); 
+      } 
+    } 
+  }); 
 </script>
 
 <script>
