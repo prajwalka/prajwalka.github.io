@@ -92,15 +92,25 @@ title: "Home"
        My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning.
     </p>
 
+
     <section id="education" aria-labelledby="education-heading"> 
     <h2 id="education-heading"> Education & Training </h2> 
 
       <ul class="education-list"> 
-        <li> <strong>Postdoctoral Researcher</strong> — Johns Hopkins University, Baltimore, U.S. <span> • </span> <time datetime="2023">2023</time> <span>–</span> <time datetime="2025">2025</time> 
+        <li> <strong>Johns Hopkins University</strong> — Postdoctoral Fellow, [Sep'24-Current]
         <ul class="education-highlights"> 
-          <li>Advisor: Dr. Somnath Ghosh</li> 
+          <li> <em>Advisor</em>: Dr. Somnath Ghosh </li> 
         </ul> 
         </li> 
+
+        <li> <strong>Stanford University</strong> — Ph.D. in Civil and Environmental Engineering, [Apr'19-Sep'24]
+        <ul class="education-highlights"> 
+          <li> <em>Advisor</em>: Dr. Christian Linder </li>
+          <li> <em>Thesis</em>: Computational modeling of fracture behavior of rubber-like materials </li>
+          <li> <em>GPA</em>: 4.08/4 </li>
+        </ul> 
+        </li> 
+
       </ul> 
     </section>
 
