@@ -112,10 +112,14 @@ body {
 /* Main Content Area */
 main {
   background: #ffffff;
-  background-image: url('/Photos/rocky-wall.png'); /* Paper texture */
+  background-image: url('/Photos/rocky-wall.png');
   background-repeat: repeat;
   padding: 0;
   margin: 0;
+  font-family: 'CMU Sans Serif', sans-serif;
+  font-size: clamp(16px, 1.2vw, 20px);
+  color: #000000;
+  line-height: 1.6;
 }
 
 h1, h2, h3 {
@@ -133,13 +137,9 @@ h1 {
 
 /* Paragraphs */
 p {
-  font-family: 'CMU Sans Serif', sans-serif;
   text-align: justify;
-  color: #000000;
-  line-height: 1.6;
   max-width: 1600px;
-  /* Responsive paragraph sizing and spacing */
-  font-size: clamp(16px, 1.2vw, 20px);
+  line-height: 1.6;
   margin: 0 0 clamp(14px, 2vw, 22px);
 }
 
