@@ -85,9 +85,12 @@ title: "Home"
   <div class="text-container">
     <h2> Bio </h2>
     <p>
-      Hello! I am a researcher in computational mechanics with a vision of revolutionizing manufacturing and applications of advanced materials through microstructure-informed, high-fidelity, and high-performance models. My broad areas of research interest are multiscale modeling, fracture mechanics, phase field approach, crystal plasticity, polymer mechanics, finite element method, and scientific machine learning.
+      Hello! I am a researcher driven by a vision of elevating the fundamental understanding and modeling of advanced materials through the development of microstructure-informed computational models to revolutionize their manufacturing and applications. My particular focus is on accounting for the microstructural physics governing the behavior of these materials and modeling their failure behavior, so that computational mechanics can guide experiments and enhance the design of their applications.
     </p>
 
+    <p>
+      I have extensively worked on 
+    </p>
     <p>
 	I am currently a postdoctoral researcher at <em>Johns Hopkins University</em> working with <em>Dr. Somnath Ghosh</em> in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a>, working on modeling the fatigue behavior of polycrystalline materials like titanium and aluminum alloys. During my PhD, I worked under <em>Dr. Christian Linder</em> at <em>Stanford University</em> in the <a href="https://cm2.stanford.edu/" target="_blank">Computational Mechanics of Materials (CM2) Laboratory</a>, working on modeling the fracture behavior of rubber-like polymers. Prior to this, I worked on higher-order mechanical formulations for plates on elastic foundations for my undergraduate thesis under the guidance of <em>Dr. Amit Das</em> and <em>Dr. Mandar Inamdar</em> at the <em>Indian Institute of Technology Bombay</em>, India.
     </p>
