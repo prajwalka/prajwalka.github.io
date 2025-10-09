@@ -155,7 +155,7 @@ title: "Home"
 
        <li> <strong>School of Engineering Graduate Fellowship</strong> — Stanford University [2017-18] </li>
 
-       <li> <strong>Institute Silver Medal, Vidyasagar Nehra, Prof. Madhav Kulkarni Gold Medals</strong> — IIT Bombay [2017] </li>
+       <li> <strong>Institute Silver Medal, Vidyasagar Nehra Gold Medal, Prof. Madhav Kulkarni Gold Medal</strong> — IIT Bombay [2017] </li>
 
        <li> <strong>S.C.Mehrotra Prize, Institute Academic Prize</strong> — IIT Bombay [2014-16] </li>
 
