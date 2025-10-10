@@ -464,7 +464,7 @@ main a:active {
 }
 
 .course-title {  
-  margin: 6px 0 2px;
+  margin: 6px 0 0;
   font-weight: 700; 
 }
 
