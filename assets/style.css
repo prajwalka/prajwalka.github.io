@@ -425,7 +425,7 @@ main a:active {
   display:flow-root;
   max-width: clamp(700px, 90vw, 1400px); 
   margin: 0 auto; 
-  padding-top: clamp(36px, 1.5vw, 60px);
+  padding-top: clamp(24px, 1.5vw, 48px);
   padding-bottom: clamp(24px, 5vw, 80px);
   overflow: visible;
 }
@@ -445,7 +445,7 @@ main a:active {
   gap: clamp(16px, 2vw, 32px);
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(320px, 560px));
-  margin-top: clamp(8px, 1vw, 16px);
+  margin-top: clamp(24px, 1.2vw, 48px);
 }
 
 .teaching > :first-child { 
