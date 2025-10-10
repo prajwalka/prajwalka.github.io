@@ -424,6 +424,13 @@ main a:active {
 .teaching { 
   max-width: clamp(700px, 90vw, 1400px); 
   margin: 0 auto; 
+  padding-top: clamp(24px, 5vw, 80px);
+  padding-bottom: clamp(24px, 5vw, 80px);
+}
+
+.teaching-card .course-title,
+.teaching-card .university-subtitle {
+  text-align: center;
 }
 
 .teaching h2 { 
@@ -434,7 +441,6 @@ main a:active {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: clamp(16px, 2vw, 32px);
-  margin-bottom: clamp(24px, 5vw, 80px);
 }
 
 .teaching-card {
