@@ -570,6 +570,11 @@ main a:active {
 }
 
 /* About Me formatting */
+.about-me h2 { 
+  color: var(--heading-color, #002D72); 
+  margin-top: clamp(36px, 1.2vw, 60px);
+}
+
 .image-row {
   display: flex;
   justify-content: space-between;
