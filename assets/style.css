@@ -421,12 +421,20 @@ main a:active {
 
 
 /* Teaching section formatting */
-.teaching { max-width: clamp(700px, 90vw, 1400px); margin: 0 auto; }
+.teaching { 
+  max-width: clamp(700px, 90vw, 1400px); 
+  margin: 0 auto; 
+}
+
+.teaching h2 { 
+  color: var(--heading-color, #002D72); 
+}
 
 .teaching-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: clamp(16px, 2vw, 32px);
+  margin-bottom: clamp(24px, 5vw, 80px);
 }
 
 .teaching-card {
@@ -449,9 +457,28 @@ main a:active {
   margin-bottom: 8px;
 }
 
-.course-title { margin: 6px 0 4px; font-weight: 700; }
+.course-title { 
+  margin: 6px 0 4px; 
+  font-weight: 700; 
+}
 
-.course-term { color: #555; font-weight: 600; }
+.course-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.course-term { 
+  color: #555; 
+  font-weight: 600; 
+}
+
+.university { 
+  color: #333; 
+  font-weight: 600; 
+}
 
 .course-points {
   margin: 10px 0 0;

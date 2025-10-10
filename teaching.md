@@ -4,9 +4,6 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-
-<h1> Teaching & Mentoring </h1>
-  
 <section id="teaching" aria-labelledby="teaching-title" class="teaching"> 
   
   <h2 id="teaching-title">Instructor</h2> 
@@ -15,7 +12,10 @@ permalink: /teaching/
     <article class="teaching-card"> 
     <span class="course-code">CEE 306</span> 
     <h3 class="course-title">Computational Fracture Mechanics</h3> 
-    <time class="course-term" datetime="2024-09">Spring 2024</time> 
+    <div class="course-meta"> 
+      <time class="course-term" datetime="2024-09">Spring 2024</time> 
+      <span class="university">Stanford University</span> 
+    </div>
     <ul class="course-points"> 
       <li>Graduate-level; 30 students</li> 
       <li>Project-based with Python/FEA</li> 
