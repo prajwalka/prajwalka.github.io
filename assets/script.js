@@ -94,7 +94,6 @@ document.documentElement.classList.add('js');
 });
 
 /* Teaching cards */
-<script> 
 (function() { 
   const MIN_CARD = 320; // min card width in px 
   const MAX_CARD = 480; // max card width in px 
@@ -151,6 +150,5 @@ document.documentElement.classList.add('js');
   
   window.addEventListener('DOMContentLoaded', balanceAll); 
   window.addEventListener('resize', balanceAll); 
-})(); 
-</script>
+})();
 
