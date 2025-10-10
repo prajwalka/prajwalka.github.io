@@ -12,10 +12,8 @@ permalink: /teaching/
     <article class="teaching-card"> 
     <span class="course-code">CEE 306</span> 
     <h3 class="course-title">Computational Fracture Mechanics</h3> 
-    <div class="course-meta"> 
-      <time class="course-term" datetime="2024-09">Spring 2024</time> 
-      <span class="university">Stanford University</span> 
-    </div>
+    <div class="university university-subtitle">XStanford University</div>
+    <time class="course-term" datetime="2024-09">Spring 2024</time>
     <ul class="course-points"> 
       <li>Graduate-level; 30 students</li> 
       <li>Project-based with Python/FEA</li> 

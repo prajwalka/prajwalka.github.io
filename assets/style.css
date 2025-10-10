@@ -457,17 +457,9 @@ main a:active {
   margin-bottom: 8px;
 }
 
-.course-title { 
-  margin: 6px 0 4px; 
+.course-title {  
+  margin: 6px 0 2px;
   font-weight: 700; 
-}
-
-.course-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  margin-top: 4px;
 }
 
 .course-term { 
@@ -475,9 +467,10 @@ main a:active {
   font-weight: 600; 
 }
 
-.university { 
-  color: #333; 
+.university-subtitle { 
+  color: #555; 
   font-weight: 600; 
+  margin-bottom: 6px; 
 }
 
 .course-points {
