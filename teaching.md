@@ -60,7 +60,7 @@ permalink: /teaching/
     <ul class="course-points"> 
       <li>Helped in rebasing coding framework to <em>MOOSE</em> FE library</li> 
       <li>Developed tutorial lectures; led office hour discussions; designed course projects</li> 
-      <li><a class="doc-link" href="/files/CEE306_2021_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Effectiveness: mean 4.57/5, median 5/5 </li>
+      <li><a class="doc-link" href="/files/CEE306_2021_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Effectiveness: mean 4.6/5, median 5/5 </li>
     </ul> 
     </article>
 
@@ -72,7 +72,7 @@ permalink: /teaching/
     <ul class="course-points"> 
       <li>Redesigned tutorial lectures; led office hour discussions</li> 
       <li>Provided one-on-one help sessions during Covid-19 lockdown </li> 
-      <li><a class="doc-link" href="/files/CEE291_2019_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Effectiveness: mean 4.36/5, median 4.5/5 </li>
+      <li><a class="doc-link" href="/files/CEE291_2019_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Effectiveness: mean 4.4/5, median 4.5/5 </li>
     </ul> 
     </article>
 
