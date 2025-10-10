@@ -422,12 +422,19 @@ main a:active {
 
 /* Teaching section formatting */
 .teaching { 
+  container-type: inline-size;
   display:flow-root;
   max-width: clamp(700px, 90vw, 1400px); 
   margin: 0 auto; 
   padding-top: clamp(24px, 1.5vw, 48px);
   padding-bottom: clamp(24px, 5vw, 80px);
   overflow: visible;
+}
+
+:root {
+/* adjust ratios and caps to taste */
+--card-min: clamp(300px, 1.5vw, 360px);
+--card-max: clamp(420px, 1.5vw, 600px);
 }
 
 .teaching-card .course-title,
@@ -444,31 +451,23 @@ main a:active {
   display: grid;
   gap: clamp(16px, 2vw, 32px);
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 560px));
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-min), var(--card-max)));
   margin-top: clamp(24px, 1.2vw, 48px);
-}
-
-.teaching > :first-child { 
-  margin-top: 0;
-}
-
-.teaching, .teaching h2 { 
-  scroll-margin-top: var(--sticky-header, 80px); 
 }
 
 
 /* Column count overrides applied by JS */
 .teaching-grid.cols-1 { 
-  grid-template-columns: repeat(1, minmax(320px, 560px)); 
+  grid-template-columns: repeat(1, minmax(var(--card-min), var(--card-max))); 
 }
 .teaching-grid.cols-2 { 
-  grid-template-columns: repeat(2, minmax(320px, 560px)); 
+  grid-template-columns: repeat(2, minmax(var(--card-min), var(--card-max))); 
 }
 .teaching-grid.cols-3 { 
-  grid-template-columns: repeat(3, minmax(320px, 560px)); 
+  grid-template-columns: repeat(3, minmax(var(--card-min), var(--card-max))); 
 }
 .teaching-grid.cols-4 { 
-  grid-template-columns: repeat(4, minmax(320px, 560px)); 
+  grid-template-columns: repeat(4, minmax(var(--card-min), var(--card-max))); 
 }
 
 .teaching-card {

@@ -95,22 +95,39 @@ document.documentElement.classList.add('js');
 
 /* Teaching cards */
 (function() { 
-  const MIN_CARD = 320; // min card width in px 
-  const MAX_CARD = 480; // max card width in px 
   const MAX_COLS = 4; // cap columns for wide pages 
 
-  function setBalancedColumns(grid) { 
-    const cards = grid.querySelectorAll('.teaching-card'); 
-    const n = cards.length; if (!n) return; 
-    const style = getComputedStyle(grid); 
-    const gap = parseFloat(style.gap) || 24; 
-    const containerWidth = grid.clientWidth; // How many columns can fit at minimum card width? 
-    const maxFitByWidth = Math.floor((containerWidth + gap) / (MIN_CARD + gap)); 
-    const maxFit = Math.min(MAX_COLS, Math.max(1, maxFitByWidth)); // Pick a column count that avoids lonely last rows (e.g., 3+1) 
-    const cols = pickCols(n, maxFit); // Apply class 
-    grid.classList.remove('cols-1','cols-2','cols-3','cols-4'); 
-    grid.classList.add('cols-' + cols); 
-  } 
+  function getCssVarPx(el, name) {
+    const probe = document.createElement('div');
+    probe.style.position = 'absolute';
+    probe.style.visibility = 'hidden';
+    probe.style.width = 'var(${name})';
+    el.appendChild(probe);
+    const val = probe.getBoundingClientRect().width;
+    el.removeChild(probe);
+    return val;
+  }
+
+  function setBalancedColumns(grid) {
+    const n = grid.querySelectorAll('.teaching-card').length;
+    if (!n) return;
+
+    const style = getComputedStyle(grid);
+    const gap =
+      parseFloat(style.getPropertyValue('column-gap')) ||
+      parseFloat(style.columnGap) ||
+      parseFloat(style.getPropertyValue('gap')) ||
+      parseFloat(style.gap) || 24;
+
+    const containerWidth = grid.clientWidth;
+    const minCard = getCssVarPx(grid, '--card-min') || 320;
+    const maxFitByWidth = Math.floor((containerWidth + gap) / (minCard + gap));
+    const maxFit = Math.min(MAX_COLS, Math.max(1, maxFitByWidth));
+
+    const cols = pickCols(n, maxFit);
+    grid.classList.remove('cols-1','cols-2','cols-3','cols-4');
+    grid.classList.add('cols-' + cols);
+  }
 
   function pickCols(n, maxFit) { 
     // Special case: 4 items → 2 columns if possible (2×2 looks best) 
@@ -138,7 +155,8 @@ document.documentElement.classList.add('js');
       } 
 
       if (score < bestScore || (score === bestScore && c > best)) { 
-        bestScore = score; best = c; 
+        bestScore = score; 
+        best = c; 
       } 
     } 
   return best; 
