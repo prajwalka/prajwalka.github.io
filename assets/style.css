@@ -422,10 +422,12 @@ main a:active {
 
 /* Teaching section formatting */
 .teaching { 
+  display:flow-root;
   max-width: clamp(700px, 90vw, 1400px); 
   margin: 0 auto; 
-  padding-top: clamp(10px, 5vw, 20px);
+  padding-top: clamp(12px, 1.5vw, 24px);
   padding-bottom: clamp(24px, 5vw, 80px);
+  overflow: visible;
 }
 
 .teaching-card .course-title,
@@ -435,27 +437,38 @@ main a:active {
 
 .teaching h2 { 
   color: var(--heading-color, #002D72); 
+  margin-top:0;
 }
 
 .teaching-grid {
   display: grid;
   gap: clamp(16px, 2vw, 32px);
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 640px));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 560px));
+  margin-top: clamp(8px, 1vw, 16px);
 }
+
+.teaching-card:first-child { 
+  margin-top: 0; 
+}
+
+.teaching, .teaching h2 { 
+  scroll-margin-top: var(--sticky-header, 80px); 
+}
+
 
 /* Column count overrides applied by JS */
 .teaching-grid.cols-1 { 
-  grid-template-columns: repeat(1, minmax(320px, 480px)); 
+  grid-template-columns: repeat(1, minmax(320px, 560px)); 
 }
 .teaching-grid.cols-2 { 
-  grid-template-columns: repeat(2, minmax(320px, 480px)); 
+  grid-template-columns: repeat(2, minmax(320px, 560px)); 
 }
 .teaching-grid.cols-3 { 
-  grid-template-columns: repeat(3, minmax(320px, 480px)); 
+  grid-template-columns: repeat(3, minmax(320px, 560px)); 
 }
 .teaching-grid.cols-4 { 
-  grid-template-columns: repeat(4, minmax(320px, 480px)); 
+  grid-template-columns: repeat(4, minmax(320px, 560px)); 
 }
 
 .teaching-card {
