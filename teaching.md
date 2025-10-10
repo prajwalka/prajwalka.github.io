@@ -16,9 +16,9 @@ permalink: /teaching/
     <time class="course-term" datetime="2024-09">Spring 2024</time>
     <ul class="course-points"> 
       <li>Graduate-level course with 14 students</li> 
-      <li>Restructured course content; prepared lectures; refined custom projects</li> 
-      <li>Mentored students in performing complex fracture simulations for projects</li> 
-      <li><a class="doc-link" href="/files/CEE306_2024_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Quality of instruction: mean 4.5/5, median 5/5 </li>
+      <li>Restructured course content; prepared lectures; refined projects</li> 
+      <li>Mentored students in performing complex fracture simulations</li> 
+      <li><a class="doc-link" href="/files/CEE306_2024_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Quality: mean 4.5/5, median 5/5 </li>
     </ul> 
     </article>
   </div>
@@ -44,7 +44,7 @@ permalink: /teaching/
     <time class="course-term" datetime="2024-09">Autumn 2023</time>
     <ul class="course-points"> 
       <li>Graduate-level course</li> 
-      <li>Lectures on thermodynamics laws, FEM, plasticity, tensor algebra</li> 
+      <li>Lectures on thermodynamics laws, finite element method, plasticity, tensor algebra</li> 
     </ul> 
     </article>
   </div>
@@ -58,9 +58,9 @@ permalink: /teaching/
     <div class="university university-subtitle"><em>Stanford University</em></div>
     <time class="course-term" datetime="2024-09">Spring 2021</time>
     <ul class="course-points"> 
-      <li>Helped in rebasing course coding framework to <em>MOOSE</em> FE library</li> 
+      <li>Helped in rebasing coding framework to <em>MOOSE</em> FE library</li> 
       <li>Developed tutorial lectures; led office hour discussions; designed course projects</li> 
-      <li><a class="doc-link" href="/files/CEE306_2021_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Teaching effectiveness: mean 4.57/5, median 5/5 </li>
+      <li><a class="doc-link" href="/files/CEE306_2021_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Effectiveness: mean 4.57/5, median 5/5 </li>
     </ul> 
     </article>
 
@@ -71,8 +71,8 @@ permalink: /teaching/
     <time class="course-term" datetime="2024-09">Autumn 2019,2020</time>
     <ul class="course-points"> 
       <li>Redesigned tutorial lectures; led office hour discussions</li> 
-      <li>Provided off-hour one-on-one help sessions during Covid-19 lockdown </li> 
-      <li><a class="doc-link" href="/files/CEE291_2019_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Teaching effectiveness: mean 4.36/5, median 4.5/5 </li>
+      <li>Provided one-on-one help sessions during Covid-19 lockdown </li> 
+      <li><a class="doc-link" href="/files/CEE291_2019_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a> - Effectiveness: mean 4.36/5, median 4.5/5 </li>
     </ul> 
     </article>
 
