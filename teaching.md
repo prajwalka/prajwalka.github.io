@@ -15,8 +15,10 @@ permalink: /teaching/
     <div class="university university-subtitle"><em>Stanford University</em></div>
     <time class="course-term" datetime="2024-09">Spring 2024</time>
     <ul class="course-points"> 
-      <li>Graduate-level; 30 students</li> 
-      <li>Project-based with Python/FEA</li> 
+      <li>Graduate-level course with 14 students</li> 
+      <li>Restructured course content; prepared lectures</li> 
+      <li>Mentored students in performing complex fracture simulations for projects</li> 
+      <li><a class="doc-link" href="/files/CEE291_2019_TeachingEvaluations.pdf" target="_blank" rel="noopener" aria-label="Teaching evaluations">Teaching evaluations</a>: Quality of instruction mean 4.5/5, median 5/5 </li>
     </ul> 
     </article>
 
