@@ -666,7 +666,7 @@ main a:active {
 .cv-container {
   box-sizing: border-box;
   display: block;
-  padding-top: clamp(36px, 1.2vw, 60px);
+  padding-top: clamp(60px, 1.2vw, 90px);
   padding-bottom: clamp(16px, 5vw, 40px);
   padding-inline: clamp(12px, 5vw, 24px);
   width: 100%;
