@@ -2,10 +2,11 @@
 layout: default
 title: "Publications & Talks"
 permalink: /publications/
----
-<h1> Journal Publications </h1> 
+--- 
 
 <div class="publications">
+
+    <h2> Journal Publications </h2>
 
     <ol class="publication-list">
 
@@ -33,11 +34,8 @@ permalink: /publications/
 
       <li>V.I.Patel, B.Uy, <strong>K.A.Prajwal</strong>, F.Aslani. <a href="https://www.techno-press.org/content/?page=article&journal=scs&volume=22&num=3&ordernum=2" target="_blank">Confined concrete model of circular, elliptical and octagonal CFST short columns</a>. <em> Steel and Composite Structures, An International Journal</em>, 2016:22(3), 497-520.</li>
     </ol>
-</div>
 
-<h1> Conference Presentations </h1> 
-
-<div class="publications">
+    <h2> Conference Presentations </h2> 
 
     <ol class="publication-list">
 
@@ -55,11 +53,8 @@ permalink: /publications/
 
       <li><strong>P.K.Arunachala</strong>, R.Rastak, C.Linder. Effect of strain-induced crystallization on fracture of rubber-like materials. <em>Engineering Mechanics Institute (EMI) Conference</em>, California Institute of Technology, Pasadena, June 2019.</li>
     </ol>
-</div>
 
-<h1> Invited Talks, Seminars, and Review Meetings </h1> 
-
-<div class="publications">
+    <h2> Invited Talks, Seminars, and Review Meetings </h2> 
 
     <ol class="publication-list">
       

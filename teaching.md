@@ -68,7 +68,7 @@ permalink: /teaching/
     <span class="course-code">CEE 291</span> 
     <h3 class="course-title">Solid Mechanics</h3> 
     <div class="university university-subtitle"><em>Stanford University</em></div>
-    <time class="course-term" datetime="2024-09">Autumn 2019,2020</time>
+    <time class="course-term" datetime="2024-09">Autumn 2019, 2020</time>
     <ul class="course-points"> 
       <li>Redesigned tutorial lectures; led office hour discussions</li> 
       <li>Provided one-on-one help sessions during Covid-19 lockdown </li> 
@@ -91,7 +91,7 @@ permalink: /teaching/
     <span class="course-code">CE 101</span> 
     <h3 class="course-title">Engineering Mechanics</h3> 
     <div class="university university-subtitle"><em>IIT Bombay</em></div>
-    <time class="course-term" datetime="2024-09">Spring 2015,2017</time>
+    <time class="course-term" datetime="2024-09">Spring 2015, 2017</time>
     <ul class="course-points"> 
       <li>Undergraduate-level course with 60+ students</li> 
       <li>Led tutorial sessions; provided off-hour group help sessions</li> 

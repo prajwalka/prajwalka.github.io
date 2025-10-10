@@ -433,9 +433,9 @@ main a:active {
 }
 
 :root {
-/* adjust ratios and caps to taste */
---card-min: clamp(300px, 30cqw, 360px);
---card-max: clamp(420px, 45cqw, 800px);
+  /* adjust ratios and caps to taste */
+  --card-min: clamp(300px, 30cqw, 360px);
+  --card-max: clamp(420px, 45cqw, 800px);
 }
 
 .teaching-card .course-title,
@@ -526,6 +526,11 @@ main a:active {
   width: min(100%, 1600px);
   padding-block: clamp(30px, 3vw, 48px);
   padding-inline: clamp(40px, 5vw, 60px);
+}
+
+.publications h2 { 
+  color: var(--heading-color, #002D72); 
+  margin-top: clamp(36px, 1.2vw, 60px);
 }
 
 .publication-list {
