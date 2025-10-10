@@ -424,7 +424,8 @@ main a:active {
 .teaching { 
   container-type: inline-size;
   display:flow-root;
-  max-width: clamp(700px, 90vw, 1400px); 
+  width: 90%;
+  max-width: clamp(700px, 90vw, 2000px); 
   margin: 0 auto; 
   padding-top: clamp(36px, 1.5vw, 60px);
   padding-bottom: clamp(24px, 5vw, 80px);
@@ -434,7 +435,7 @@ main a:active {
 :root {
 /* adjust ratios and caps to taste */
 --card-min: clamp(300px, 30cqw, 360px);
---card-max: clamp(420px, 45cqw, 600px);
+--card-max: clamp(420px, 45cqw, 800px);
 }
 
 .teaching-card .course-title,
