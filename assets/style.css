@@ -666,7 +666,7 @@ main a:active {
 .cv-container {
   box-sizing: border-box;
   display: block;
-  padding-top: clamp(60px, 1.2vw, 90px);
+  padding-top: clamp(30px, 3vw, 48px);
   padding-bottom: clamp(16px, 5vw, 40px);
   padding-inline: clamp(12px, 5vw, 24px);
   width: 100%;
@@ -674,7 +674,7 @@ main a:active {
 
 .cv-container h2 { 
   color: var(--heading-color, #002D72); 
-  margin: 0 0 clamp(16px, 5vw, 40px); 
+  margin-top: clamp(36px, 1.2vw, 60px);  
 }
 
 .cv-embed {
