@@ -134,7 +134,7 @@ title: "Home"
 
         <li> <strong>University of New South Wales (UNSW)</strong> — Summer Research Intern [May'15-Jul'15]
         <ul class="education-highlights"> 
-          <li> <em>Advisors</em>: Dr. Bryan Uy & Dr. Vipul Patel </li>
+          <li> <em>Advisors</em>: Dr. Bryan Uy & Dr. Vipulkumar Ishvarbhai Patel </li>
           <li> <em>Project Title</em>: Finite element modeling of concrete-filled steel tubular columns </li>
         </ul> 
         </li> 
