@@ -437,7 +437,7 @@ main a:active {
 
 .teaching h2 { 
   color: var(--heading-color, #002D72); 
-  margin-top:0;
+  margin-top: 0;
 }
 
 .teaching-grid {
@@ -446,6 +446,7 @@ main a:active {
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(320px, 560px));
   margin-top: clamp(24px, 1.2vw, 48px);
+  margin-bottom: clamp(24px, 1.2vw, 48px);
 }
 
 .teaching > :first-child { 
