@@ -425,7 +425,7 @@ main a:active {
   display:flow-root;
   max-width: clamp(700px, 90vw, 1400px); 
   margin: 0 auto; 
-  padding-top: clamp(12px, 1.5vw, 24px);
+  padding-top: clamp(36px, 1.5vw, 60px);
   padding-bottom: clamp(24px, 5vw, 80px);
   overflow: visible;
 }
@@ -448,8 +448,8 @@ main a:active {
   margin-top: clamp(8px, 1vw, 16px);
 }
 
-.teaching-card:first-child { 
-  margin-top: 0; 
+.teaching > :first-child { 
+  margin-top: 0;
 }
 
 .teaching, .teaching h2 { 
