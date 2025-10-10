@@ -93,5 +93,64 @@ document.documentElement.classList.add('js');
   });
 });
 
+/* Teaching cards */
+<script> 
+(function() { 
+  const MIN_CARD = 320; // min card width in px 
+  const MAX_CARD = 480; // max card width in px 
+  const MAX_COLS = 4; // cap columns for wide pages 
 
+  function setBalancedColumns(grid) { 
+    const cards = grid.querySelectorAll('.teaching-card'); 
+    const n = cards.length; if (!n) return; 
+    const style = getComputedStyle(grid); 
+    const gap = parseFloat(style.gap) || 24; 
+    const containerWidth = grid.clientWidth; // How many columns can fit at minimum card width? 
+    const maxFitByWidth = Math.floor((containerWidth + gap) / (MIN_CARD + gap)); 
+    const maxFit = Math.min(MAX_COLS, Math.max(1, maxFitByWidth)); // Pick a column count that avoids lonely last rows (e.g., 3+1) 
+    const cols = pickCols(n, maxFit); // Apply class 
+    grid.classList.remove('cols-1','cols-2','cols-3','cols-4'); 
+    grid.classList.add('cols-' + cols); 
+  } 
+
+  function pickCols(n, maxFit) { 
+    // Special case: 4 items → 2 columns if possible (2×2 looks best) 
+    if (n === 4 && maxFit >= 2) return 2; 
+    
+    // Try 1..maxFit, prefer: 
+    // 1) perfect fills (no remainder), else 
+    // 2) last row with at least 2 items, else 
+    // 3) smallest remainder; break ties by larger column count 
+    
+    let best = 1, bestScore = Infinity; 
+    for (let c = 1; c <= maxFit; c++) { 
+      const remainder = n % c; 
+      const lastRowCount = remainder === 0 ? c : remainder; 
+      let score = 0; 
+      
+      if (remainder === 0) { 
+        score = 0; // perfect 
+      }
+      else if (lastRowCount === 1) { 
+        score = 3; // avoid single item last row 
+      } 
+      else { 
+        score = 1; // acceptable remainder 
+      } 
+
+      if (score < bestScore || (score === bestScore && c > best)) { 
+        bestScore = score; best = c; 
+      } 
+    } 
+  return best; 
+  } 
+
+  function balanceAll() { 
+    document.querySelectorAll('.teaching-grid').forEach(setBalancedColumns); 
+  } 
+  
+  window.addEventListener('DOMContentLoaded', balanceAll); 
+  window.addEventListener('resize', balanceAll); 
+})(); 
+</script>
 

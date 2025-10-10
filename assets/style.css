@@ -439,8 +439,23 @@ main a:active {
 
 .teaching-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: clamp(16px, 2vw, 32px);
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 480px));
+}
+
+/* Column count overrides applied by JS */
+.teaching-grid.cols-1 { 
+  grid-template-columns: repeat(1, minmax(320px, 480px)); 
+}
+.teaching-grid.cols-2 { 
+  grid-template-columns: repeat(2, minmax(320px, 480px)); 
+}
+.teaching-grid.cols-3 { 
+  grid-template-columns: repeat(3, minmax(320px, 480px)); 
+}
+.teaching-grid.cols-4 { 
+  grid-template-columns: repeat(4, minmax(320px, 480px)); 
 }
 
 .teaching-card {
@@ -825,6 +840,13 @@ main a:active {
   .footer-icons img {
     height: clamp(28px, 7vw, 40px);
     width: clamp(28px, 7vw, 40px);
+  }
+}
+
+/* Teaching grid on mobiles */
+@media (max-width: 520px) {
+  .teaching-grid { 
+    grid-template-columns: repeat(1, minmax(240px, 1fr)); 
   }
 }
 

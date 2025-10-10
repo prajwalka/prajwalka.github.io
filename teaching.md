@@ -93,7 +93,7 @@ permalink: /teaching/
     <div class="university university-subtitle"><em>IIT Bombay</em></div>
     <time class="course-term" datetime="2024-09">Spring 2015,2017</time>
     <ul class="course-points"> 
-      <li>Udergraduate-level course; 60+ students</li> 
+      <li>Udergraduate-level course with 60+ students</li> 
       <li>Led tutorial sessions; provided off-hour group help sessions</li> 
     </ul> 
     </article>
