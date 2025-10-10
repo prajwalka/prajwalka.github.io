@@ -665,8 +665,7 @@ main a:active {
 /* CV formatting */
 .cv-container {
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
+  display: block;
   padding-bottom: clamp(16px, 5vw, 40px);
   padding-inline: clamp(12px, 5vw, 24px);
   width: 100%;
@@ -675,7 +674,7 @@ main a:active {
 .cv-container h2 { 
   color: var(--heading-color, #002D72); 
   margin-top: clamp(36px, 1.2vw, 60px);
-  padding-bottom: clamp(16px, 5vw, 40px);
+  margin-bottom: clamp(16px, 5vw, 40px);
 }
 
 .cv-embed {
@@ -684,6 +683,7 @@ main a:active {
   width: min(100%, 900px);
   height: clamp(480px, 75vh, 800px);
   border: none;
+  margin-inline: auto; 
 }
 
 /* Fallback link styling (shown when PDF can't be embedded) */
