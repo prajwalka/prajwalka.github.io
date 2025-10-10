@@ -441,7 +441,7 @@ main a:active {
   display: grid;
   gap: clamp(16px, 2vw, 32px);
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 480px));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 640px));
 }
 
 /* Column count overrides applied by JS */
