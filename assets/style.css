@@ -357,10 +357,24 @@ main a:active {
 /* Card grid */
 .research-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 340px));
+  grid-template-columns: repeat(auto-fit, minmax(var(--research-card-min), var(--research-card-max)));
   gap: clamp(12px, 2vw, 20px);
   justify-content: center;
   margin-top: clamp(16px, 2vw, 24px);
+}
+
+/* Explicit column overrides (used by JS) */
+.research-grid.cols-1 { 
+  grid-template-columns: repeat(1, minmax(var(--research-card-min), var(--research-card-max))); 
+}
+.research-grid.cols-2 { 
+  grid-template-columns: repeat(2, minmax(var(--research-card-min), var(--research-card-max))); 
+}
+.research-grid.cols-3 { 
+  grid-template-columns: repeat(3, minmax(var(--research-card-min), var(--research-card-max))); 
+}
+.research-grid.cols-4 { 
+  grid-template-columns: repeat(4, minmax(var(--research-card-min), var(--research-card-max))); 
 }
 
 /* Card container */
@@ -447,13 +461,17 @@ main a:active {
 /* Container */
 .research-section {
   container-type: inline-size;
-  display: flow-root;
   width: 90%;
   max-width: clamp(700px, 90vw, 2000px);
   margin: 0 auto;
   padding-top: clamp(36px, 1.5vw, 60px);
   padding-bottom: clamp(24px, 5vw, 80px);
-  overflow: visible;
+}
+
+:root {
+/* tune these as needed */
+--research-card-min: clamp(240px, 30cqw, 300px);
+--research-card-max: clamp(360px, 45cqw, 500px);
 }
 
 /* Reset paragraph indentation inside cards */

@@ -170,3 +170,28 @@ document.documentElement.classList.add('js');
   window.addEventListener('resize', balanceAll); 
 })();
 
+(() => {
+function setResearchCols() {
+  const grid = document.querySelector('.research-grid');
+  if (!grid) return;
+
+  const count = grid.querySelectorAll('.research-card').length;
+  const w = grid.clientWidth;
+
+  // Base columns by width (adjust breakpoints to taste)
+  let cols = w < 700 ? 1 : w < 1000 ? 2 : w < 1400 ? 3 : 4;
+
+  // Avoid a single-card last row
+  if (count % cols === 1) {
+    if (cols > 2) cols -= 1;  // e.g., 4 -> 3 or 3 -> 2
+    else cols = 2;            // if cols was 1, bump to 2
+  }
+
+  grid.classList.remove('cols-1', 'cols-2', 'cols-3', 'cols-4');
+  grid.classList.add('cols-' + cols);
+}
+
+window.addEventListener('resize', setResearchCols);
+document.addEventListener('DOMContentLoaded', setResearchCols);
+})();
+
