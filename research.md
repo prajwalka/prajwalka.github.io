@@ -10,7 +10,7 @@ permalink: /research/
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
-      <img src="/images/research/PostdocOverview.png" alt="Visual for Short Crack Growth" loading="lazy"> 
+      <img src="/research/postdoc/PostdocOverview.png" alt="Visual for Short Crack Growth" loading="lazy"> 
       <div class="card-content"> 
         <div class="card-title">Short Crack Growth</div> 
         <p class="card-desc">One-line summary of the topic.</p> 
@@ -19,7 +19,7 @@ permalink: /research/
     </article>
     <article class="research-card"> 
       <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth">
-      <img src="/images/research/PostdocOverview.png" alt="Visual for Short Crack Growth" loading="lazy">
+      <img src="/research/postdoc/PostdocOverview.png" alt="Visual for Short Crack Growth" loading="lazy">
       <div class="card-content">
         <div class="card-title">Short Crack Growth</div>
         <p class="card-desc">Brief description goes here.</p>
