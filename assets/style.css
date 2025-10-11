@@ -426,7 +426,6 @@ main a:active {
   color: #333;
   line-height: 1.4;
   text-align: center;
-  padding-left: 0;
   max-width: none;
 }
 
@@ -795,6 +794,11 @@ main a:active {
   .image-row img {
     width: 100%; /* 1 per row on phones */
     justify-content: center;
+  }
+
+  .research-card-grid {
+    grid-template-columns: 1fr;
+    justify-content: start;
   }
 }
 
