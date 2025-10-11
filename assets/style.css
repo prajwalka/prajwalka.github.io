@@ -419,22 +419,21 @@ main a:active {
 }
 
 /* Group heading (use h2 in your HTML) */
-.research-group h2 {
-  font-family: 'Merriweather', serif;
-  font-size: clamp(20px, 1.4vw, 26px);
-  color: #002D72;
-  margin: 0 0 20px;
-  text-align: center;
+.research-group h2 { 
+  color: var(--heading-color, #002D72); 
+  margin-top: clamp(36px, 1.2vw, 60px);
 }
 
 /* Container */
 .research-section {
-  background: #f8f9fa;
-  margin: 10px auto;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  max-width: 1000px;
+  container-type: inline-size;
+  display: flow-root;
+  width: 90%;
+  max-width: clamp(700px, 90vw, 2000px);
+  margin: 0 auto;
+  padding-top: clamp(36px, 1.5vw, 60px);
+  padding-bottom: clamp(24px, 5vw, 80px);
+  overflow: visible;
 }
 
 /* Reset paragraph indentation inside cards */
