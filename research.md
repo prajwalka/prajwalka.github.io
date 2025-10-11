@@ -12,17 +12,17 @@ permalink: /research/
       <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content"> 
-        <div class="card-title">Short Crack Growth</div> 
-        <p class="card-desc">One-line summary of the topic.</p> 
+        <div class="card-title">Short crack propagation in metallic alloys</div> 
+        <p class="card-desc">Fundamentally understanding microstructural effects and developing a coupled crystal plasticity-phase field model for short crack growth behavior in these polycrystalline materials</p> 
       </div> 
       </a>
     </article>
     <article class="research-card"> 
-      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth">
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content">
-        <div class="card-title">Short Crack Growth</div>
-        <p class="card-desc">Brief description goes here.</p>
+        <div class="card-title">Accelerating fatigue simulations</div>
+        <p class="card-desc">Utilizing multi-time scaling approaches to predict the fatigue behavior over thousands of loading cycles</p>
       </div>
       </a>
     </article>
