@@ -8,20 +8,24 @@ permalink: /research/
   <div class="research-group"> 
     <h2>Postdoctoral Topics</h2> 
     <div class="research-card-grid"> 
-      <a class="research-card" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
+     <article class="research-card">
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
       <img src="/images/research/PostdocOverview.png" alt="Visual for Short Crack Growth" loading="lazy"> 
       <div class="card-content"> 
         <div class="card-title">Short Crack Growth</div> 
         <p class="card-desc">One-line summary of the topic.</p> 
       </div> 
       </a>
-      <a class="research-card" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth">
+    </article>
+    <article class="research-card"> 
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth">
       <img src="/images/research/PostdocOverview.png" alt="Visual for Short Crack Growth" loading="lazy">
       <div class="card-content">
         <div class="card-title">Short Crack Growth</div>
         <p class="card-desc">Brief description goes here.</p>
       </div>
       </a>
+    </article>
     </div>
   </div>
 </section>
