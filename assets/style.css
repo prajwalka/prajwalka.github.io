@@ -402,7 +402,7 @@ main a:active {
 }
 
 .research-card .image-box img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 100%;
   object-fit: contain;
   object-position: center;
@@ -429,6 +429,10 @@ main a:active {
   max-width: 340px;
   margin: 8px auto 0;
   display: block;
+}
+
+.research-section .research-card .card-content .card-desc { 
+  text-align: center; 
 }
 
 /* Group heading (use h2 in your HTML) */
