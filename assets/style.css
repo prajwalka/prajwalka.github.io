@@ -357,8 +357,9 @@ main a:active {
 /* Card grid */
 .research-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 340px));
   gap: clamp(12px, 2vw, 20px);
+  justify-content: center;
   margin-top: clamp(16px, 2vw, 24px);
 }
 
@@ -392,7 +393,7 @@ main a:active {
 
 /* Card image */
 .research-card img {
-  width: 100%;
+  width: 90%;
   display: block;
   aspect-ratio: 16 / 9;
   object-fit: cover;
