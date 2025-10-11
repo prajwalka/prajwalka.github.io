@@ -394,8 +394,9 @@ main a:active {
 /* Card image */
 .research-card .image-box {
   width: 90%;
-  margin: 0 auto clamp(8px, 1vw, 12px);
+  margin: 0 auto clamp(4px, 0.5vw, 8px);
   padding: clamp(4px, 0.8vw, 10px);
+  padding-bottom: clamp(2px, 0.4vw, 6px);
   box-sizing: border-box;
   aspect-ratio: 16 / 9;
   display: grid;
