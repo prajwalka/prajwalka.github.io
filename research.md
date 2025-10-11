@@ -22,7 +22,7 @@ permalink: /research/
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Accelerating fatigue simulations</div>
-        <p class="card-desc">Utilizing multi-time scaling approaches to predict the fatigue behavior over thousands of loading cycles</p>
+        <p class="card-desc">Utilizing numerical multi-time scaling approaches to efficiently predict the fatigue behavior over thousands of loading cycles</p>
       </div>
       </a>
     </article>

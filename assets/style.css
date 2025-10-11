@@ -442,14 +442,10 @@ main a:active {
   font-size: clamp(14px, 1vw, 16px);
   color: #333;
   line-height: 1.4;
-  text-align: center;
+  text-align: left;
   max-width: 340px;
   margin: 8px auto 0;
   display: block;
-}
-
-.research-section .research-card .card-content .card-desc { 
-  text-align: center; 
 }
 
 /* Group heading (use h2 in your HTML) */
