@@ -393,19 +393,21 @@ main a:active {
 
 /* Card image */
 .research-card .image-box {
-  width: clamp(240px, 30vw, 360px);
+  width: 90%;
+  margin: 0 auto clamp(8px, 1vw, 12px);
+  padding: clamp(4px, 0.8vw, 10px);
+  box-sizing: border-box;
   aspect-ratio: 16 / 9;
-  margin: 0 auto 12px;
   display: grid;
   place-items: center;
   overflow: hidden;
 }
-
 .research-card .image-box img {
-  max-width: 90%;
+  max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   object-position: center;
+  display: block;
 }
 
 /* Card text */
