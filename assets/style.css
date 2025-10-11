@@ -426,7 +426,9 @@ main a:active {
   color: #333;
   line-height: 1.4;
   text-align: center;
-  max-width: none;
+  max-width: 340px;
+  margin: 8px auto 0;
+  display: block;
 }
 
 /* Group heading (use h2 in your HTML) */
