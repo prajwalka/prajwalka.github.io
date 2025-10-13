@@ -510,6 +510,16 @@ main a:active {
   border-radius: 8px;
 }
 
+.rd-figcap {
+  width: 90%; 
+  margin: 6px auto 0;
+  font-size: clamp(12px, 0.9vw, 13px);
+  font-style: italic; 
+  color: #666;
+  text-align: center;
+  line-height: 1.4;
+}
+
 .rd-content {
   width: 80%;
   max-width: 1600px;
