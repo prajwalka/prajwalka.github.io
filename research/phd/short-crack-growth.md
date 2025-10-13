@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Short Crack Growth"
-permalink: /research/postdoc/short-crack-growth/
+permalink: /research/phd/short-crack-growth/
 ---
 <section class="research-detail"> 
 
