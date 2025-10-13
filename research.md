@@ -61,4 +61,70 @@ permalink: /research/
     </article>
     </div>
   </div>
+
+  <div class="research-group"> 
+    <h2>Multi-Institute Collaboration Projects</h2> 
+    <div class="research-card-grid"> 
+     <article class="research-card">
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
+      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="card-content"> 
+        <div class="card-title">NASA Space Technology Research Institute (STRI)</div> 
+        <p class="card-desc">Fatigue short crack growth behavior modeling in additively manufactured Ti6Al4V and Inconel 718 alloys</p> 
+      </div> 
+      </a>
+    </article>
+    <article class="research-card"> 
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="card-content">
+        <div class="card-title">Predictive Science Academic Alliance Program (PSAAP) III</div>
+        <p class="card-desc">Strong discontinuity modeling, contact formulation, and inhomogeneous material parameter effects on fracture behavior of mock high explosive materials</p>
+      </div>
+      </a>
+    </article>
+    </div>
+  </div>
+
+  <div class="research-group"> 
+    <h2>Key Collaboration Projects</h2> 
+    <div class="research-card-grid"> 
+     <article class="research-card">
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
+      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="card-content"> 
+        <div class="card-title">Strain analysis of stretchable transistors</div> 
+        <p class="card-desc">Framework to predict local strains within encapsulant layer of stretchable transistors</p> 
+      </div> 
+      </a>
+    </article>
+    <article class="research-card"> 
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="card-content">
+        <div class="card-title">Experiments to study elastomer fracture</div>
+        <p class="card-desc">Study of PDMS rubber fracture behavior by fabricating square films with a hole and induced notches</p>
+      </div>
+      </a>
+    </article>
+    <article class="research-card"> 
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="card-content">
+        <div class="card-title">Physics-informed neural networks for shape sensing applications</div>
+        <p class="card-desc">PINN framework to solve the inverse problem of predicting deformed shape using sensor data</p>
+      </div>
+      </a>
+    </article>
+    <article class="research-card"> 
+      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="card-content">
+        <div class="card-title">Ductile fracture modeling of steel and cohesive frictional materials</div>
+        <p class="card-desc">Generalized continuum formulations coupled with smeared discontinuity approaches for ductile fracture modeling</p>
+      </div>
+      </a>
+    </article>
+    </div>
+  </div>
 </section>
