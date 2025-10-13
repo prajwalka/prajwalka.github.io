@@ -467,7 +467,7 @@ main a:active {
 :root {
 /* tune these as needed */
 --research-card-min: clamp(240px, 30cqw, 300px);
---research-card-max: clamp(360px, 45cqw, 500px);
+--research-card-max: clamp(320px, 45cqw, 400px);
 }
 
 /* Reset paragraph indentation inside cards */

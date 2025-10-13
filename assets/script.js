@@ -179,7 +179,7 @@ function setResearchCols() {
   const w = grid.clientWidth;
 
   // Base columns by width (adjust breakpoints to taste)
-  let cols = w < 700 ? 1 : w < 1000 ? 2 : w < 1400 ? 3 : 4;
+  let cols = w < 400 ? 1 : w < 800 ? 2 : w < 1200 ? 3 : 4;
 
   // Avoid a single-card last row
   if (count % cols === 1) {
