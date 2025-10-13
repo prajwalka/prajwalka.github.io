@@ -483,7 +483,7 @@ main a:active {
 /* Research Details Formatting */
 .research-detail {
   width: 90%;
-  max-width: clamp(700px, 90vw, 1200px);
+  max-width: clamp(1000px, 90vw, 1600px);
   margin: 0 auto;
   padding: clamp(24px, 3vw, 48px) 0;
 }
@@ -511,7 +511,8 @@ main a:active {
 }
 
 .rd-content {
-  max-width: 70ch;
+  width: 80%;
+  max-width: 1600px;
   margin: 0 auto;
   color: #333;
   line-height: 1.55;
