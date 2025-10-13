@@ -501,6 +501,7 @@ main a:active {
 .rd-image img {
   width: 90%;
   padding: clamp(4px, 0.8vw, 10px);
+  padding-bottom: clamp(0px, 0.3vw, 4px); 
   box-sizing: border-box;
   display: block;
   margin: 0 auto;
@@ -512,7 +513,7 @@ main a:active {
 
 .rd-figcap {
   width: 90%; 
-  margin: 6px auto 0;
+  margin: 2px auto 0;
   font-size: clamp(12px, 0.9vw, 13px);
   font-style: italic; 
   color: #666;
