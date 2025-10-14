@@ -108,7 +108,7 @@ permalink: /research/
       </a>
     </article>
     <article class="research-card"> 
-      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <a class="card-link" href="/research/collab/pinn/" aria-label="PINNs for shape sensing applications">
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Physics-informed neural networks for shape sensing applications</div>
