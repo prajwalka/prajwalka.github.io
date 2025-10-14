@@ -15,7 +15,7 @@ permalink: /research/phd/fracPropNC/
   <ul class="rd-refs">
     <li><a href="https://www.sciencedirect.com/science/article/pii/S0045782523001056" target="_blank">P.K.Arunachala, S.Abrari Vajari, M.Neuner & C.Linder, <em>Computer Methods in Applied Mechanics and Engineering</em> 410, 115982 (2023)</a></li>
     <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">P.K.Arunachala, S.Abrari Vajari, M.Neuner, J.S.Sim, R.Zhao & C.Linder, <em>International Journal for Numerical Methods in Engineering</em> 125(13), e7488 (2024)</a></li>
-    <li>P.K.Arunachala, S.Abrari Vajari, M.Neuner & C.Linder, <em>International Journal for Numerical Methods in Engineering [Submitted]</em></li> 
+    <li>P.K.Arunachala, S.Abrari Vajari & C.Linder, <em>International Journal for Numerical Methods in Engineering [Submitted]</em></li> 
   </ul>
 
   <h3>Highlights</h3>
