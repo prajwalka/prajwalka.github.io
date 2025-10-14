@@ -99,7 +99,7 @@ permalink: /research/
       </a>
     </article>
     <article class="research-card"> 
-      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <a class="card-link" href="/research/collab/exp/" aria-label="Experiments to study elastomer fracture">
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Experiments to study elastomer fracture</div>

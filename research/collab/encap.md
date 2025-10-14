@@ -5,7 +5,7 @@ permalink: /research/collab/encap/
 ---
 <section class="research-detail"> 
 
-  <h2>Strain analysis of stretchable transistors</h2> 
+  <h2>Strain Analysis of Stretchable Transistors</h2> 
 
   <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
 
@@ -13,7 +13,8 @@ permalink: /research/collab/encap/
 
   <h3>References</h3>
   <ul class="rd-refs">
-    <li><a href="https://micromorph.gitlab.io/overview/" target="_blank">Micromorph (PSAAP III) </a></li>
+    <li><a href="https://www.nature.com/articles/s41928-020-00525-1" target="_blank">W.Wang, S.Wang, R.Rastak, Y.Ochiai, S.Niu, Y.Jiang, P.K.Arunachala, Y.Zheng, J.Xu, N.Matsuhisa, X.Yan, S-K.Kwon, M.Miyakawa, Z.Zhang, R.Ning, A.Foudeh, Y.Yun, C.Linder, J.B-H.Tok & Z.Bao, <em>Nature Electronics</em> 4(2), 1-8 (2021)</a></li>
+    <li><a href="https://www.nature.com/articles/s41467-023-44099-w" target="_blank">H-C.Wu, S.Nikzad, C.Zhu, H.Yan, Y.Li, W.Niu, J.R.Matthews, J.Xu, N.Matsuhisa, P.K.Arunachala, R.Rastak, C.Linder, Y-Q.Zheng, M.F.Toney, M.He & Z.Bao, <em>Nature Communications</em> 14(1), 8382 (2023)</a></li>
   </ul>
 
   <h3>Highlights</h3>
