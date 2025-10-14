@@ -13,7 +13,7 @@ permalink: /research/collab/exp/
 
   <h3>References</h3>
   <ul class="rd-refs">
-    <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">P.K.Arunachala, S.Abrari Vajari, M.Neuner, J.S.Sim, R.Zhao & C.Linder, <em>International Journal for Numerical Methods in Engineering</em> 125(13), e7488 (2024)</a>
+    <li><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7488" target="_blank">P.K.Arunachala, S.Abrari Vajari, M.Neuner, J.S.Sim, R.Zhao & C.Linder, <em>International Journal for Numerical Methods in Engineering</em> 125(13), e7488 (2024)</a></li>
   </ul>
 
   <h3>Highlights</h3>
