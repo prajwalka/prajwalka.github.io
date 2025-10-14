@@ -457,6 +457,15 @@ main a:active {
   margin-top: clamp(36px, 1.2vw, 60px);
 }
 
+.research-detail .rd-subtitle {
+  font-style: italic;
+  color: #555;
+  margin: 4px 0 clamp(10px, 1vw, 16px);
+  text-align: center;
+  font-weight: 400;
+  font-size: clamp(14px, 1vw, 18px);
+}
+
 /* Container */
 .research-section {
   container-type: inline-size;
