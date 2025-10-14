@@ -33,7 +33,7 @@ permalink: /research/
     <h2>PhD Dissertation</h2> 
     <div class="research-card-grid"> 
      <article class="research-card">
-      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
+      <a class="card-link" href="/research/postdoc/fracInit" aria-label="Fracture initiation in SIC rubbers"> 
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content"> 
         <div class="card-title">Fracture initiation in strain-crystallizing rubbers</div> 

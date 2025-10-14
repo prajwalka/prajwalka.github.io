@@ -5,7 +5,7 @@ permalink: /research/postdoc/watmus/
 ---
 <section class="research-detail"> 
 
-  <h2Accelerating Fatigue Simulations</h2> 
+  <h2>Accelerating Fatigue Simulations</h2> 
 
   <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> 
   <figcaption class="rd-figcap"> Figure references: Nikitin et al. (2023), Wang et al. (2021), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com  </figcaption>
@@ -16,11 +16,11 @@ permalink: /research/postdoc/watmus/
 
   <h3>Highlights</h3>
   <ol class="rd-highlights">
-    <li>TOPIC IN PROGRESS, STAY TUNED!!</li>
+    <li>RESEARCH IN PROGRESS, STAY TUNED!!</li>
   </ol>
 
   <p class="rd-ack"><em>
-    Acknowledgement: Currently being conducted in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a> headed by Dr. Somnath Ghosh at Johns Hopkins University, and is funded by the Office of Naval Research.
+    Acknowledgment: Currently being conducted in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a> headed by Dr. Somnath Ghosh at Johns Hopkins University, and is funded by the Office of Naval Research.
   </em></p>
 
   </div> 

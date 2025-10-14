@@ -22,7 +22,7 @@ permalink: /research/postdoc/short-crack-growth/
   </ol>
 
   <p class="rd-ack"><em>
-    Acknowledgement: Currently being conducted in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a> headed by Dr. Somnath Ghosh at Johns Hopkins University and is funded by the Office of Naval Research. Research contributions from Dr. Joshua Stickel and experimental data from Dr. Julian Avila's research group at São Paulo State University, Brazil.
+    Acknowledgment: Currently being conducted in the <a href="https://cmrl.jhu.edu/" target="_blank">Computational Mechanics Research Laboratory (CMRL)</a> headed by Dr. Somnath Ghosh at Johns Hopkins University and is funded by the Office of Naval Research. Research contributions from Dr. Joshua Stickel and experimental data from Dr. Julian Avila's research group at São Paulo State University, Brazil.
   </em></p>
 
   </div> 
