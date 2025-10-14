@@ -10,7 +10,7 @@ permalink: /research/
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/postdoc/ShortCrackGrowthTile.png" alt="Short Crack Growth" loading="lazy"> </div>
       <div class="card-content"> 
         <div class="card-title">Short crack propagation in metallic alloys</div> 
         <p class="card-desc">Micromechanical coupled crystal plasticity-phase field model for short crack growth behavior in these polycrystalline materials</p> 

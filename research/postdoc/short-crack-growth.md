@@ -7,7 +7,7 @@ permalink: /research/postdoc/short-crack-growth/
 
   <h2>Short Crack Growth in Metallic Alloys</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> 
+  <figure class="rd-image"> <img src="/research/postdoc/ShortCrackGrowth.png" alt="Short crack growth study"> 
   <figcaption class="rd-figcap"> Figure references: Nikitin et al. (2023), Wang et al. (2021), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com  </figcaption>
   </figure> 
 
