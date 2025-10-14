@@ -90,11 +90,11 @@ permalink: /research/
     <h2>Key Collaboration Projects</h2> 
     <div class="research-card-grid"> 
      <article class="research-card">
-      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
+      <a class="card-link" href="/research/collab/encap/" aria-label="Stretchable transistors"> 
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content"> 
         <div class="card-title">Strain analysis of stretchable transistors</div> 
-        <p class="card-desc">Framework to predict local strains within encapsulant layer of stretchable transistors</p> 
+        <p class="card-desc">Framework to predict local strains within the encapsulant layer of stretchable transistors</p> 
       </div> 
       </a>
     </article>
