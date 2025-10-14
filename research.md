@@ -18,11 +18,11 @@ permalink: /research/
       </a>
     </article>
     <article class="research-card"> 
-      <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Multi-time scaling">
+      <a class="card-link" href="/research/postdoc/watmus" aria-label="Accelerating fatigue simulations">
       <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Accelerating fatigue simulations</div>
-        <p class="card-desc">Numerical multi-time scaling approaches to efficiently predict the fatigue behavior over thousands of loading cycles</p>
+        <p class="card-desc">Numerical approaches to efficiently predict the fatigue behavior over thousands of loading cycles</p>
       </div>
       </a>
     </article>
