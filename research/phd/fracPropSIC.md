@@ -7,7 +7,9 @@ permalink: /research/phd/fracPropSIC/
 
   <h2>Fracture Crack Propagation in Strain-Crystallizing Rubbers</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/phd/fracPropSC.png" alt="Fracture propagation in strain-crystallizing rubbers"> 
+  <figcaption class="rd-figcap"> Figure references: Gherib et al. (2010), Soft Robotics, sciencetime.com, qsdirectory.com, Qi et al. (2022)  </figcaption>
+  </figure> 
 
   <div class="rd-content"> <p> Rubber-like materials find widespread applications in areas like stretchable electronics, self-actuators, implantable sensors, and many engineering fields. This is primarily due to their desirable attributes, such as high stretchability, high toughness, low modulus, and low cost. Consequently, accurately modeling their fracture behavior becomes crucial for comprehending and designing them resiliently against failures. Notably, certain materials like natural rubber stand out for their superior qualities compared to their counterparts. Numerous efforts have been made to elucidate the underlying mechanisms behind its exceptional properties, with strain-induced crystallization (SIC) emerging as a key phenomenon believed to enhance fracture resistance. Moreover, SIC is also observed in polymer melts during industrial processing, where it can be harnessed to tailor the properties of finished products. Motivated by these insights, this study focused on developing a multiscale model coupled with the phase field approach to model crack propagation in these strain-crystallizing materials. </p>
 
