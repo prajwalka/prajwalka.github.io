@@ -76,7 +76,7 @@ permalink: /research/
     </article>
     <article class="research-card"> 
       <a class="card-link" href="/research/multiuni/psaap/" aria-label="PSAAP 3">
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/multiuni/psaapTile.png" alt="PSAAP 3" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Predictive Science Academic Alliance Program (PSAAP) III</div>
         <p class="card-desc">Strong discontinuity modeling, contact formulation, and inhomogeneous material parameter effects on fracture behavior of mock high explosive materials</p>
