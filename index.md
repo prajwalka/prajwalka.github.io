@@ -108,7 +108,7 @@ title: "Home"
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Christian Linder </li>
           <li> <em>Dissertation Committee</em>: Dr. Ronaldo Borja, Dr. Gregory Deierlein, Dr. Renee Zhao, Dr. Wendy Gu </li>
-          <li> <em>Thesis</em>: Computational modeling of fracture behavior of rubber-like materials </li>
+          <li> <em>Thesis Title</em>: Computational modeling of fracture behavior of rubber-like materials </li>
         </ul> 
         </li> 
 
@@ -122,7 +122,7 @@ title: "Home"
         <ul class="education-highlights"> 
           <li> <em>Honors</em>: Civil Engineering, <em>Minor</em>: Computer Science Engineering </li>
           <li> <em>Advisors</em>: Dr. Amit Das & Dr. Mandar Inamdar </li>
-          <li> <em>Thesis</em>: Mechanical formulations of plates on elastic foundations </li>
+          <li> <em>Thesis Title</em>: Mechanical formulations of plates on elastic foundations </li>
         </ul> 
         </li> 
 
