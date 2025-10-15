@@ -107,6 +107,7 @@ title: "Home"
         <li> <strong>Stanford University</strong> — Ph.D. in Civil and Environmental Engineering [Apr'19-Sep'24]
         <ul class="education-highlights"> 
           <li> <em>Advisor</em>: Dr. Christian Linder </li>
+          <li> <em>Dissertation Committee</em>: Dr. Ronaldo Borja, Dr. Gregory Deierlein, Dr. Renee Zhao, Dr. Wendy Gu </li>
           <li> <em>Thesis</em>: Computational modeling of fracture behavior of rubber-like materials </li>
         </ul> 
         </li> 
