@@ -67,7 +67,7 @@ permalink: /research/
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/multiuni/nasa/" aria-label="NASA STRI"> 
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/multiuni/nasaTile.png" alt="NASA STRI" loading="lazy"> </div>
       <div class="card-content"> 
         <div class="card-title">NASA Space Technology Research Institute (STRI)</div> 
         <p class="card-desc">Fatigue short crack growth behavior modeling in additively manufactured Ti-6Al-4V and Inconel 718 alloys</p> 

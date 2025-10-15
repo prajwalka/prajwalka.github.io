@@ -8,7 +8,7 @@ permalink: /research/multiuni/nasa/
   <h2>NASA Space Technology Research Institute (STRI)</h2> 
   <h3 class="rd-subtitle"> <em> Institute for Model-based Qualification and Certification of Additive Manufacturing </em> </h3>
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/multiuni/nasa.png" alt="NASA Space Technology Research Institute (STRI)"> </figure> 
 
   <div class="rd-content"> <p> The multi-institute collaboration project focuses on developing a digital twin ensuring Quality & Certification of Metal Additive Manufacturing processes and products. As part of the "multiscale modeling of properties, performance & life" cross-cutting cluster, I have been involved in developing micromechanical fatigue short crack growth models for additively manufactured Ti-6Al-4V and Inconel 718 alloys. </p>
 
