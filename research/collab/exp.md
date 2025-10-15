@@ -7,7 +7,7 @@ permalink: /research/collab/exp/
 
   <h2>Experiments to Study Elastomer Fracture</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/collab/exp.png" alt="Experiments to Study Elastomer Fracture"> </figure> 
 
   <div class="rd-content"> <p> We designed and conducted a set of experiments to gain practical insight into fracture behavior in elastomers. </p>
 

@@ -100,7 +100,7 @@ permalink: /research/
     </article>
     <article class="research-card"> 
       <a class="card-link" href="/research/collab/exp/" aria-label="Experiments to study elastomer fracture">
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/collab/expTile.png" alt="Experiments to study elastomer fracture" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Experiments to study elastomer fracture</div>
         <p class="card-desc">Study of PDMS rubber fracture behavior by fabricating square films with a hole and induced notches</p>
@@ -109,7 +109,7 @@ permalink: /research/
     </article>
     <article class="research-card"> 
       <a class="card-link" href="/research/collab/pinn/" aria-label="PINNs for shape sensing applications">
-      <div class="image-box"> <img src="/research/postdoc/collab/pinnTile.png" alt="PINNs for shape sensing applications" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/collab/pinnTile.png" alt="PINNs for shape sensing applications" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Physics-informed neural networks for shape sensing applications</div>
         <p class="card-desc">PINN framework to solve the inverse problem of predicting deformed shape using sensor data</p>
