@@ -43,7 +43,7 @@ permalink: /research/
     </article>
     <article class="research-card"> 
       <a class="card-link" href="/research/phd/fracPropNC" aria-label="Fracture crack propagation in elastomers">
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/phd/fracPropNCTile.png" alt="Fracture propagation in non-crystallizing rubbers" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Fracture crack propagation in non-crystallizing rubbers</div>
         <p class="card-desc">Multiscale model coupled with phase field approach for crack propagation in non-crystallizing rubbers while accounting for microscale anisotropy in polymer network behavior and incompressibility</p>

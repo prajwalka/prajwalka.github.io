@@ -7,7 +7,9 @@ permalink: /research/phd/fracPropNC/
 
   <h2>Fracture Crack Propagation in Non-Crystallizing Rubbers</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/phd/fracPropNC.png" alt="Fracture propagation in non-crystallizing rubbers">
+  <figcaption class="rd-figcap"> Figure references: Russ et al. (2020), Mang et al. (2021), Soft Robotics, sciencetime.com, qsdirectory.com  </figcaption>
+  </figure> 
 
   <div class="rd-content"> <p> Rubber-like materials find widespread applications in areas like stretchable electronics, self-actuators, implantable sensors, and many engineering fields. This is primarily due to their desirable attributes, such as high stretchability, high toughness, low modulus, and low cost. Consequently, accurately modeling their fracture behavior becomes crucial for comprehending and designing them resiliently against failures. However, the challenges posed by their multiscale nature, microscale anisotropy in polymer network response, and incompressible behavior make precise modeling of their fracture behavior a formidable task. Motivated by these insights, this study focused on developing a multiscale model coupled with the phase field approach to model crack propagation in general non-crystallizing rubbers. </p>
 
