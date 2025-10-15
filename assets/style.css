@@ -510,13 +510,15 @@ main a:active {
   max-width:1600px;
 }
 .rd-image img {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: clamp(400px,60vh,720px);
   padding: clamp(4px, 0.8vw, 10px);
   padding-bottom: clamp(0px, 0.3vw, 4px); 
   box-sizing: border-box;
   display: block;
   margin: 0 auto;
-  height: auto;
   object-fit: contain;
   object-position: center;
   border-radius: 8px;
