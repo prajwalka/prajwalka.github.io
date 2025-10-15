@@ -34,7 +34,7 @@ permalink: /research/
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/phd/fracInit" aria-label="Fracture initiation in SIC rubbers"> 
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/phd/fracInitTile.png" alt="Fracture Initiation in SIC rubbers" loading="lazy"> </div>
       <div class="card-content"> 
         <div class="card-title">Fracture initiation in strain-crystallizing rubbers</div> 
         <p class="card-desc">Internal energy-based fracture initiation criterion considering molecular bond rupture and crystallite distortion in a multiscale model for strain-crystallizing rubbers</p> 
