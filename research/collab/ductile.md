@@ -7,9 +7,11 @@ permalink: /research/collab/ductile/
 
   <h2>Ductile Fracture Modeling of Steel and Cohesive Frictional Materials</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/collab/ductile.png" alt="Ductile Fracture Modeling"> 
+  <figcaption class="rd-figcap"> Figure references: Schlangen (1993),  Nooru-Mohamed (1993), van den Hoek (2001)  </figcaption>
+  </figure> 
 
-  <div class="rd-content"> <p> Micromechanics-driven ductile fracture formulations have been developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry. </p>
+  <div class="rd-content"> <p> In these projects that I have been a part of, micromechanics-driven ductile fracture formulations have been developed using Boltzmann and micropolar continua, incorporating phase-field and gradient-enhanced damage models. These studies have significant relevance in applications such as borehole breakout and the construction industry. </p>
 
   <h3>References</h3>
   <ul class="rd-refs">
