@@ -411,7 +411,7 @@ main a:active {
 /* Card image */
 .research-card .image-box {
   width: 90%;
-  margin: 0 auto clamp(4px, 0.5vw, 8px);
+  margin: 0 auto clamp(2px, 0.3vw, 4px);
   padding: clamp(4px, 0.8vw, 10px) clamp(4px, 0.8vw, 10px) clamp(2px, 0.4vw, 6px);
   box-sizing: border-box;
   height: clamp(140px, 24vw, 240px);
@@ -436,6 +436,7 @@ main a:active {
 /* Card text */
 .research-card .card-content {
   padding: clamp(12px, 2vw, 16px);
+  padding-top: clamp(6px, 1vw, 10px);
   text-align: center;
 }
 .research-card .card-title {
