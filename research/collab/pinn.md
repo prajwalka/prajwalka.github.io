@@ -7,7 +7,7 @@ permalink: /research/collab/pinn/
 
   <h2>Physics-Informed Neural Networks for Shape Sensing Applications</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/collab/pinn.png" alt="PINNs for shape sensing applications"> </figure> 
 
   <div class="rd-content"> <p> We utilized physics-informed neural networks (PINNs) to solve inverse problems, where deformations are reconstructed from strain sensor readings. This study holds significant promise for shape-sensing applications such as structural health monitoring and shape reconstruction in the medical and fashion industries. </p>
 

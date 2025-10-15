@@ -91,7 +91,7 @@ permalink: /research/
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/collab/encap/" aria-label="Stretchable transistors"> 
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/collab/encapTile.png" alt="Strain analysis of stretchable transistors" loading="lazy"> </div>
       <div class="card-content"> 
         <div class="card-title">Strain analysis of stretchable transistors</div> 
         <p class="card-desc">Framework to predict local strains within the encapsulant layer of stretchable transistors</p> 
@@ -109,7 +109,7 @@ permalink: /research/
     </article>
     <article class="research-card"> 
       <a class="card-link" href="/research/collab/pinn/" aria-label="PINNs for shape sensing applications">
-      <div class="image-box"> <img src="/research/postdoc/PostdocOverviewCrop.png" alt="Visual for Short Crack Growth" loading="lazy"> </div>
+      <div class="image-box"> <img src="/research/postdoc/collab/pinnTile.png" alt="PINNs for shape sensing applications" loading="lazy"> </div>
       <div class="card-content">
         <div class="card-title">Physics-informed neural networks for shape sensing applications</div>
         <p class="card-desc">PINN framework to solve the inverse problem of predicting deformed shape using sensor data</p>

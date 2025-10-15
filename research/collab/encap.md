@@ -7,7 +7,7 @@ permalink: /research/collab/encap/
 
   <h2>Strain Analysis of Stretchable Transistors</h2> 
 
-  <figure class="rd-image"> <img src="/research/postdoc/PostdocOverview.png" alt="Short crack growth study"> </figure> 
+  <figure class="rd-image"> <img src="/research/collab/encap.png" alt="Strain analysis of stretchable transistor"> </figure> 
 
   <div class="rd-content"> <p> I was part of the project that focused on developing a framework for strain analysis of a stretchable transistor array comprising substrate and encapsulant layers to accurately predict the local strain within the encapsulant layer based on globally applied strains across various design configurations. This study is crucial for optimally designing stretchable transistor arrays used in wearable electronics applications.  </p>
 
