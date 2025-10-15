@@ -412,26 +412,25 @@ main a:active {
 .research-card .image-box {
   width: 90%;
   margin: 0 auto clamp(4px, 0.5vw, 8px);
-  padding: 0;
+  padding: clamp(4px, 0.8vw, 10px) clamp(4px, 0.8vw, 10px) clamp(2px, 0.4vw, 6px);
   box-sizing: border-box;
   height: clamp(140px, 24vw, 240px);
   min-width: 0;
   min-height: 0;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
   overflow: hidden;
 }
 
 .research-card .image-box img {
-  width: 100%;
+  width: auto;
   height: 100%;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
   object-position: center;
   display: block;
-  padding: clamp(4px, 0.8vw, 10px);
-  box-sizing: border-box;
 }
 
 /* Card text */
