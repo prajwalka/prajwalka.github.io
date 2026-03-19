@@ -1070,3 +1070,220 @@ main a:active {
     }
   }
 }
+
+
+
+
+/* ---------- Theme tokens ---------- */
+:root{
+  /* Typography */
+  --ui-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --ui-serif: "Source Serif 4", "Merriweather", Georgia, "Times New Roman", serif;
+
+  /* Palette (academic, modern) */
+  --ink: #0b1220;            /* main text */
+  --muted-ink: #42526a;      /* secondary text */
+  --brand: #1f4b99;          /* refined academic blue */
+  --brand-2: #2a6df4;        /* link/accents (used lightly) */
+
+  --paper: #f7f9fc;          /* page base */
+  --paper-2: #ffffff;        /* cards/surfaces */
+  --line: rgba(15, 23, 42, 0.10);
+
+  --shadow-1: 0 10px 30px rgba(2, 10, 30, 0.08);
+  --shadow-2: 0 18px 44px rgba(2, 10, 30, 0.12);
+
+  --radius: 14px;
+}
+
+/* ---------- Global text rendering ---------- */
+body{
+  color: var(--ink);
+  font-family: var(--ui-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Keep your :focus-visible behavior but make it cleaner */
+:focus-visible{
+  outline: 2px solid color-mix(in oklab, var(--brand-2) 70%, black);
+  outline-offset: 3px;
+}
+
+/* ---------- Light gradient background for the whole page ---------- */
+main{
+  /* Override your rocky-wall texture with a subtle formal gradient */
+  background-image:
+    radial-gradient(900px 600px at 80% -120px, rgba(42,109,244,0.16), transparent 60%),
+    radial-gradient(800px 520px at 10% 20%, rgba(31,75,153,0.10), transparent 55%),
+    linear-gradient(180deg, var(--paper), #ffffff 60%, #f3f6fb);
+  background-repeat: no-repeat;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--ui-sans);
+}
+
+/* Headings: elegant serif, slightly tighter tracking */
+h1, h2, h3{
+  font-family: var(--ui-serif);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+/* Your h1 had heavy padding; keep it but refine color */
+h1{
+  color: var(--brand);
+}
+
+/* Paragraphs: more comfortable reading color */
+p{
+  color: var(--ink);
+}
+
+/* Make “secondary text” areas subtly muted (optional; safe) */
+.pub-footnote,
+.rd-figcap,
+.rd-subtitle,
+.rd-ack,
+.course-term,
+.university-subtitle{
+  color: var(--muted-ink);
+}
+
+/* Links inside main: modern underline-on-hover, refined color */
+main a:link,
+main a:visited{
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 650;
+}
+main a:hover,
+main a:active{
+  color: var(--brand-2);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+  text-shadow: none;
+}
+
+/* ---------- Header: “glass” light + modern, while keeping scrolled black behavior ---------- */
+header{
+  /* Override your paper texture (keep it clean) */
+  background-image:
+    linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.78));
+  background-color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 10px 30px rgba(2, 10, 30, 0.10);
+  backdrop-filter: saturate(160%) blur(10px);
+}
+
+/* Site title and nav typography */
+header .site-title{
+  font-family: var(--ui-serif);
+  font-weight: 800;
+  color: var(--brand);
+  letter-spacing: 0.2px;
+}
+
+/* Nav links: cleaner, slightly smaller weight; keep your hover scaling */
+nav a{
+  font-family: var(--ui-sans);
+  color: color-mix(in oklab, var(--brand) 88%, var(--ink));
+  font-weight: 600;
+}
+nav a:hover{
+  color: var(--brand-2); /* still tasteful */
+}
+
+/* Scrolled header: keep black, but make it more “premium” */
+header.scrolled{
+  background-image:
+    linear-gradient(180deg, rgba(10,12,16,0.96), rgba(10,12,16,0.90));
+  background-color: #0a0c10;
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.35);
+  backdrop-filter: saturate(130%) blur(10px);
+}
+header.scrolled .site-title{
+  color: #ffffff;
+}
+header.scrolled nav a{
+  color: rgba(255,255,255,0.72);
+}
+header.scrolled nav a:hover{
+  color: #ffffff;
+}
+
+/* Mobile dropdown select: style to match header */
+.mobile-nav-select{
+  font-family: var(--ui-sans);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.55em 0.8em;
+  background: rgba(255,255,255,0.9);
+  color: var(--ink);
+  box-shadow: 0 8px 20px rgba(2, 10, 30, 0.08);
+}
+header.scrolled .mobile-nav-select{
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.88);
+}
+
+/* ---------- Cards: make research + teaching feel modern (no layout changes) ---------- */
+.research-card,
+.teaching-card{
+  background: color-mix(in oklab, var(--paper-2) 92%, rgba(255,255,255,0.0));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+}
+
+/* Hover: subtle lift already exists; refine it */
+.research-card:hover,
+.research-card:focus-within{
+  box-shadow: var(--shadow-2);
+}
+
+/* Card titles: serif accent */
+.research-card .card-title{
+  font-family: var(--ui-serif);
+  color: var(--brand);
+  letter-spacing: -0.01em;
+}
+
+/* Card body text: calmer */
+.research-card .card-desc,
+.rd-content{
+  color: color-mix(in oklab, var(--ink) 88%, var(--muted-ink));
+}
+
+/* Teaching pill: refine blue */
+.course-code{
+  background: linear-gradient(180deg, color-mix(in oklab, var(--brand-2) 86%, white), var(--brand));
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(31, 75, 153, 0.22);
+}
+
+/* Highlights list: soften the blue block */
+.rd-highlights li{
+  background: rgba(42,109,244,0.06);
+  border-left-color: var(--brand);
+}
+
+/* Publications number marker: match brand */
+.publication-list li::marker,
+.joint-marker,
+.pub-footnote sup{
+  color: var(--brand);
+}
+
+/* ---------- Footer: keep black but modernize typography slightly ---------- */
+.site-footer{
+  background-image: linear-gradient(180deg, #0a0c10, #06070a);
+  border-top: 1px solid rgba(255,255,255,0.10);
+}
+.footer-text{
+  font-family: var(--ui-sans);
+  color: rgba(255,255,255,0.70);
+}
