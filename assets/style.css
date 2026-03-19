@@ -1077,8 +1077,8 @@ main a:active {
 /* ---------- Theme tokens ---------- */
 :root{
   /* Typography */
-  --ui-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  --ui-serif: "Source Serif 4", "Merriweather", Georgia, "Times New Roman", serif;
+  --ui-sans: "CMU Sans Serif", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --ui-serif: "Merriweather", Georgia, "Times New Roman", serif;
 
   /* Palette (academic, modern) */
   --ink: #0b1220;            /* main text */
@@ -1195,24 +1195,21 @@ nav a:hover{
   color: var(--brand-2); /* still tasteful */
 }
 
-/* Scrolled header: keep black, but make it more “premium” */
+/* Scrolled: dark premium gradient (keeps your JS functionality: header.scrolled) */
 header.scrolled{
   background-image:
-    linear-gradient(180deg, rgba(10,12,16,0.96), rgba(10,12,16,0.90));
-  background-color: #0a0c10;
-  border-bottom: 1px solid rgba(255,255,255,0.10);
-  box-shadow: 0 14px 40px rgba(0,0,0,0.35);
-  backdrop-filter: saturate(130%) blur(10px);
+    radial-gradient(900px 220px at 50% -140px, rgba(42,109,244,0.22), transparent 60%),
+    linear-gradient(180deg, rgba(12,14,18,0.98), rgba(6,7,10,0.92)) !important;
+  background-color: #07080b !important;
+  border-bottom: 1px solid rgba(255,255,255,0.10) !important;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.35) !important;
+  backdrop-filter: saturate(140%) blur(10px);
 }
-header.scrolled .site-title{
-  color: #ffffff;
-}
-header.scrolled nav a{
-  color: rgba(255,255,255,0.72);
-}
-header.scrolled nav a:hover{
-  color: #ffffff;
-}
+
+/* Keep title/links readable on scrolled gradient */
+header.scrolled .site-title{ color: #ffffff !important; }
+header.scrolled nav a{ color: rgba(255,255,255,0.74) !important; }
+header.scrolled nav a:hover{ color: #ffffff !important; }
 
 /* Mobile dropdown select: style to match header */
 .mobile-nav-select{
@@ -1280,12 +1277,16 @@ header.scrolled .mobile-nav-select{
 
 /* ---------- Footer: keep black but modernize typography slightly ---------- */
 .site-footer{
-  background-image: linear-gradient(180deg, #0a0c10, #06070a);
+  background-image:
+    radial-gradient(900px 240px at 50% -160px, rgba(42,109,244,0.18), transparent 62%),
+    linear-gradient(180deg, #0a0c10, #05060a) !important;
+  background-color: #05060a !important;
   border-top: 1px solid rgba(255,255,255,0.10);
 }
+
 .footer-text{
-  font-family: var(--ui-sans);
-  color: rgba(255,255,255,0.70);
+  font-family: var(--ui-sans) !important;
+  color: rgba(255,255,255,0.72) !important;
 }
 
 /* ===== Force-remove old textures and apply the modern gradient ===== */
@@ -1313,6 +1314,18 @@ main{
 
 /* 4) If you still want the footer dark, re-apply only its intended gradient */
 .site-footer{
-  background-image: linear-gradient(180deg, #0a0c10, #06070a) !important;
-  background-color: #06070a !important;
+  background-image:
+    radial-gradient(900px 240px at 50% -160px, rgba(42,109,244,0.18), transparent 62%),
+    linear-gradient(180deg, #0a0c10, #05060a) !important;
+  background-color: #05060a !important;
+  border-top: 1px solid rgba(255,255,255,0.10);
+}
+
+.footer-text{
+  font-family: var(--ui-sans) !important;
+  color: rgba(255,255,255,0.72) !important;
+}
+
+.footer-icons img{
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
 }

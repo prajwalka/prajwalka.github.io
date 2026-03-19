@@ -10,7 +10,7 @@ permalink: /publications/
 
     <ol class="publication-list">
 
-      <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, C.Linder. A multiscale mixed three-field finite element formulation coupled with phase field fracture for incompressible rubber-like materials. <em>International Journal for Numerical Methods in Engineering [Submitted]</em>.</li>
+      <li><strong>P.K.Arunachala</strong>, S.Abrari Vajari, C.Linder. A multiscale mixed three-field finite element formulation coupled with phase field fracture for incompressible rubber-like materials. <em>International Journal for Numerical Methods in Engineering [In Revision]</em>.</li>
 
       <li>S.Abrari Vajari, M.Neuner, <strong>P.K.Arunachala</strong>, C.Linder. <a href="https://onlinelibrary.wiley.com/doi/10.1002/nme.70140" target="_blank">A micropolar phase field fracture model for elastoplastic solids applied to concrete failure</a>. <em>International Journal for Numerical Methods in Engineering</em>, 2025:126(19), e70140.</li>
 
@@ -38,6 +38,8 @@ permalink: /publications/
     <h2> Conference Presentations </h2> 
 
     <ol class="publication-list">
+
+      <li><strong>P.K.Arunachala</strong>, I.Snyder, L.P.Ferreira, N.Strauss, J.Stickel, A.Barik, S.Ghosh. Modeling fatigue short crack growth behavior in polycrystalline microstructures of additively manufactured alloys. <em>The Metals, Minerals & Materials Society (TMS) Annual Meeting & Exhibition</em>, San Diego, March 2026.</li>
 
       <li><strong>P.K.Arunachala</strong>, J.Stickel, S.Ghosh. Fatigue short crack propagation in polycrystalline microstructures using a coupled crystal plasticity-phase field model. <em>U.S. National Congress on Computational Mechanics (USNCCM)</em>, Chicago, July 2025.</li>
 
