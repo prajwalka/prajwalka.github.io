@@ -87,8 +87,8 @@ permalink: /research/
       <a class="card-link" href="/research/multiuni/psaap/" aria-label="PSAAP 3">
       <div class="image-box"> <img src="/research/multiuni/psaapTile.png" alt="PSAAP 3" loading="lazy"> </div>
       <div class="card-content">
-        <div class="card-title">Fracture in mock high-explosive materials</div>
-        <p class="card-desc">Strong discontinuity modeling, contact formulation, and inhomogeneous material parameter effects on fracture behavior of mock high explosive materials, as a part of the Predictive Science Academic Alliance Program (PSAAP) III</p>
+        <div class="card-title">Fracture in mock high-explosive materials (DoE PSAAP III)</div>
+        <p class="card-desc">Strong discontinuity modeling, contact formulation, and inhomogeneous material parameter effects on their fracture behavior, as a part of the Predictive Science Academic Alliance Program (PSAAP) III</p>
       </div>
       </a>
     </article>
