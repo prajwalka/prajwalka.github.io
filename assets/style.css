@@ -14,25 +14,6 @@
   font-display: swap;
 }
 
-/* Optional: oblique (slanted) */
-@font-face{
-  font-family: "CMU Sans Serif";
-  src: url("/fonts/cmunso.woff2") format("woff2");
-  font-weight: 400;
-  font-style: oblique;
-  font-display: swap;
-}
-
-/* Semi-bold / demi-condensed (if you want it used when font-weight: 600) */
-@font-face{
-  font-family: "CMU Sans Serif";
-  src: url("/fonts/cmunssdc.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Bold (map to 700) */
 @font-face{
   font-family: "CMU Sans Serif";
   src: url("/fonts/cmunsx.woff2") format("woff2");
@@ -92,7 +73,7 @@ header {
 /* Site Title */
 header .site-title {
   font-family: 'Merriweather', serif;
-  font-weight: 800;
+  font-weight: 700;
   color: #002D72;
   text-decoration: none;
   letter-spacing: 1px;
@@ -106,7 +87,7 @@ nav a {
   text-decoration: none;
   margin-left: 25px;
   color: #002D72;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
   font-size: clamp(12px, 1.2vw, 16px);
   line-height: 1.2;
@@ -114,7 +95,7 @@ nav a {
 
 /* Default hover when not scrolled */
 nav a:hover {
-  font-weight: 800;
+  font-weight: 700;
   color: #002D72; /* Stay blue on hover */
   transform: scale(1.1);
 }
@@ -138,7 +119,7 @@ header.scrolled nav a {
 
 /* Hover when scrolled */
 header.scrolled nav a:hover {
-  font-weight: 800;
+  font-weight: 700;
   color: white; /* White when hovered after scrolling */
 }
 
@@ -623,7 +604,7 @@ main a:active {
 }
 .rd-highlights li::marker {
   color: #002D72;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .rd-ack {
@@ -710,12 +691,12 @@ main a:active {
 
 .course-term { 
   color: #555; 
-  font-weight: 600; 
+  font-weight: 700; 
 }
 
 .university-subtitle { 
   color: #555; 
-  font-weight: 600; 
+  font-weight: 700; 
   margin-bottom: 6px; 
 }
 
@@ -764,7 +745,7 @@ main a:active {
 
 .publication-list li::marker {
   color: #002D72;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .joint-marker { color: #002D72; }
@@ -778,7 +759,7 @@ main a:active {
 
 .pub-footnote sup {
   color: #002D72;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* About Me formatting */
@@ -904,7 +885,7 @@ main a:active {
   display: inline-block;
   margin-top: 12px;
   color: #002D72;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -1199,7 +1180,7 @@ main a:link,
 main a:visited{
   color: var(--brand);
   text-decoration: none;
-  font-weight: 650;
+  font-weight: 700;
 }
 main a:hover,
 main a:active{
@@ -1224,7 +1205,7 @@ header{
 /* Site title and nav typography */
 header .site-title{
   font-family: var(--ui-serif);
-  font-weight: 800;
+  font-weight: 700;
   color: var(--brand);
   letter-spacing: 0.2px;
 }
@@ -1233,7 +1214,7 @@ header .site-title{
 nav a{
   font-family: var(--ui-sans);
   color: color-mix(in oklab, var(--brand) 88%, var(--ink));
-  font-weight: 600;
+  font-weight: 700;
 }
 nav a:hover{
   color: var(--brand-2); /* still tasteful */
