@@ -91,13 +91,14 @@ nav a {
   transition: color 0.3s ease, transform 0.2s ease, font-weight 0.2s ease;
   font-size: clamp(12px, 1.2vw, 16px);
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* Default hover when not scrolled */
 nav a:hover {
   font-weight: 700;
   color: #002D72; /* Stay blue on hover */
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 /* When header is scrolled */
