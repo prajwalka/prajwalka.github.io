@@ -1,6 +1,6 @@
 @font-face{
   font-family: "CMU Sans Serif";
-  src: url("/font/cmunss.woff2") format("woff2");
+  src: url("/fonts/cmunss.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face{
   font-family: "CMU Sans Serif";
-  src: url("/font/cmunsi.woff2") format("woff2");
+  src: url("/fonts/cmunsi.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -17,7 +17,7 @@
 /* Optional: oblique (slanted) */
 @font-face{
   font-family: "CMU Sans Serif";
-  src: url("/font/cmunso.woff2") format("woff2");
+  src: url("/fonts/cmunso.woff2") format("woff2");
   font-weight: 400;
   font-style: oblique;
   font-display: swap;
@@ -26,7 +26,7 @@
 /* Semi-bold / demi-condensed (if you want it used when font-weight: 600) */
 @font-face{
   font-family: "CMU Sans Serif";
-  src: url("/font/cmunssdc.woff2") format("woff2");
+  src: url("/fonts/cmunssdc.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 /* Bold (map to 700) */
 @font-face{
   font-family: "CMU Sans Serif";
-  src: url("/font/cmunssx.woff2") format("woff2");
+  src: url("/fonts/cmunssx.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
