@@ -85,7 +85,7 @@ title: "Home"
   <div class="text-container">
     <h2> Bio </h2>
     <p>
-      Hello, I am a researcher driven by a vision to elevate the fundamental understanding and predictive modeling of advanced materials through microstructure-informed computational models that revolutionize their manufacturing and applications. My primary focus is on achieving high fidelity through multiscale modeling that incorporates governing physics, and emphasizing high performance for scalability. I particularly specialize in failure modeling and aim to utilize computational mechanics to guide experiments and inform the design of these materials’ applications.
+      Hello, I am a researcher driven by a vision to revolutionize the design and manufacturing of emerging materials by leveraging microstructure-informed computational failure frameworks, integrated with machine learning, to solve practical real-world challenges. My research couples mechanics, computation, and materials science to advance fundamental understanding and predictive modeling of these materials. I place particular emphasis on incorporating governing physics with strong theoretical foundations to deliver robust microstructural insights, along with high-performance implementations that enable scalability and industrial applicability.
     </p>
 
     <p>
