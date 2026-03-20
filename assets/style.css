@@ -1195,22 +1195,6 @@ nav a:hover{
   color: var(--brand-2); /* still tasteful */
 }
 
-/* Scrolled: dark premium gradient (keeps your JS functionality: header.scrolled) */
-header.scrolled{
-  background-image:
-    radial-gradient(900px 220px at 50% -140px, rgba(42,109,244,0.22), transparent 60%),
-    linear-gradient(180deg, rgba(12,14,18,0.98), rgba(6,7,10,0.92)) !important;
-  background-color: #07080b !important;
-  border-bottom: 1px solid rgba(255,255,255,0.10) !important;
-  box-shadow: 0 14px 40px rgba(0,0,0,0.35) !important;
-  backdrop-filter: saturate(140%) blur(10px);
-}
-
-/* Keep title/links readable on scrolled gradient */
-header.scrolled .site-title{ color: #ffffff !important; }
-header.scrolled nav a{ color: rgba(255,255,255,0.74) !important; }
-header.scrolled nav a:hover{ color: #ffffff !important; }
-
 /* Mobile dropdown select: style to match header */
 .mobile-nav-select{
   font-family: var(--ui-sans);
@@ -1275,20 +1259,6 @@ header.scrolled .mobile-nav-select{
   color: var(--brand);
 }
 
-/* ---------- Footer: keep black but modernize typography slightly ---------- */
-.site-footer{
-  background-image:
-    radial-gradient(900px 240px at 50% -160px, rgba(42,109,244,0.18), transparent 62%),
-    linear-gradient(180deg, #0a0c10, #05060a) !important;
-  background-color: #05060a !important;
-  border-top: 1px solid rgba(255,255,255,0.10);
-}
-
-.footer-text{
-  font-family: var(--ui-sans) !important;
-  color: rgba(255,255,255,0.72) !important;
-}
-
 /* ===== Force-remove old textures and apply the modern gradient ===== */
 
 /* 1) Remove any textures that might be applied anywhere (header/main/footer/body) */
@@ -1312,20 +1282,52 @@ main{
   background: transparent !important;
 }
 
-/* 4) If you still want the footer dark, re-apply only its intended gradient */
+/* ---- Elegant header + footer colors (same behavior) ---- */
+
+/* Base (not scrolled): frosted, slightly tinted (not pure white) */
+header{
+  background-image:
+    radial-gradient(900px 240px at 50% -160px, rgba(42,109,244,0.12), transparent 65%),
+    linear-gradient(180deg, rgba(250,252,255,0.96), rgba(242,246,252,0.86)) !important;
+  background-color: rgba(246,249,255,0.90) !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.10) !important;
+  box-shadow: 0 10px 30px rgba(2, 10, 30, 0.10) !important;
+}
+
+/* Scrolled: deep ink gradient (avoid pure black) */
+header.scrolled{
+  background-image:
+    radial-gradient(900px 240px at 50% -160px, rgba(42,109,244,0.20), transparent 62%),
+    linear-gradient(180deg, rgba(13,18,28,0.98), rgba(7,10,16,0.92)) !important;
+  background-color: #070a10 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.10) !important;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.33) !important;
+}
+
+header.scrolled .site-title{ color: rgba(255,255,255,0.96) !important; }
+header.scrolled nav a{ color: rgba(255,255,255,0.74) !important; }
+header.scrolled nav a:hover{ color: rgba(255,255,255,0.96) !important; }
+
+/* Footer: match scrolled header (cohesive) */
 .site-footer{
   background-image:
-    radial-gradient(900px 240px at 50% -160px, rgba(42,109,244,0.18), transparent 62%),
-    linear-gradient(180deg, #0a0c10, #05060a) !important;
-  background-color: #05060a !important;
-  border-top: 1px solid rgba(255,255,255,0.10);
+    radial-gradient(900px 260px at 50% -170px, rgba(42,109,244,0.18), transparent 62%),
+    linear-gradient(180deg, rgba(13,18,28,1.0), rgba(7,10,16,1.0)) !important;
+  background-color: #070a10 !important;
+  border-top: 1px solid rgba(255,255,255,0.10) !important;
 }
 
 .footer-text{
-  font-family: var(--ui-sans) !important;
-  color: rgba(255,255,255,0.72) !important;
+  color: rgba(255,255,255,0.74) !important;
 }
 
-.footer-icons img{
-  filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
+/* Optional: make non-scrolled nav slightly softer (still brand-consistent) */
+nav a{
+  color: color-mix(in oklab, var(--brand) 82%, #0b1220) !important;
+}
+
+/* Optional: make link hover less “neon” and more refined */
+main a:hover,
+main a:active{
+  color: color-mix(in oklab, var(--brand-2) 78%, var(--brand)) !important;
 }

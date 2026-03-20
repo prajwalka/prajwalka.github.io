@@ -6,14 +6,14 @@ permalink: /research/
 <section class="research-section"> 
 
   <div class="research-group"> 
-    <h2>Postdoctoral Research</h2> 
+    <h2>Fatigue in Metallic Alloys</h2> 
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/postdoc/short-crack-growth" aria-label="Short Crack Growth"> 
       <div class="image-box"> <img src="/research/postdoc/ShortCrackGrowthTile.png" alt="Short Crack Growth" loading="lazy"> </div>
       <div class="card-content"> 
-        <div class="card-title">Short crack propagation in metallic alloys</div> 
-        <p class="card-desc">Micromechanical coupled crystal plasticity-phase field model for short crack growth behavior in these polycrystalline materials</p> 
+        <div class="card-title">Framework for modeling short crack growth</div> 
+        <p class="card-desc">Micromechanical coupled crystal plasticity-phase field model for short crack growth behavior in polycrystalline metallic alloys</p> 
       </div> 
       </a>
     </article>
@@ -26,11 +26,20 @@ permalink: /research/
       </div>
       </a>
     </article>
+    <article class="research-card">
+      <a class="card-link" href="/research/multiuni/nasa/" aria-label="NASA STRI"> 
+      <div class="image-box"> <img src="/research/multiuni/nasaTile.png" alt="NASA STRI" loading="lazy"> </div>
+      <div class="card-content"> 
+        <div class="card-title">Fatigue in additively manufactured alloys (NASA STRI)</div> 
+        <p class="card-desc">Fatigue short crack growth behavior modeling in additively manufactured Ti-6Al-4V and Alloy 718, as a part of the NASA Space Technology Research Institute</p> 
+      </div> 
+      </a>
+    </article>
     </div>
   </div>
 
   <div class="research-group"> 
-    <h2>PhD Dissertation</h2> 
+    <h2>Fracture in Rubber-like Polymers</h2> 
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/phd/fracInit" aria-label="Fracture initiation in SIC rubbers"> 
@@ -63,31 +72,7 @@ permalink: /research/
   </div>
 
   <div class="research-group"> 
-    <h2>Multi-Institute Collaboration Projects</h2> 
-    <div class="research-card-grid"> 
-     <article class="research-card">
-      <a class="card-link" href="/research/multiuni/nasa/" aria-label="NASA STRI"> 
-      <div class="image-box"> <img src="/research/multiuni/nasaTile.png" alt="NASA STRI" loading="lazy"> </div>
-      <div class="card-content"> 
-        <div class="card-title">NASA Space Technology Research Institute (STRI)</div> 
-        <p class="card-desc">Fatigue short crack growth behavior modeling in additively manufactured Ti-6Al-4V and Inconel 718 alloys</p> 
-      </div> 
-      </a>
-    </article>
-    <article class="research-card"> 
-      <a class="card-link" href="/research/multiuni/psaap/" aria-label="PSAAP 3">
-      <div class="image-box"> <img src="/research/multiuni/psaapTile.png" alt="PSAAP 3" loading="lazy"> </div>
-      <div class="card-content">
-        <div class="card-title">Predictive Science Academic Alliance Program (PSAAP) III</div>
-        <p class="card-desc">Strong discontinuity modeling, contact formulation, and inhomogeneous material parameter effects on fracture behavior of mock high explosive materials</p>
-      </div>
-      </a>
-    </article>
-    </div>
-  </div>
-
-  <div class="research-group"> 
-    <h2>Key Collaboration Projects</h2> 
+    <h2>Other Key Related/Collaboration Projects</h2> 
     <div class="research-card-grid"> 
      <article class="research-card">
       <a class="card-link" href="/research/collab/encap/" aria-label="Stretchable transistors"> 
@@ -96,6 +81,15 @@ permalink: /research/
         <div class="card-title">Strain analysis of stretchable transistors</div> 
         <p class="card-desc">Framework to predict local strains within the encapsulant layer of stretchable transistors</p> 
       </div> 
+      </a>
+    </article>
+    <article class="research-card"> 
+      <a class="card-link" href="/research/multiuni/psaap/" aria-label="PSAAP 3">
+      <div class="image-box"> <img src="/research/multiuni/psaapTile.png" alt="PSAAP 3" loading="lazy"> </div>
+      <div class="card-content">
+        <div class="card-title">Fracture in mock high-explosive materials</div>
+        <p class="card-desc">Strong discontinuity modeling, contact formulation, and inhomogeneous material parameter effects on fracture behavior of mock high explosive materials, as a part of the Predictive Science Academic Alliance Program (PSAAP) III</p>
+      </div>
       </a>
     </article>
     <article class="research-card"> 
