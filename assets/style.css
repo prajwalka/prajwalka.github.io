@@ -84,6 +84,7 @@ header .site-title {
 /* Default navigation link style */
 nav a {
   font-family: 'CMU Sans Serif', sans-serif;
+  display: inline-block;
   text-decoration: none;
   margin-left: 25px;
   color: #002D72;
