@@ -35,7 +35,7 @@
 /* Bold (map to 700) */
 @font-face{
   font-family: "CMU Sans Serif";
-  src: url("/fonts/cmunssx.woff2") format("woff2");
+  src: url("/fonts/cmunsx.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
