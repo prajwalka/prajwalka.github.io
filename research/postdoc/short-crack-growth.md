@@ -5,7 +5,7 @@ permalink: /research/postdoc/short-crack-growth/
 ---
 <section class="research-detail"> 
 
-  <h2>Short Crack Growth in Metallic Alloys</h2> 
+  <h2>Framework for Modeling Short Crack Growth</h2> 
 
   <figure class="rd-image"> <img src="/research/postdoc/ShortCrackGrowth.png" alt="Short crack growth study"> 
   <figcaption class="rd-figcap"> Figure references: Cavalcante et al. (2022), Chunxian et al. (2011), bjhighstar.com, refractorymetal.com, titanium.com  </figcaption>
@@ -16,9 +16,10 @@ permalink: /research/postdoc/short-crack-growth/
 
   <h3>Highlights</h3>
   <ol class="rd-highlights">
-    <li>State-of-the-art model for predicting fatigue short crack growth behavior in polycrystalline metallic alloys</li>
-    <li> Accounts for microstructure physics like dislocation motion and entanglement effects, tension-compression asymmetry, and crystallographic morphological effects</li>
-    <li>Validated with experimental data obtained through collaboration, with less than 10% error in complex polycrystalline microstructures</li>
+    <li>State-of-the-art thermodynamically consistent framework for predicting fatigue short crack growth behavior in polycrystalline metallic alloys</li>
+    <li> Accounts for microstructure physics like crystallographic symmetries, dislocation motion and entanglement effects, grain size effects, tension-compression asymmetry, grain orientation effects on crack paths, and cyclic loading effects in material degradation</li>
+    <li>Validated with experimental data obtained through collaboration, with around 5-15% error in different samples of complex polycrystalline microstructures</li>
+    <li>Model can provide microstructural insights like the role of local misorientations and grain sizes on the short crack growth behavior</li>
   </ol>
 
   <p class="rd-ack"><em>
